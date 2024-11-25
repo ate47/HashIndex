@@ -1,0 +1,33 @@
+name: Release
+
+on:
+  push:
+    paths:
+      - "hashes/**"
+      - ".github/workflows/release.yml"
+
+jobs:
+  build:
+    name: Build
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3.5.3
+        with:
+          submodules: true
+      - name: Build hashes
+        shell: pwsh
+        run: scripts/compile.ps1
+      - name: Upload release
+        if: github.ref == 'refs/heads/main'
+        uses: ncipollo/release-action@v1
+        with:
+          commit: ${{ github.sha }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: "build/package_index.zip,build/package_index/*"
+          artifactErrorsFailBuild: true
+          makeLatest: true
+          tag: "release"
+          name: "Hash index"
+          bodyFile: RELEASE.MD
+
+
