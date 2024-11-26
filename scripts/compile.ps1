@@ -10,16 +10,17 @@ try {
     $base = (Get-Item $PSScriptRoot).parent
     Set-Location ($base.Fullname)
 
+    $buildDir = "build/package"
     $base = "build/package_index"
 
     if ($RemoveBuild) {
         Remove-Item -Recurse -Force -ErrorAction Ignore "build" > $null
     } else {
         Remove-Item -Recurse -Force -ErrorAction Ignore "$base" > $null
-        Remove-Item -Force -ErrorAction Ignore "$base.zip" > $null
+        Remove-Item -Recurse -Force -ErrorAction Ignore "$buildDir" > $null
     }
 
-    New-Item -ItemType Directory build -ErrorAction Ignore > $null
+    New-Item -ItemType Directory $buildDir -ErrorAction Ignore > $null
     New-Item -ItemType Directory $base -ErrorAction Ignore > $null
 
     if (Test-Path .\build\acts.zip) {
@@ -37,20 +38,60 @@ try {
 
     
     Write-Host "Building hash index directory"
-    foreach ($file in (Get-ChildItem hashes)) {
-        $split = $file.Name.LastIndexOf('.')
+
+    function WniName ($fileName) {
+        $split = $fileName.LastIndexOf('.')
 
         if ($split -ne -1) {
-            $fileOut = "$base/$($file.Name.SubString(0, $split)).wni"
+            return "$($fileName.SubString(0, $split)).wni"
         } else {
-            $fileOut = "$base/$($file.Name).wni"
+            return "$($fileName).wni"
+        }
+    }
+
+    function HandleHashes($file, $id) {
+        Write-Host "Handling '$file' - '$id'"
+        $fileName = (Get-Item $file).Name
+        if (Test-Path -Path $file -PathType Container) {
+            if ($id.Length -eq 0) {
+                $id = $fileName
+            } else {
+                $id = "$id-$fileName"
+            }
+
+            # save tmp
+            Remove-Item -Recurse -Force -ErrorAction Ignore "$base-$id" > $null
+            Move-Item $base "$base-$id"
+            New-Item -ItemType Directory $base -ErrorAction Ignore > $null
+
+            foreach ($subFile in (Get-ChildItem $file)) {
+                $subFileName = "$file/$($subFile.Name)"
+                
+                HandleHashes $subFileName $id
+            }
+
+            $buildOut = "$buildDir/$id-all.zip"
+            # all our hashes of this dir are in package_index
+            Remove-Item -Force -ErrorAction Ignore $buildOut > $null
+            Compress-Archive -LiteralPath "$base" -DestinationPath $buildOut > $null
+            Write-Host ""
+            Write-Host "Packaged to '$buildOut'"
+            
+            Move-Item "$base/*" "$base-$id"
+            Remove-Item -Recurse -Force -ErrorAction Ignore "$base" > $null
+            Move-Item "$base-$id" $base
+        } else {
+            $fileOut = "$base/$id-$(WniName($fileName))"
+    
+            build\acts\bin\acts.exe wni_gen_csv $file $fileOut
         }
 
-        build\acts\bin\acts.exe wni_gen_csv $file.FullName $fileOut
     }
+
+    HandleHashes "hashes" ""
+    Move-Item "$base/*" "$buildDir"
     
-    Compress-Archive -LiteralPath "$base" -DestinationPath "$base.zip" > $null
-    Write-Host "Packaged to '$base.zip'"
+    Write-Host "Packaged"
 }
 finally {
     $prevPwd | Set-Location

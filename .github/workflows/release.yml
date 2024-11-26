@@ -23,7 +23,7 @@ jobs:
         with:
           commit: ${{ github.sha }}
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: "build/package_index.zip,build/package_index/*"
+          artifacts: "build/package/*"
           artifactErrorsFailBuild: true
           makeLatest: true
           tag: "release"
