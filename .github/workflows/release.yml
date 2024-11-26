@@ -26,6 +26,8 @@ jobs:
           artifacts: "build/package/*"
           artifactErrorsFailBuild: true
           removeArtifacts: true
+          replacesArtifacts: true
+          allowUpdates: true
           makeLatest: true
           tag: "release"
           name: "Hash index"
