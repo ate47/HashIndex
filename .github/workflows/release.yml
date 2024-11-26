@@ -25,6 +25,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           artifacts: "build/package/*"
           artifactErrorsFailBuild: true
+          removeArtifacts: true
           makeLatest: true
           tag: "release"
           name: "Hash index"
