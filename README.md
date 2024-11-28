@@ -20,7 +20,7 @@ The repository was created using hashes from various sources, see the credits se
 
 ## Dev
 
-The different hashing algorithms are defined in the file [hash.hpp](https://github.com/ate47/atian-cod-tools/blob/main/src/shared/utils/hash.hpp).
+The different hashing algorithms are explained in [docs/hashes](docs/hashes.md).
 
 The files are exported to .wni files. The file structure is in unaligned little endian:
 
