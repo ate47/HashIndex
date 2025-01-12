@@ -18,7 +18,7 @@ Here is the list of all the algorithm and their usages.
 - **Base FNV1A 64** : #"" operator in bo6 gsc, some XAssets values in bo6
 - **IW Resources** : Name of the XAssets in the mwii/mwiii/bo6, r"" and %"" gsc operator in bo6,mwii,mwiii
 - **MWII/III Scr** : Scr hash in mwii/mwiii, &"" gsc operator in mwii/mwiii
-- **Black Ops 3 Scr** : All the hashes in mwiii gsc
+- **Black Ops 3 Scr** : All the hashes in bo3 gsc and old versions of black ops 4
 - **hash_bo4cw_scr** : Scr hash in bo4/cw
 - **Black Ops 6 Scr** : Scr hash in bo6, &"" gsc operator in bo6
 - **Black Ops 6 SP Scr** : Scr hash in bo6 campaign, &"" gsc operator in bo6 campaign
