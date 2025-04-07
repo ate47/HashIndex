@@ -22,6 +22,7 @@ Here is the list of all the algorithm and their usages.
 - **hash_bo4cw_scr** : Scr hash in bo4/cw
 - **Black Ops 6 Scr** : Scr hash in bo6, &"" gsc operator in bo6
 - **Black Ops 6 SP Scr** : Scr hash in bo6 campaign, &"" gsc operator in bo6 campaign
+- **Black Ops 6 Omnvars** : Omnvar hash in bo6, @o"" lua operator in bo6
 - **IW Dvars** : Dvar hash in mwii/mwiii/bo6, @"" gsc operator in mwii/mwiii/bo6
 
 
@@ -79,10 +80,11 @@ def fnv1a_sec(string : str, sec_string = SEC_STRING, hash = FNV_OFFSET, iv = FNV
 
 ```
 
-| name            | FNV_OFFSET           | FNV_PRIME       | SEC_STRING         | RESULT_MASK          | Size |
-| --------------- | -------------------- | --------------- | ------------------ | -------------------- | ---- |
-| IW Dvars        | `0xD86A3B09566EBAAC` | `0x10000000233` | `q6n-+7=tyytg94_*` | `0xFFFFFFFFFFFFFFFF` | 64   |
-| Black Ops 6 Scr | `0x1C2F2E3C8A257D07` | `0x10000000233` | `zt@f3yp(d[kkd=_@` | `0xFFFFFFFFFFFFFFFF` | 64   |
+| name                | FNV_OFFSET           | FNV_PRIME       | SEC_STRING         | RESULT_MASK          | Size |
+| ------------------- | -------------------- | --------------- | ------------------ | -------------------- | ---- |
+| IW Dvars            | `0xD86A3B09566EBAAC` | `0x10000000233` | `q6n-+7=tyytg94_*` | `0xFFFFFFFFFFFFFFFF` | 64   |
+| Black Ops 6 Scr     | `0x1C2F2E3C8A257D07` | `0x10000000233` | `zt@f3yp(d[kkd=_@` | `0xFFFFFFFFFFFFFFFF` | 64   |
+| Black Ops 6 Omnvars | `0xCBF28CE593123345` | `0x100000002C1` | `gvbs9*vpm@mh@krh` | `0xFFFFFFFFFFFFFFFF` | 64   |
 
 During the Black Ops 6 development, another version of the secure string was used with the string being after string to hash. These hashes are only used in the campaign.
 
