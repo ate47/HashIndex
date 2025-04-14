@@ -1,6 +1,6 @@
 ## Hashes algorithms
 
-For a c++ implementation, the [hash.hpp](https://github.com/ate47/atian-cod-tools/blob/main/src/shared/utils/hash.hpp) header can be used.
+For a c++ implementation, the [hash_mini.hpp](https://github.com/ate47/atian-cod-tools/blob/main/src/shared/utils/hash_mini.hpp) standalone header can be used.
 
 It exists different hash algorithms used by Call of duty, this page is explaining them.
 
