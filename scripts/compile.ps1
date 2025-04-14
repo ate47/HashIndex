@@ -64,10 +64,13 @@ try {
             Move-Item $base "$base-$id"
             New-Item -ItemType Directory $base -ErrorAction Ignore > $null
 
+            $r = $true
             foreach ($subFile in (Get-ChildItem $file)) {
                 $subFileName = "$file/$($subFile.Name)"
                 
-                HandleHashes $subFileName $id
+                if (!(HandleHashes $subFileName $id)) {
+                    $r = $false
+                }
             }
 
             $buildOut = "$buildDir/$id-all.zip"
@@ -80,15 +83,24 @@ try {
             Move-Item "$base/*" "$base-$id"
             Remove-Item -Recurse -Force -ErrorAction Ignore "$base" > $null
             Move-Item "$base-$id" $base
+            return $r
         } else {
             $fileOut = "$base/$id-$(WniName($fileName))"
     
-            build\acts\bin\acts.exe -t wni_gen_csv $file $fileOut
+            
+            if (!(build\acts\bin\acts.exe -t wni_gen_csv $file $fileOut)) {
+
+                Write-Error "Error when compiling $fileOut"
+                return $false
+            }
+            return $true
         }
 
     }
 
-    HandleHashes "hashes" ""
+    if (!(HandleHashes "hashes" "")) {
+        exit -1
+    }
     Move-Item "$base/*" "$buildDir"
     
     Write-Host "Packaged"
