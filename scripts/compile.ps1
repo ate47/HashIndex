@@ -83,7 +83,7 @@ try {
         } else {
             $fileOut = "$base/$id-$(WniName($fileName))"
     
-            build\acts\bin\acts.exe wni_gen_csv $file $fileOut
+            build\acts\bin\acts.exe -t wni_gen_csv $file $fileOut
         }
 
     }
