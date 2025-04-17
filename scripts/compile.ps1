@@ -1,7 +1,8 @@
 param(
     $DownloadLink = "https://github.com/ate47/atian-cod-tools/releases/download/2.5.3/acts.zip",
     [switch]
-    $RemoveBuild
+    $RemoveBuild,
+    $ext = "wni"
 )
 
 $prevPwd = $PWD
@@ -10,7 +11,7 @@ try {
     $base = (Get-Item $PSScriptRoot).parent
     Set-Location ($base.Fullname)
 
-    $buildDir = "build/package"
+    $buildDir = "build/package-$ext"
     $base = "build/package_index"
 
     if ($RemoveBuild) {
@@ -39,17 +40,17 @@ try {
     
     Write-Host "Building hash index directory"
 
-    function WniName ($fileName) {
+    function ExtName ($fileName, $extype) {
         $split = $fileName.LastIndexOf('.')
 
         if ($split -ne -1) {
-            return "$($fileName.SubString(0, $split)).wni"
+            return "$($fileName.SubString(0, $split)).$extype"
         } else {
-            return "$($fileName).wni"
+            return "$($fileName).$extype"
         }
     }
 
-    function HandleHashes($file, $id) {
+    function HandleHashes($file, $id, $exttype) {
         Write-Host "Handling '$file' - '$id'"
         $fileName = (Get-Item $file).Name
         if (Test-Path -Path $file -PathType Container) {
@@ -68,7 +69,7 @@ try {
             foreach ($subFile in (Get-ChildItem $file)) {
                 $subFileName = "$file/$($subFile.Name)"
                 
-                if (!(HandleHashes $subFileName $id)) {
+                if (!(HandleHashes $subFileName $id $exttype)) {
                     $r = $false
                 }
             }
@@ -85,20 +86,31 @@ try {
             Move-Item "$base-$id" $base
             return $r
         } else {
-            $fileOut = "$base/$id-$(WniName($fileName))"
+            $fileOut = "$base/$id-$(ExtName $fileName $exttype)"
     
-            
-            if (!(build\acts\bin\acts.exe -t wni_gen_csv $file $fileOut)) {
+            if ("wni" -eq $exttype) {
+                if (!(build\acts\bin\acts.exe -t wni_gen_csv $file $fileOut)) {
 
-                Write-Error "Error when compiling $fileOut"
+                    Write-Error "Error when compiling $fileOut"
+                    return $false
+                }
+            } elseif ("acef" -eq $exttype) {
+                if (!(build\acts\bin\acts.exe -t acts_acef_hash_csv $file $fileOut zstd_hc)) {
+
+                    Write-Error "Error when compiling $fileOut"
+                    return $false
+                }
+            } else {
+                Write-Error "Unknown compile algorithm $exttype"
                 return $false
             }
+            
             return $true
         }
 
     }
 
-    if (!(HandleHashes "hashes" "")) {
+    if (!(HandleHashes "hashes" "" $ext)) {
         exit -1
     }
     Move-Item "$base/*" "$buildDir"
