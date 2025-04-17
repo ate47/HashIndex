@@ -8,11 +8,21 @@ The repository was created using hashes from various sources, see the credits se
 
 ## Downloads
 
-| File | Description |
-|------|-------------|
-| [hashes-all.zip](https://github.com/ate47/HashIndex/releases/download/release/hashes-all.zip) | All the hashes |
-| [hashes-xassets-all.zip](https://github.com/ate47/HashIndex/releases/download/release/hashes-xassets-all.zip) | All XAssets, useful for [Greyhound](https://github.com/Scobalula/Greyhound)|
-| [hashes-scr-all.zip](https://github.com/ate47/HashIndex/releases/download/release/hashes-scr-all.zip) | All source hashes, to be used with a decompiler like [acts](https://github.com/ate47/atian-cod-tools) |
+The hash index is available as compiled ACEF or WNI file formats.
+
+| Format | File | Description |
+|------|------|-------------|
+| `WNI`  | [hashes-all.zip](https://github.com/ate47/HashIndex/releases/download/release/hashes-all.zip) | All the hashes |
+| `ACEF` | [hashes-all.zip](https://github.com/ate47/HashIndex/releases/download/release-acef/hashes-all.zip) | All the hashes |
+| `WNI`  | [hashes-xassets-all.zip](https://github.com/ate47/HashIndex/releases/download/release/hashes-xassets-all.zip) | All XAssets, useful for [Greyhound](https://github.com/Scobalula/Greyhound)|
+| `ACEF` | [hashes-xassets-all.zip](https://github.com/ate47/HashIndex/releases/download/release-acef/hashes-xassets-all.zip) | All XAssets, useful for [Greyhound](https://github.com/Scobalula/Greyhound)|
+| `WNI`  | [hashes-scr-all.zip](https://github.com/ate47/HashIndex/releases/download/release/hashes-scr-all.zip) | All source hashes, to be used with a decompiler like [acts](https://github.com/ate47/atian-cod-tools) |
+| `ACEF` | [hashes-scr-all.zip](https://github.com/ate47/HashIndex/releases/download/release-acef/hashes-scr-all.zip) | All source hashes, to be used with a decompiler like [acts](https://github.com/ate47/atian-cod-tools) |
+
+For a specific file, the release section is available for each format.
+
+- [WNI Hash index files](https://github.com/ate47/HashIndex/releases/tag/release)
+- [ACEF Hash index files](https://github.com/ate47/HashIndex/releases/tag/release-acef)
 
 ## Propose new hashes
 
@@ -20,26 +30,8 @@ The repository was created using hashes from various sources, see the credits se
 
 ## Dev
 
-The different hashing algorithms are explained in [docs/hashes](docs/hashes.md).
-
-The files are exported to .wni files. The file structure is in unaligned little endian:
-
-It is composed of:
-
-- file magic `0x20494E57` (32 bits integer)
-- file version `1` (16 bits integer)
-- number of entries (32 bits integer)
-- compressed size of the data (32 bits integer)
-- decompressed size of the data (32 bits integer)
-- [LZ4](https://github.com/lz4/lz4) compressed data (compressed size of the data bytes)
-
-The decompressed data is number of entries times this data structure:
-
-- hashed value (64 bits unsigned integer)
-- unhashed value (0 bit terminated string)
-
-
-Depending on the origin of the hash, a 63 or 60 bits mask might have been applied. For an optimal usage, it is suggested to apply a 60 bits mask to each hash while loading or querying a dataset. i.e. `(hash & 0xFFFFFFFFFFFFFFF)`.
+- [docs/hashes](docs/hashes.md) : Explanation of the different hash algorithms.
+- [docs/wni](docs/wni.md) : Explanation of the wni file format.
 
 ## Credits
 
