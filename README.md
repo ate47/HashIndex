@@ -18,6 +18,8 @@ The hash index is available as compiled ACEF or WNI file formats.
 | `ACEF` | [hashes-xassets-all.zip](https://github.com/ate47/HashIndex/releases/download/release-acef/hashes-xassets-all.zip) | All XAssets  |
 | `WNI`  | [hashes-scr-all.zip](https://github.com/ate47/HashIndex/releases/download/release/hashes-scr-all.zip) | All script hashes, to be used with a decompiler like [acts](https://github.com/ate47/atian-cod-tools) |
 | `ACEF` | [hashes-scr-all.zip](https://github.com/ate47/HashIndex/releases/download/release-acef/hashes-scr-all.zip) | All script hashes, to be used with a decompiler like [acts](https://github.com/ate47/atian-cod-tools) |
+| `WNI`  | [hashes-global-all.zip](https://github.com/ate47/HashIndex/releases/download/release/hashes-global-all.zip) | All hashes in a game, to be used with a fastfile unlinker like [acts](https://github.com/ate47/atian-cod-tools) |
+| `ACEF` | [hashes-global-all.zip](https://github.com/ate47/HashIndex/releases/download/release-acef/hashes-global-all.zip) | All hashes in a game, to be used with a fastfile unlinker like [acts](https://github.com/ate47/atian-cod-tools) |
 
 For a specific file, the release section is available for each format.
 
