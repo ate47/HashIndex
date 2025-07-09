@@ -6,6 +6,8 @@ Index containing different hashes, feel free to reuse them.
 
 The repository was created using hashes from various sources, see the credits section for the list.
 
+![meme](docs/logo.png)
+
 ## Downloads
 
 The hash index is available as compiled ACEF or WNI file formats.
