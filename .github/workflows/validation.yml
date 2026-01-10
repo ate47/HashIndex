@@ -20,3 +20,6 @@ jobs:
       - name: Validate hashes
         shell: pwsh
         run: scripts/validate.ps1
+      - name: Build hashes (WNI)
+        shell: pwsh
+        run: scripts/compile.ps1 -ext wni
