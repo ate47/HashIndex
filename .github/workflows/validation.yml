@@ -1,0 +1,22 @@
+name: Validation
+
+on:
+  push:
+    paths:
+      - "hashes/**"
+      - ".github/workflows/validation.yml"
+  pull_request:
+    paths:
+      - "hashes/**"
+      - ".github/workflows/validation.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Validate
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3.5.3
+      - name: Validate hashes
+        shell: pwsh
+        run: scripts/validate.ps1

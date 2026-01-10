@@ -1,5 +1,5 @@
 param(
-    $DownloadLink = "https://github.com/ate47/atian-cod-tools/releases/download/2.5.3/acts.zip",
+    $DownloadLink = "https://github.com/ate47/atian-cod-tools/releases/download/2.20.0/acts.zip",
     [switch]
     $RemoveBuild,
     $ext = "wni"
