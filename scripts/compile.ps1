@@ -1,5 +1,5 @@
 param(
-    $DownloadLink = "https://github.com/ate47/atian-cod-tools/releases/download/2.20.0/acts.zip",
+    $DownloadLink = "https://github.com/ate47/atian-cod-tools/releases/download/2.21.1/acts.zip",
     [switch]
     $RemoveBuild,
     $ext = "wni"
@@ -96,6 +96,12 @@ try {
                 }
             } elseif ("acef" -eq $exttype) {
                 if (!(build\acts\bin\acts.exe -t acts_acef_hash_csv $file $fileOut zstd_hc)) {
+
+                    Write-Error "Error when compiling $fileOut"
+                    return $false
+                }
+            } elseif ("cdb" -eq $exttype) {
+                if (!(build\acts\bin\acts.exe -t dzporter_cdb_gen_csv $file $fileOut)) {
 
                     Write-Error "Error when compiling $fileOut"
                     return $false

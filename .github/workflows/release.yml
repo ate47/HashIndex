@@ -21,6 +21,9 @@ jobs:
       - name: Build hashes (WNI)
         shell: pwsh
         run: scripts/compile.ps1 -ext wni
+      - name: Build hashes (CDB)
+        shell: pwsh
+        run: scripts/compile.ps1 -ext cdb
       - name: Upload release (ACEF)
         if: github.ref == 'refs/heads/main'
         uses: ncipollo/release-action@v1
@@ -49,6 +52,20 @@ jobs:
           makeLatest: true
           tag: "release"
           name: "Hash index (WNI)"
+          bodyFile: RELEASE.MD
+      - name: Upload release (CDB)
+        if: github.ref == 'refs/heads/main'
+        uses: ncipollo/release-action@v1
+        with:
+          commit: ${{ github.sha }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: "build/package-cdb/*"
+          artifactErrorsFailBuild: true
+          removeArtifacts: true
+          replacesArtifacts: true
+          allowUpdates: true
+          tag: "release-cdb"
+          name: "Hash index (CDB)"
           bodyFile: RELEASE.MD
 
 
