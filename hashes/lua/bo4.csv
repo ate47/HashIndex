@@ -54,6 +54,7 @@ fdba1b8ea60245,ui/uieditor/widgets/vehiclehuds/vehicleradar.lua
 11db5d3e59d408c,ui/uieditor/widgets/vehiclehuds/ground/vehicleground_hashtext
 12322cb4555c55d,ui/uieditor/widgets/codcaster/codcasterloadoutselectionheal
 12c7e2c7b5fefe0,ui/uieditor/widgets/notifications/publiclobbystagenotification/publiclobbystagenotification
+12cc2ce6c3683d4,ui/uieditor/luielems/mp/laststand/mp_revive_prompt
 13057df4515f516,ui/uieditor/widgets/zmfrontend/zmcustomclasstabs
 13258e77a61beac,ui/uieditor/widgets/callingcards/callingcards_asset_party1.lua
 134b468475b2f2a,ui/uieditor/widgets/pc/pc_scrollup.lua
@@ -466,6 +467,7 @@ fdba1b8ea60245,ui/uieditor/widgets/vehiclehuds/vehicleradar.lua
 8db2f3c7352224c,ui/uieditor/widgets/startmenu/startmenu_options_slider_item_arrow
 8e03a378254c2ba,ui/uieditor/widgets/hud/core_ammowidget/ammowidgetmp_healcooldown.lua
 8f207d5edcd36f8,ui/uieditor/widgets/battlenet/frontendbattlenetcontainer.lua
+8f9e828ebdeac4c,ui/uieditor/menus/hud/hud_wz_require
 8fb7d94e0508ba3,ui/uieditor/widgets/callingcards/loot3/ui_icon_callingcards_stpatricks
 8fd3bbfccedd522,lua/lobby/process/lobbyactions
 90da90caea64b87,ui/uieditor/widgets/hud/prematchcountdown/prematchcountdown.lua
@@ -578,6 +580,7 @@ ad39ca2255e5caf,ui/uieditor/widgets/vehiclehuds/dart/vhud_dart_timebar
 ad76813ba32e254,ui/utility/wzutility.lua
 ad86e26de1fa54e,ui/uieditor/widgets/reticles/rocketlaunchers/rocketlauncherreticle
 ade61cc095aa2bc,ui/uieditor/widgets/pc/pc_reporttextbox
+aecad6b1130ceee,ui/uieditor/luielems/zm_laststand/zm_laststand_client
 aecb9e4f090049c,ui/uieditor/widgets/vehiclehuds/mothership/vhud_ms_notificationoptic.lua
 af03fe39db3bf9a,ui/utility/zmammowidgetutility
 af163677d519a41,lua/shared/luadefine.lua
@@ -766,6 +769,7 @@ ea625ac335bd8f2,ui/uieditor/widgets/reticles/infinite/lmginfinitereticle_light.l
 eaa9e03c069390f,ui/uieditor/widgets/commonlistbuttongenericlonginternal.lua
 ead428fc6c63720,ui/uieditor/widgets/cac/cac_icontokengrid
 eb06740528bdc87,ui/uieditor/widgets/blackmarket/smokewidget
+eb491e34e330ae0,ui/uieditor/menus/hud/hud_mp_require
 eb6d59cfa649e4b,ui/uieditor/widgets/hud/console/console.lua
 eb8711f5087e974,ui/uieditor/widgets/zmfrontend/cac/zmitemgridbutton
 ebb213505127f40,ui/uieditor/widgets/scoreboard/tabbedscoreboardstripe
@@ -1183,6 +1187,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 15ebcf45ca91c076,ui/uieditor/widgets/barracks/specialeventtaskwidget.lua
 15f18ce0eb76d370,ui/uieditor/widgets/callingcards/callingcards_asset_jaw01.lua
 15f2055353ec042b,ui/uieditor/widgets/lobby/common/fe_slidesubheader
+15f43e319e75b4d8,ui/uieditor/widgets/zminventory/fusebox/fusewidget
 15f4efabe247e8ee,ui/uieditor/widgets/aar_t8/rewards/aarcontractreward
 15ffa2d41d4cb4d8,ui/lui/luiimage.lua
 16007f425083d357,ui/uieditor/widgets/pc/startmenu/graphicsoptions/startmenu_options_pc_graphicsoptions_description
@@ -2378,12 +2383,14 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 2c9fc2f0385a0199,ui/uieditor/widgets/director/directorexpandedlobbymemberinternal.lua
 2ca8908628d8ccab,ui/uieditor/widgets/tablet/tableticepickgadget_hackfinished
 2cae070771ccae1f,ui/uieditor/widgets/startmenu/startmenu_options_network_descriptionpanels
+2cb5bf4e094259d8,ui/uieditor/menus/hud/hud_zm_require
 2cbb28da02113a8f,ui/utility/zmlaboratoryutility
 2cbd14a5e53ed76b,ui/utility/directorutility.lua
 2cbdafa3e990e3f2,ui/uieditor/widgets/endgameflow/codcastermatchtitletext.lua
 2cc7fac76693c092,ui/uieditor/widgets/callingcards/loot2/callingcards_loot2_safarihunter
 2cc8c57ff1348318,ui/uieditor/widgets/callingcards/loot3/ui_icon_callingcards_dystopian_armmove.lua
 2cc9e6a3e79912c1,ui/uieditor/menus/craft/paintshop/paintshopchooseicon
+2ccaf5d37fe32146,ui/uieditor/luielems/zm_laststand/zm_laststand_client.lua
 2cdfddd843607ae3,ui/uieditor/widgets/directorpublic.lua
 2cf11c59303475c9,ui/uieditor/widgets/vehiclehuds/mothership/vhud_ms_outsideline.lua
 2d0053ebf8d9bc0c,ui/uieditor/widgets/codcaster/playerportraithoverbottom
@@ -2621,6 +2628,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 315a249588b94eff,ui/uieditor/widgets/hud/map/wzkillcamcompass.lua
 315a49dbad0ef6a7,ui/uieditor/menus/gamesettings/gamesettings_attachmentrestrictionsettings
 315c023510ca7d16,ui/uieditor/widgets/arena/arenaeventbuttoninternal
+315d1823f6b24225,ui/uieditor/luielems/zm_laststand/self_revive_visuals_rush
 3166f42f53e3b96c,ui/uieditor/widgets/pc/footer/footerbutton_player_emblem
 3173220e0cdcf065,ui/uieditor/widgets/arena/leagueplayrubylist.lua
 3176fb3b1f0cab3a,ui/uieditor/widgets/callingcards/callingcards_asset_warwheel.lua
@@ -2754,6 +2762,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 33efb12c546b71d0,ui/uieditor/widgets/charactercustomization/wzcharacterinfocontainer.lua
 33f4d561f9503fe8,ui/uieditor/widgets/codcaster/codcastersettingssidebarloadoutsettingscontainer.lua
 33f7d8b1c7d7840c,ui/uieditor/widgets/pc/hud/buttonprompt3d/pc_buttonprompt3dbind
+340365f9dad36bd5,ui/uieditor/luielems/zm_laststand/self_revive_visuals_rush.lua
 3404fd01faddf394,ui/uieditor/widgets/pc/battlenetfriendlist/pc_battlenet_addfriend_information
 340b73b480022be4,ui/uieditor/widgets/hud/core_ammowidget/ammowidgetwz.lua
 340b97e13c45b9cb,ui/uieditor/widgets/scoreboard/scoreboardgametypespecificstat
@@ -2954,6 +2963,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 380ed92ccb6ae549,ui/uieditor/widgets/aar_t8/levelup/aarlevelupoverlay_arrowsinternal
 3810b23c58e27d63,ui/uieditor/luielems/full_screen_black
 3812997896dcee2d,ui/uieditor/widgets/callingcards/callingcards_asset_black_hole
+3813c164dd9d9b1d,ui/uieditor/widgets/zminventory/ritual/ritualwidget
 3820d47419527641,ui/uieditor/widgets/motd/motd_notext_heavyimage
 38214240e51d18a2,ui/uieditor/widgets/pc/hud/pc_spectatinglabel.lua
 382e94c05d6ba0a9,ui/uieditor/menus/craft/paintshop/paintjobeditoroptions.lua
@@ -3052,6 +3062,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 3a47085d68970906,ui/uieditor/widgets/vehiclehuds/compassgroupvehiclegps.lua
 3a4dac711e598170,ui/uieditor/widgets/leaderboard/leaderboard_gamemodeframe.lua
 3a4ec4ae5f3b6cfd,ui/uieditor/widgets/cphudwidgets/waypointcentercp.lua
+3a60cfdff30b341a,ui/uieditor/menus/hud/hud_cp_require
 3a60f9dd8c2d255e,ui/uieditor/widgets/cac/weaponselect/weaponselectgriditem
 3a611ec82864ac40,ui/uieditor/widgets/callingcards/callingcards_asset_steampunkwarriors_gunsmoke.lua
 3a6375c9f47dba38,ui/utility/pcplayeraccountutility.lua
@@ -3122,6 +3133,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 3baf9b3f0c12947a,ui/uieditor/widgets/reticles/mp/bowlauncherreticle_internal
 3baff2229992d7b6,ui/uieditor/widgets/pc/pc_vscrollbar
 3bb0a3959b5cf9c2,ui/uieditor/widgets/cac/titledotswidget.lua
+3bba34780c0a9b3e,ui/uieditor/widgets/zminventory/inventorywidget
 3bc781935980f84c,ui/uieditor/widgets/director/directorwarningmessage.lua
 3bc7ea4f891a4cca,ui/uieditor/widgets/craft/craftauthorinfo
 3bcbaac599142cb3,ui/uieditor/widgets/hud/core_ammowidget/ammowidgetzm_clipcontainervalue
@@ -3257,6 +3269,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 3dfc9ac06e1c8b35,ui/uieditor/luielems/mp/ct_recon_enemy_reinforcement.lua
 3dfd115b8bbb2cbc,ui/uieditor/widgets/pc/categoryexpendablebutton
 3dfd5e556e1c52bb,ui/uieditor/widgets/codcaster/codcastersettingssidebardisplaysettings.lua
+3e00202699294517,ui/uieditor/menus/hud/t7hud_zm_island
 3e014bbe126c625f,ui/uieditor/widgets/arena/leagueplaylisttextbox.lua
 3e1382a3991fc1e1,ui/uieditor/widgets/vehiclehuds/mothership/vhud_ms_reticlelinehostul.lua
 3e1567c5b8f12ae1,ui/uieditor/widgets/gamesettings/gamesettings_zmgeneral
@@ -3281,6 +3294,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 3e6678cddff4a1f1,ui/uieditor/menus/cac/overcapacity
 3e6d609c18f5305e,ui/uieditor/widgets/cac/weaponattachmentselect/generalattachmentcontainer.lua
 3e6d79a32c4e0ff4,ui/uieditor/widgets/systemoverlays/systemoverlay_full_basicframe_prestige.lua
+3e78fa14df4f0af7,ui/uieditor/widgets/hud/zm_timebar/zm_beastmodetimebarwidget
 3e7c4814f0e345b8,ui/uieditor/widgets/fileshare/fileshareselectoritemwide
 3e7d335abae7bbd4,ui/uieditor/widgets/callingcards/callingcards_asset_techgunner_helicopter
 3e81d1de14f541a8,ui/uieditor/widgets/director/directorcustomstartbutton.lua
@@ -3703,6 +3717,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 46edb068af5dd5d9,ui/uieditor/widgets/startmenu/options/startmenu_options_controllerlayout_durango
 46ee653ade3452f5,ui/uieditor/widgets/pc/hud/scorestreak_aspectratiofix
 46efebffc3eb56e9,ui/uieditor/widgets/endgameflow/codcasterteambaseglow
+46f417a74d9ab424,ui/uieditor/menus/hud/hud_zm_require.lua
 46f5ab4951573ff0,ui/uieditor/widgets/mphudwidgets/outofbounds/outofbounds_timerframedots.lua
 46fc3850ee0e7df6,ui/uieditor/widgets/codcaster/codcaster_settings_categorytabs_bg
 46fe95073b5228ee,ui/uieditor/widgets/director/directorfeatureditem.lua
@@ -3947,6 +3962,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 4b4163bb331df663,ui/uieditor/widgets/pc/zm/pc_zmammo_bgbcarouselfactory_internal.lua
 4b5b62ca685f6792,ui/uieditor/widgets/arena/arenarubyprogresswidget
 4b606c2b63bb56d6,ui/uieditor/widgets/hud/scoreinfo/scoreinfoprop
+4b6084d9cd74f5cf,ui/uieditor/menus/hud/equipment/empgrenade/emprebootindicator
 4b643850a29c0d19,ui/uieditor/widgets/mphudwidgets/waypoint_zmtrialarcade
 4b672d66c458dc7f,ui/uieditor/widgets/codcaster/codcasterportraitobjectivestatus
 4b69956690312a82,ui/uieditor/widgets/pc/startmenu/pc_startmenu_options_keybindmessage.lua
@@ -4123,6 +4139,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 4eb82daf94e69f7d,ui/uieditor/widgets/pc/pc_achievement_container.lua
 4ebc62bcd5e56686,ui/uieditor/widgets/hud/core_ammowidget/ammowidget_abilitytextzm.lua
 4ec07622a7f2e74e,ui/uieditor/widgets/cac/weaponattachmentselect/weaponattachmentcontainer
+4ed0bcba9d999e0f,ui/uieditor/menus/core_frontend_require.lua
 4ed1c7fe96fb566f,ui/uieditor/widgets/reticles/chargeshot/chargershot_activelock.lua
 4edf74c078d01a26,ui/uieditor/widgets/zmfrontend/cac/zmattachmentslot
 4edfcb5a2b5b62e4,ui/uieditor/widgets/pc/pc_simplevscrolllist_list.lua
@@ -4231,6 +4248,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 50b9fafbc0784b3b,ui/uieditor/widgets/vehiclehuds/vehicleholdswitchseat.lua
 50be3b0c7f4b5db2,ui/uieditor/widgets/startmenu/wz/startmenu_inventorydescription.lua
 50bfd1bbf6cb96ea,ui/uieditor/widgets/callingcards/callingcards_asset_pirates_flag.lua
+50c6d15bf274e0fa,ui/uieditor/luielems/zm_laststand/self_revive_visuals
 50c96d4b23131191,ui/uieditor/luielems/zm/zm_towers_pap_hud
 50d1ddb25baaeb55,ui/uieditor/widgets/callingcards/callingcards_invasion.lua
 50d288f163475f28,ui/uieditor/widgets/social/social_infopane
@@ -4611,6 +4629,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 57fb8a1c653cb725,ui/uieditor/widgets/common/commonglowstandard.lua
 5802b056c17c9893,ui/uieditor/widgets/backgroundframes/genericmenuframecac.lua
 5809c0509ebb6598,ui/uieditor/widgets/craft/emblemeditor/stickersetiteminternal
+581a94d0fa618c2c,ui/uieditor/menus/hud/hud_mp_require.lua
 58255aff174924eb,ui/uieditor/luielems/core/remote_missile_target_lockon.lua
 582580983913de78,ui/uieditor/widgets/zmfrontend/zmdifficultyselectbutton
 5828530ea26f894f,ui/uieditor/widgets/director/directortierskipnotification.lua
@@ -4636,6 +4655,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 58b075f4e512e795,ui/uieditor/widgets/pc/startmenu/graphicsoptions/startmenu_options_pc_graphicsoptions_suboptionsnavigation
 58b50f4ffe9670ca,ui/uieditor/widgets/pc/socialmenu/pc_socialmenu_friendtabcontent.lua
 58b53d2ba8e4b74c,ui/uieditor/widgets/cac/cac_background_slide_panel_short
+58b5f3cf53890a1a,ui/uieditor/menus/hud/hud_cp_require.lua
 58c99d45d944fc89,ui/uieditor/widgets/aar_t8/rewards/aarplayerreward
 58dd7cdc7561f4f0,ui/uieditor/widgets/vehiclehuds/agr/vhud_agr_reticlefocusframeright
 58e17ee1f9e2bc98,ui/uieditor/luielems/wz/spectrerisingindicator
@@ -5053,6 +5073,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 6148e07461e9b88f,ui/uieditor/widgets/callingcards/callingcards_asset_astromonkey.lua
 6149018bcfd2e7a1,ui/uieditor/widgets/common/commoncenteredpopup.lua
 614a642527764da5,ui/uieditor/widgets/endgameflow/killcamwidget
+614acbde4348bf2e,ui/uieditor/widgets/zminventory/ritual/ritualitem
 6150c1f7c70d7a59,ui/uieditor/widgets/pc/footer/footerbutton_persistent.lua
 61540e27d933255b,ui/uieditor/widgets/pc/dropdownlistsmaller
 6156d841adc02c80,ui/uieditor/widgets/loadinganimation/spinnerloadinganimation
@@ -5169,6 +5190,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 63863141f8b496f8,ui/uieditor/widgets/pc/startmenu/graphicsoptions/pc_startmenu_options_safeareaborder_horiz
 6389ec743fb4d75f,ui/uieditor/widgets/genericpopups/toast_container_texts.lua
 6395c63182187e85,ui/uieditor/widgets/zmfrontend/cac/zmtalismanslotinternal
+63a326d1ca77ebd8,ui/uieditor/luielems/mp/laststand/mp_revive_prompt.lua
 63aab74cf4035660,ui/uieditor/widgets/craft/paintshop/paintshopcolorlayerinfo.lua
 63aafe748c812429,ui/uieditor/widgets/hud/mp_scorestreakwidget/scrstk_meter
 63b3df21c470faa9,ui/uieditor/widgets/craft/emblemeditor/decallistframe
@@ -5330,6 +5352,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 66e2a57a578a85e4,ui/uieditor/widgets/codcaster/codcastersupportbutton
 66ea1f9cd6ef9c46,ui/uieditor/widgets/hud/zm_ammowidgetfactory/zmammo_bgbcarouseliteminternalfactory.lua
 66ec1f13cff1c856,ui/uieditor/widgets/hud/zm_roundwidget/zmrnd
+66eee5926f63b60b,ui/uieditor/menus/core_frontend_require
 66ef0714faafa0ca,ui/uieditor/widgets/vehiclehuds/wasp/vhud_sentinel_reticle.lua
 66f28821b90063e7,ui/uieditor/widgets/hud/mp_voipwidget/voip_container
 66f731b7a2ec9c60,ui/utility/playerroleutility.lua
@@ -5845,6 +5868,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 710e31420732627f,ui/uieditor/widgets/challenges/challengessummarycategorylist_wz.lua
 71114dc24c016469,ui/uieditor/widgets/systemoverlays/systemoverlay_layout_foregroundmultilinetext
 7115f1edca00452b,ui/uieditor/widgets/vehiclehuds/dart/vhud_dart_timebar.lua
+711a88176079ebcb,ui/uieditor/menus/hud/equipment/empgrenade/emprebootindicator.lua
 71242c51f913d99c,ui/uieditor/menus/cac/weaponselectflyout.lua
 71268a8e6dcdbc03,ui/uieditor/widgets/arena/arenaleagueplay_ladderskilldivisionsubtitle
 713012bca0fbd2f4,ui/uieditor/widgets/battlenet/frontendbattlenetcontainer
@@ -6208,6 +6232,7 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 78254ac347f7709b,ui/uieditor/widgets/arena/arenaeventbutton.lua
 782cd92ef9a72e6c,ui/utility/pcnotificationsutility
 782cdcd64cf1647c,ui/uieditor/widgets/cac/weaponattachmentselect/attachmentupgradeslotcontainer.lua
+782fa79a45ef9936,ui/uieditor/menus/hud/t7hud_zm_castle
 783184da3fe634f1,ui/uieditor/widgets/hud/prematchcountdown/prematchcountdown_numberssmall
 78330b7987fe0d45,ui/uieditor/widgets/aar_t8/summary/aarsubstat
 7835867ddd28f321,ui/uieditor/widgets/hud/map/compassgroupmp
@@ -6587,9 +6612,11 @@ fe9df26e257edb3,ui/uieditor/widgets/customgames/customgames_settingslidernocusto
 7f571e3a150b8bbc,ui/uieditor/widgets/aar_t8/rewards/aarrewardstab.lua
 7f60e3835ef217c4,ui/uieditor/widgets/social/social_membergamertag.lua
 7f63768e9168fc34,ui/uieditor/widgets/tablet/tableticepickgadget_bgelementlines.lua
+7f67a07c4e1d567a,ui/uieditor/luielems/zm_laststand/self_revive_visuals.lua
 7f6ae994925ce8e1,ui/uieditor/widgets/director/directorheadertabsafearea
 7f6f5186789969f0,ui/uieditor/menus/codcaster/editteamlogo
 7f715750c9ae608a,ui/uieditor/widgets/pc/socialmenu/pcsocialmenu_genericbutton_container
+7f750379a77f3190,ui/uieditor/menus/hud/hud_wz_require.lua
 7f8a0b937713cad5,ui/uieditor/widgets/common/commonglowstandard
 7f91cf6839d25705,ui/uieditor/widgets/director/directorlobbytierskipnotification
 7f928b7b9fb82325,ui/uieditor/menus/craft/emblemeditor/emblemeditoroptions
