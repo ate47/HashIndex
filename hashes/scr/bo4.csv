@@ -173,6 +173,7 @@ fef09e,specificfromcolor
 1407f61,activate_zm_spinning_trap
 14274d6,player_sprinting
 14bef38,burst_fx
+14e113b,damageeffecttype
 14eb1d2,repeatthresholdkey
 14eb32f,loadout_perks
 1533614,give_staff_setup
@@ -1226,6 +1227,7 @@ fef09e,specificfromcolor
 849061f,getobjectivescoretext
 84a866b,shownretrievable
 84f811e,perk_devgui_base
+854904a,dirtotarget2d
 8554c47,weekly_duration
 85626bc,b_killstreak_used
 8572f0d,get_to_player
@@ -1243,6 +1245,7 @@ fef09e,specificfromcolor
 869ea5a,b_special_weapons
 86fa9e7,disable_filter_drowning_damage
 8710aab,enemycommander
+8725802,absolutestarttime
 872807f,show_friendly
 872c225,capture_scene
 8769707,extracam_data
@@ -2872,6 +2875,7 @@ ffe2f24,minigame_on
 138e42e4,setnewabilityhud
 1390e1ac,players_in_water_count
 1392e51e,setcurrentambientstate
+1393d318,isstackable
 1397330d,heavycollisionrumble
 139891cc,sessionteam
 139c2945,start_deathcam
@@ -3576,6 +3580,7 @@ ffe2f24,minigame_on
 185bb766,isfatal
 185f003f,washacked
 18608bfe,ishackable
+1861e0b1,siren_on
 1861eb5b,armorinfo
 1861ed41,dotbc
 1863e56f,missile_target
@@ -3768,6 +3773,7 @@ ffe2f24,minigame_on
 19ac8c7e,target9
 19acc6a0,can_upgrade_weapon
 19ad0d1a,debugaxis
+19adc0b7,display_match_end
 19b152bd,hasvalidinterrupt
 19b363ea,goal_path_setup_needs_finishing
 19b42c74,rcbombonblowup
@@ -4723,6 +4729,7 @@ ffe2f24,minigame_on
 202f2d6b,prompt_and_visibility_func
 202f7fd3,get_first_available
 20300515,toggle_player_rain
+203098f4,fade_back_in
 2038666b,rings_start
 2039b8da,melee_weapon_upgraded
 203b67b7,v_to_ent
@@ -4732,6 +4739,7 @@ ffe2f24,minigame_on
 20475c5a,a_s_bunker_doors
 2048a7d5,setwavewaterheight
 204d48e0,forward_mag
+204dd117,teleport_to
 204e264f,lerpratio
 2051697f,czm_towers_pap_hud
 2051ff0d,planeindex
@@ -4853,6 +4861,7 @@ ffe2f24,minigame_on
 21021e06,param_3
 2102b7ac,flame_damage_time
 21055e1a,allowdupes
+21060744,onleftside
 2106136b,victimpowerarmorlasttookdamagetime
 2106702d,asmstatename
 2108387f,localplayeranglestoforward
@@ -5730,6 +5739,7 @@ ffe2f24,minigame_on
 26c326cc,loopwaittime
 26c3e28d,disable_spawn_points
 26c8ad35,waitanddelete
+26cddecd,stop_pushing
 26ce6c68,turret_id
 26cf2816,update_swim
 26d20013,follow_path_fx
@@ -5763,6 +5773,7 @@ ffe2f24,minigame_on
 27128cf9,v_stand
 271319e3,potm
 27157593,isprophunt
+2717b55f,getmapscriptbundle
 27188c0c,wait_till_match
 27198b20,forcedelete
 271c8df8,sndeemax
@@ -6185,6 +6196,7 @@ ffe2f24,minigame_on
 29cf3f43,n_path_index
 29cf59db,ai_enemy
 29d03a86,script_value
+29d24e37,isvehicleturret
 29d54daf,forward_view_angles
 29d5713b,zombie_setup_attack_properties_dog
 29d714d9,s_inbetween
@@ -7068,6 +7080,7 @@ ffe2f24,minigame_on
 3024daa2,scepter_rumble
 3029a076,robottookempdamage
 3029f96f,var_2
+302bd0b9,getgametypescriptbundle
 302d9fba,armorperbar
 302e42dc,zombie_damaged_by_bar_knockdown
 3033cf47,lastcolorforced_exists
@@ -8114,6 +8127,7 @@ ffe2f24,minigame_on
 36ee65c1,vehicleriderdeathanim
 36eec84c,objectiveonself
 36f1273f,ammofraction
+36f13a21,aerialcam
 36f1afa4,wait_flag
 36f3ca4b,setexertvoice
 36f55b2e,minweight
@@ -9320,6 +9334,7 @@ ffe2f24,minigame_on
 3ef06346,planemortars
 3ef26900,_play_on_self
 3ef2e369,second_values
+3ef38c68,in_playable_space
 3ef6f14c,wheelcounts
 3ef77c88,totalgibs
 3ef8d787,attackerentnum
@@ -9765,6 +9780,7 @@ ffe2f24,minigame_on
 41d328c9,colorarray
 41d45629,dist_check_start_point
 41d475b8,locksounds
+41d5077e,sensoriums
 41d7e28b,hawk_spawned
 41d9c448,zm_perk_random
 41da91d7,propdeductclonechange
@@ -9894,6 +9910,7 @@ ffe2f24,minigame_on
 42c184ce,replannedcoverarrival
 42c622b6,a_e_brutus
 42c6d49b,wait_till_complete
+42c89fa1,gibcinematicfx
 42c96890,awayfromenterpos
 42caac61,hostmigration_put_player_in_better_place
 42cd9823,addrankxp
@@ -15514,6 +15531,7 @@ ffe2f24,minigame_on
 687d6b34,preload_frontend
 68851cef,register_allowed_gameobject
 68857119,notify_string
+68860686,near_me
 6886ab90,arc
 68891bdd,e_closest_target
 68898720,empgrenade
@@ -15645,6 +15663,7 @@ ffe2f24,minigame_on
 6963db6c,light
 696483ef,minhealth
 69648877,n_stock_ammo
+6966417b,disable_all_traps
 69672f0d,fprintln
 69683205,extra_cam_wc_paintjob_icon
 696ac04a,umbra_fix_trigger
@@ -18258,6 +18277,7 @@ ffe2f24,minigame_on
 7ae0f9d2,earliestspawntime
 7ae455e6,losingteamindex
 7ae4f64c,set_movement_and_accel
+7ae52016,setrotorspeedcallback
 7aea7fd5,lastkilledby
 7aec140c,nextcircle
 7aecebde,takeoverterminate
@@ -18613,6 +18633,7 @@ ffe2f24,minigame_on
 7d5a2895,_cooldown
 7d5c7234,worsen
 7d5cd550,preload_weapon_watcher
+7d5cf0e4,bohorok
 7d5f4ec2,eddie_spawner
 7d623ed9,flagsys_wait_any_flag
 7d647953,is_looping
@@ -18783,6 +18804,7 @@ ffe2f24,minigame_on
 7e7581d5,transitiondelaymax
 7e775ed7,idle_run_trans_speed
 7e7838c3,enemyempowner
+7e7897b8,bagomoney
 7e78abf0,zombieblackholebombpullupdate
 7e79839e,grappler_beam
 7e7a6596,on_end_game
@@ -18991,6 +19013,7 @@ ffe2f24,minigame_on
 7fc47eaf,team_index
 7fc5ef29,dog_targets
 7fc781eb,script_stop_exploder
+7fcb97e3,medal_name
 7fcc63d9,activateturret
 7fcc8d39,a_s_telegraphs
 7fccd930,lastrocketfiretime
@@ -19335,6 +19358,7 @@ ffe2f24,minigame_on
 81d44176,currentvoxpriority
 81d50de8,crossesnoflyzones
 81d63cff,war_room_portal_door
+81d670f5,using_new_transitions
 81d7f14b,largest_radius
 81d875b2,gpsjammerprotection
 81df4f51,playerentnum
@@ -19596,6 +19620,7 @@ ffe2f24,minigame_on
 8380e4ac,func_should_drop_fire_sale
 838389e9,patrolspawns
 8383a6ce,src
+838aa9c4,crafter
 838d2c28,watch_kiosk_triggers
 838ecd80,escortingrobot
 838fc079,is_rat_test
@@ -20620,6 +20645,7 @@ ffe2f24,minigame_on
 8a4d1c25,forwardfar
 8a4e5624,arraygetclosest
 8a500e22,split
+8a50fb55,boaster
 8a5299ba,onuncontested
 8a53b367,codecallback_swimming
 8a53dc5f,run_planted_callbacks
@@ -20874,6 +20900,7 @@ ffe2f24,minigame_on
 8bf1402f,w_new
 8bf1edb7,startprestige
 8bf2881e,gadget_homunculus
+8bf301a6,beam_attack
 8bf5162e,archetype_human_exposed
 8c007aa6,ct_vo
 8c00cefb,consumeditem
@@ -22564,6 +22591,7 @@ ffe2f24,minigame_on
 96ef46ae,control_lights_groups
 96f0a6cf,plr
 96f15236,magicbullet
+96f1cbf6,mocompgladiatorleapend
 96f1fbaf,top30
 96f699fd,plane
 96f71f67,vehmodel
@@ -22853,6 +22881,7 @@ ffe2f24,minigame_on
 9903104d,fail
 99039ada,navmeshposition
 990a20e4,melee_range_sq
+990c9627,amias
 990e78d4,b_missiles
 9913c2d5,str_gametype
 9913f155,scoreevents_processassist
@@ -23753,6 +23782,7 @@ ffe2f24,minigame_on
 9f12a773,trophy_defense
 9f1735bc,spawnbeacon
 9f199e35,hit_intensity
+9f19a239,performer
 9f19fcb6,spawnchance
 9f1ece95,str_objective
 9f212d45,primaryprogressbarwidth
@@ -23907,6 +23937,7 @@ a002fb5b,propcontrolshud
 a003c9ab,portal_init
 a004b466,direction_vec
 a004bda7,playerdir
+a00576dd,earing
 a006131e,notsolid
 a00720f2,get_perk_machine_start_state
 a008fc0c,usepathfinding
@@ -26125,6 +26156,7 @@ aec3446d,dog_enable_rounds
 aec35cd1,jumplandingrumble
 aec3dd01,defaulthackedhealthupdatecallback
 aec43a64,newelem
+aec6fa7f,itemamount
 aecaaa11,molotovfireweapon
 aecb2f9a,type_keys
 aeccc1ff,blocker_choke
@@ -27635,6 +27667,7 @@ b8bf4e4f,b_behind
 b8c30605,healing_aura_revive_zm
 b8c52342,wait_escort_death
 b8c57a3c,shownenemyequip
+b8c7d886,uninterruptible
 b8c8c417,spawnbeaconid
 b8cca9f4,init_zombie_explode_fx
 b8cd850c,previous_menu
@@ -28388,6 +28421,7 @@ bdb66612,pathablegameobject
 bdb78ffa,rampagebonusscale
 bdb85e4c,hor_length
 bdb96033,mdl_head
+bdba96e1,bountydrop
 bdbde1db,s_default
 bdbede70,travel_speed
 bdc10f2b,registerstalactite_kill_zone_waypoint_
@@ -28594,6 +28628,7 @@ bf0d6a74,str_notify_alias
 bf0f0fb2,killstreak_delay_killcam
 bf0fb55b,bombspeedscale
 bf104542,no_fx
+bf11ed35,distancefromplayer
 bf141e90,mapsize
 bf146d0a,special_goals
 bf160a69,numzm
@@ -28748,6 +28783,7 @@ c0260524,loop_local_sound
 c026c163,soundrattlesetup
 c02727f0,pulsemaxradius
 c0286f82,oldcharacterindex
+c028dcfe,firstonefree
 c02a9588,isspecificuse
 c02e490f,tank_team_kill
 c02fa8c4,sndkillcam
@@ -28785,6 +28821,7 @@ c060749b,stat_index
 c0616520,lastpoint
 c06260a7,canprocesschallenges
 c063d0c1,tryusepredatormissile
+c06441ec,ui_icon_weapon_t10_me_p30_cleaver_cartoon_dfx_preview_flipbook
 c0645264,fwd
 c0647f8e,commanderteam
 c06843e6,prevstance
@@ -28890,6 +28927,7 @@ c1064af1,killcamweapon
 c10828da,poi_end_func
 c109c2a3,mdl_golden_knife
 c10e3ae3,org
+c1129a39,puppying
 c1158761,legalaimyaw
 c115b172,strategyclearareatogoldenpathupdate
 c1175039,uav_z_offset
@@ -29129,6 +29167,7 @@ c29af1a3,script_radius
 c29d9c65,enable_rob
 c29e09f1,status_effect_shock
 c29e6c1b,miles
+c2a08848,serverframecount
 c2a172b2,tu7_fix_100_percenter
 c2a233f0,has_gibbed_piece
 c2a2caf3,sound_shared
@@ -29708,6 +29747,7 @@ c6594f32,name_shared
 c65ce83d,gadget_hero_weapon_on_activate
 c65d88a4,showelem
 c65e5598,infect_chosefirstinfected
+c65eed8e,whippeter
 c66075d1,resumetimerdiscardoverride
 c660d3b8,damageclonewatch
 c6613c99,b_can_open
@@ -30545,6 +30585,7 @@ cbde55f9,watchmovetriggershutdown
 cbdfa47a,gadget_vision_pulse_is_flickering
 cbe0fc17,strategysquadescortassignmainguardparam
 cbe3614a,basetime
+cbe3d2b8,finalradius
 cbe3e850,f_min
 cbe4f743,point_index
 cbe61325,btapi_trackcoverparamsservice
@@ -31632,6 +31673,7 @@ d31989ab,destroylockoncanceledmessage
 d31a78fe,wound_apply
 d31c18e2,grate_order1
 d31c4f26,w_damage_weapon
+d31cb502,ui_reticle_preview_hybrid_03_vday
 d3203020,n_threat
 d3233e17,isadestructible
 d327c347,isanimlooping
@@ -32422,6 +32464,7 @@ d875abd9,str_client_scene
 d879d962,viewheight
 d87c4ca9,msg
 d88369f1,placeable_mine_detonate
+d883eecd,rock_cliff_scotland_04_closed_lod1_b45d8bc9d5647932003cc8a9d
 d889880b,_draw
 d88a324e,color_node_type_function
 d88b7379,otherplayer
@@ -34010,6 +34053,7 @@ e3595063,scoreperplayer
 e35c1359,init_step_5
 e35da2fb,spawn_entities_s
 e35f85fa,wasveryhurt
+e35fc674,zthreshold
 e366fd50,usebuildkitweaponmodel
 e368ddd7,curr_lerp
 e3690302,scavenger_think
@@ -34699,6 +34743,7 @@ e7f4c6b5,onfindvalidspawnpoint
 e7f5b3e0,b_can_spawn
 e7f6a836,mp_cairo_scripted
 e7f6e51e,isarrivingone
+e7f74d2b,command2
 e7f889b8,max_dist_from_location
 e7fa1262,gadget_power_reset_on_team_change
 e7fbe88b,zombieupdategoal
@@ -35303,6 +35348,7 @@ ebbf214b,freerunmode
 ebbfb3b1,make_supersprinter
 ebc3fc57,ct_ai_blight_father
 ebc4c3aa,str_fx_tag
+ebc76246,waypoint_escort
 ebc8335a,stop_after_duration
 ebcca725,isinvehicle
 ebd168ed,n_dist_horizontal_sq
@@ -35596,6 +35642,7 @@ edb8db41,lerp_time
 edbb2a6d,deathfxsound
 edbc57ed,called
 edbc66b6,s_target_loc
+edc20efd,attack_radius
 edc31c02,closestindex
 edc65638,random_spread
 edc777d5,hackerthink
@@ -35853,6 +35900,7 @@ ef685fb8,nodeoffsetangles
 ef68aa16,weapon_powerup_remove
 ef6a89d3,damageafterhacking
 ef6c3199,effect_soundalias
+ef6d594a,jup_emblem_b5012_5
 ef6eb384,primaryprogressbarx
 ef6f1da2,voxtimer
 ef70046b,get_killstreak_team_kill_penalty_scale
@@ -35994,6 +36042,7 @@ f07ca5a2,postfx_hitzone
 f081e533,_ai_melee_opponent
 f0884ae5,item_spawn_group
 f0885951,hornsound
+f0886300,swimdamagerinterval
 f088f823,pentagon_zpo_listener
 f0894df6,b_print
 f08d5d75,sprintboostduration
@@ -38535,6 +38584,7 @@ fd79bf5478b106,status_effect_deaf
 1be1f2ab9ce867c,scr_heli_targeting_delay
 1beced1f7a0c29f,zm_equipment
 1c29bf1d0e059de,scan_for_threats
+1c35eb15aa210d6,player_begin_fasttravel_rail
 1c600f8141a34a9,red_boss_fight
 1c86da2ba4f8cc6,jupiter
 1ccc321c612d3df,summon_wolves
@@ -38830,6 +38880,7 @@ fd79bf5478b106,status_effect_deaf
 3bf77799b56c06c,statvalue
 3c52d0debd70676,path
 3c6cf965591d4d1,energy_soul
+3c7e54851be0668,playerkilled attacker
 3cadaccb6765492,zombie/perk_death_dash
 3cd2a7da314486c,pstfx_dni_vehicle_dmg
 3ce53ea582a75cc,gelgun_multikill_2
@@ -38886,6 +38937,7 @@ fd79bf5478b106,status_effect_deaf
 4339120dee47778,zmb_gondola_start
 434323084b426f9,ekia_against_armor_damager
 4344e2c90f1d5b4,zm_talisman_extra_frag
+434b3261c607850,zombie_powerup_drop_min_
 4386ffa33605725,stop_enemy_dart_collision
 43899c4c8df0112,scripts/core_common/spawnbeacon_shared.gsc
 43a940623c30cb8,zm_talisman_extra_semtex
@@ -38976,6 +39028,7 @@ fd79bf5478b106,status_effect_deaf
 4d1e895f9313c6b,contract_zm_pistol_kills
 4d20bdb63281c38,character_unlock_menendez
 4d2a3c65f4a8543,navigation
+4d2cc817490bcca,zombie_powerup_ammo_spacing_min
 4d4553e6a60e98c,ui_motd
 4d8448d52d528cd,zm_trial_flag_check
 4d9406530777d95,soul_fx
@@ -38987,6 +39040,7 @@ fd79bf5478b106,status_effect_deaf
 4dfb04df772bcbc,scr_dropdebug
 4e7e3eb13a961b1,aat_acquire_devgui
 4e95db8d75052f1,wraith_fire_kills
+4edd68174a79580,zombie_powerup_ammo_spacing_max
 4edea7e3673b6eb,zone_temple_of_apollo
 4f11537440270a3,stone_despawn
 4f277352731d8da,sacrifice_player
@@ -39088,6 +39142,7 @@ fd79bf5478b106,status_effect_deaf
 5a6c4bd01ea7395,wpn_octobomb_attack_vox
 5aae2f6c0f501b5,topcenter
 5aef19a8668560b,zmtalismansindividual
+5af1c94d2e2bf9f,_t6/weapon/qr_drone/fx_qr_wash_3p
 5b17981cda3be0c,stop_debug_blocker
 5b311cf6da67afb,scr_givetalent
 5b406244b035d85,aib_vign_cust_zm_red_boss1_stg1_meteor_strike_01
@@ -39128,6 +39183,10 @@ fd79bf5478b106,status_effect_deaf
 600511fb7449532,giveloadoutlevelspecific
 60051e21f8eb4af,stone_pickup
 604b50c944dc9c4,stop_blinking
+604cac237ec8cd3,zombie_powerup_drop_min_1
+604cbc237ec8e86,zombie_powerup_drop_min_2
+604ccc237ec9039,zombie_powerup_drop_min_3
+604cdc237ec91ec,zombie_powerup_drop_min_4
 60742e80131de05,status_effect_blind
 6089ac0ae5e3272,start_looping
 60aef9581f7a8d3,primary acquired
@@ -39216,6 +39275,7 @@ fd79bf5478b106,status_effect_deaf
 6c65796bd239e3c,wzhellhounds
 6c72a313fd27cbe,give_perks
 6c943768ce046be,pinups
+6ca8e1ea720ba9f,mp_ph_sloped
 6cc37f71c2aa2f6,ct_player_success
 6cd7236e142843f,scripts/core_common/compass.gsc
 6cf08df8ab5a09f,supply_stash_parent_big_team_battle
@@ -39489,6 +39549,10 @@ fd79bf5478b106,status_effect_deaf
 8b60f743ed9b0d3,pathablebundles
 8b72e07b55c3ac0,id
 8b74507b55c61d5,is
+8b7f980184dbf38,zombie_powerup_drop_max_2
+8b7fa80184dc0eb,zombie_powerup_drop_max_3
+8b7fc80184dc451,zombie_powerup_drop_max_1
+8b7ff80184dc96a,zombie_powerup_drop_max_4
 8b802d00f511014,ct_vo
 8b8ef6434c32b55,inanimate
 8b908149c92640c,scripts/killstreaks/ai_tank_shared.csc
@@ -39736,6 +39800,7 @@ a68a468dacd69ee,kill_flashed_enemy
 a69df65316f0958,gameobjects_exclude
 a6c256a379c21b5,damage_feedback_glow_orange
 a73187d137bffee,scripts/zm_common/trials/zm_trial_wallbuy_count.gsc
+a7883ea30e7608a,scr_infect_finaluav
 a78991be6223cad,zomcatalyststartsolo
 a7d97ab0e39cd1d,switch_activated
 a7e9ff96610a64b,crevasse
@@ -40447,6 +40512,7 @@ fac8e0f654f2f85,zombie_death_params
 faeb22982ab79dd,gaia_impact_zombie
 fb15eb644cc51ed,r_lightingsunshadowcachedynamicsiegedistance
 fb16bd158a3e3e7,scripts/zm_common/trials/zm_trial_restrict_loadout.gsc
+fb73fdc2aff963f,mp_ph_hideprop
 fb7dd72cfdf812c,zitem_zhield_zpear_part_3
 fb7de72cfdf82df,zitem_zhield_zpear_part_2
 fb7df72cfdf8492,zitem_zhield_zpear_part_1
@@ -40648,6 +40714,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 1155a2f32fd715d0,aispread
 1158d006a3913ef6,zmpointlossondeath
 11598eb252dc841e,lower_message
+115d2072d5ab2061,playerkilled assists
 115e07678e9de0ac,spawn_hallion
 116af95bbf99b3d7,kills_pistol_lasersight_suppressor_longbarrel
 116b8fd1cec229fc,zombiemoveaction
@@ -40795,6 +40862,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 1298b56fc519e5bf,freeze_player_for_round_end
 129b332571c571c7,tag_engine_right
 129b5ffae6f3693f,tempest2_enemy_zapped
+129cb5a3537b76f4,pstfx_zm_bgb_now_you_see_me
 12a0ef39903ddb27,endthedirty
 12a35db5d9eed154,pathing_requested_gameobjects
 12a6614f6ae42f2b,strafe_stop
@@ -41004,6 +41072,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 1439c6cfa8a0cfeb,bonuscard_underkill
 143a7ce67a7f527f,wz_unlock_struct
 143ede46ef084b68,status_effect_shock
+1442db17b83460ad,_t6/misc/fx_zombie_cola_revive_on
 144549dfb6b8bda5,p8_zm_elixir_in_plain_sight_ui
 144591f63d228db3,no_sprint
 14466ec3ba60321a,left_arm_upper
@@ -41426,6 +41495,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 173d13fee763fd5d,maps/zm_white/fx8_power_wisp_lg
 173f59746fdf0fbe,crash_bot
 173fb88aa1095a28,veh_boost
+173fd7265ae0b7b1,cg_drawbuildname
 1740293f7d810d46,enemy_prophet
 17425ad09674e207,rise_burst_lg
 17470951d0f3ba14,lightning_impact
@@ -41465,9 +41535,11 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 1783be2ff62b582c,patrol_done
 1783c105c1611e5b,character_unlock_dempsey
 178410fd941062ac,flame_1p
+1784640b956f2f85,zombie/powerup_insta_kill
 1785626e8834963a,zipline_used
 1787ba6abb6a4aa9,zone_aft_deck_lower
 17881b8726dcaf7d,zmmeleejumpunderwaterheightdifference
+178a3d0115bc972e,fasttravel_cooldown_done
 178b1abb7a6d4287,reflect_structs
 178b1cfd941695be,flame_3p
 1790236b324e2aca,event1_on
@@ -41892,6 +41964,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 1a9d4df42a6af360,cur_total_kill_streak
 1aa200d5d0fcab0d,j_ankle_le
 1aa527b906e836d4,teleport_splash
+1aa56851d9d4ec0d,trap_state_change
 1aaa255ba0911093,control_bb
 1aab1792b70ea86b,jump_begin
 1aab354ddc20d771,connect_stoa_zones
@@ -41951,6 +42024,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 1b19a264edef6ad0,completed_match
 1b1d42d579380f1b,maps/zm_red/fx8_soul_red
 1b1e3985ded29427,specialty_healthregen
+1b248026aeb05066,boss_intro_done
 1b28296927171330,wzenablepistolgrip
 1b28b950fb4735fb,sfgstarttow
 1b2ae33e2f1a3c0c,monkey_glow
@@ -42019,6 +42093,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 1bb63aa8676692a0,ankh_restored
 1bbb28c37e5c3de7,shields_purchased
 1bbd63c740c35db1,commandershouldthrottleprogress
+1bbdf961a543a8a4,powerup_intro_solo
 1bbef16d9e109365,stance
 1bc13dc98b3bbcc2,charged_eyes
 1bc25d767b1dc960,commandersquadassignpathableobject
@@ -42240,6 +42315,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 1d5258cc79c5b076,scorestreak1
 1d5318dc84fcfef1,reboottime
 1d5798eaa3bed36c,lowangle
+1d57c7f1617da95b,idgun_crush@movement
 1d57d038b0d70b79,tutorial_completed
 1d58c6214174d3d8,gadget_medicalinjectiongun
 1d59e8bfac78a33b,playerstatslist
@@ -42268,6 +42344,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 1d7cd4babd8ff905,follow player
 1d802f68d5ec1413,scene_frontend_weapon_camo_render
 1d811f41761a35d4,+usereload
+1d81325f0403ec55,_killstreaks.gsc/onplayerspawned
 1d81dda80aa4528d,roof_climb
 1d823a3c21529525,generator_sparks
 1d82dde60b77fefc,zm_perk_deadshot
@@ -42401,6 +42478,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 1e8c2f621bf6361e,scr_disablechallenges
 1e8c579513934bbd,clock
 1e8c81be34de26cd,ekia_strobeflash_suppressivebarrel
+1e8cc5b28385a579,pstfx_zm_bgb_in_plain_sight
 1e8db61a17825461,p8_fxanim_mp_urban_vehicle_testing_bundle
 1e8e270c8eb07987,mp_ph_pregame_hunt
 1e95684ef6b74f03,scr_givetestsupplydrop
@@ -42431,6 +42509,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 1ec52ab697ff2dd8,capturetime
 1ec54e2009b8f545,shield_attack
 1ec54f4acd7e7955,scr_rmbomblet_camera_delaytime
+1ec5cd32e99d8672,vehiclekilled assists
 1ec72233df59f732,points_spawning
 1ec86ace3f71fe78,death_finished
 1eca59a38a5730e8,player_zombie_blood
@@ -42542,6 +42621,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 1f98cbfa65239b37,factory_list_item_default_small_dlc1
 1f9b4b8023f99d6b,buffassault
 1f9b7149df8b7dcb,scr_freezegun_debug
+1f9b852104ab2c13,soul_capture_complete
 1fa15dfea0d0fb5c,remote_missile
 1fa35d6531b6441e,open_skyscraper_vehicles_zodiac_hijacked
 1fa3a41c86ecb765,pickup
@@ -42734,6 +42814,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 211559ff9a516b7d,resource_item_loot_locker_key
 211598601e3fcc3c,east
 21159d601e3fd4bb,easy
+2116fd90943206f0,cpl.
 2118a74efa2542e3,mod_crush
 2118d591e173a7f3,zblueprint_acid_gat_build_kit
 2118e128407b7acb,scripts/zm/ai/zm_ai_dog.gsc
@@ -42748,6 +42829,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 212b01feaa916a00,ammo_type_45_item
 212bd51925672cd5,nag
 213093d947c30be6,emp_grenade_wz_item
+21327d909449a828,cpt.
 2133afbbd7534561,trap_finished
 2134fe19136053e9,zomcountsolomult
 2136319e22931559,c_t8_zmb_dlc2_skeleton_spear
@@ -42775,6 +42857,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 216b27af27c1f994,phalanx_tier2
 216b28af27c1fb47,phalanx_tier3
 216b2aaf27c1fead,phalanx_tier1
+216d76ce6f19d51c,powerup_intro_caution
 216d8430fb4492b9,elephant_death
 216deca950485b7c,stop_begin_collision
 2174b8eb76412fb3,open_skyscraper_vehicles_atv_small
@@ -42791,6 +42874,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 218a8687952ecdad,teamscoreperdeath
 218f57fb32d9325b,scripts/core_common/ai/archetype_human_cover.gsc
 218fe9a7adb28d6b,defenders
+21921ed511559aa3,nuke_stop_special_spawning
 21941a96b7ed67f3,teamset_allies
 2195d81842bd44a3,p8_zm_zod_music_sheet_03
 2195da1842bd4809,p8_zm_zod_music_sheet_01
@@ -42856,6 +42940,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 2220c05951e8c321,portal_pass_step_2
 2221d6f551c344d5,ks_emp_fullscreen_minradiusmaxstatic
 222289639943b061,zombie/fasttravel_locked
+2225287695ddf9c9,_t6/misc/fx_zombie_cola_dtap_on
 22274f90c938a8f9,waterfall
 2227f224f213f6fe,zm_daily_purchase_perks
 2229e8613760a383,zero
@@ -43244,6 +43329,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 24fc3bc7063e1404,on_menu_response
 24fef443bbac697c,fly_drop_generic
 24ff1fa68e880afd,zmtalismanslegendary
+250115340b2e27a5,kill_enemies_for_health
 2501315fbfb75f72,spike_launcher
 25035f142a2d5958,stop_use_shield_collision
 250613ea7c45ec3e,detach_left
@@ -43556,7 +43642,9 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 272cef92fbe8b572,mover
 272f7b764c09639d,chase
 272fce8fae668256,scr_give_equipment
+2731cc5c1208e2e4,zombie/fasttravel_generic_use
 2731d0584cb10b76,pbr_wz_vehicle_black
+2732c975dc66dd9e,nopropstospectate
 273d6ddb07874996,ww_quest
 273dea5b2e3044c0,brutus_special
 273f002e1ba79f9e,challenge
@@ -43588,6 +43676,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 278289e17fcf4445,survive
 2783552bdfee83f5,scripts/mp/mp_silo_fx.csc
 2788db235878f3f9,zm_orange_default
+27897abffa9137fc,death_from_above
 278d08ba83ffa424,crowd_loves
 278d5613f19f44e4,scripts/wz/wz_escape_alt_ffotd.gsc
 279077bad833af6d,roof right
@@ -43799,6 +43888,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 2900e49083328fcc,slide_begin
 29020439a877aabb,humiliated
 290283a86af7a0bd,scripts/zm/zm_red_util.gsc
+29028683f846db5d,mp_infected_time_extended
 29065f0efd8d6ff3,wallbuy_count
 2909dcf2d0d6eed1,ww_tricannon_air_t8_upgraded
 290a174e389e6f29,p8_wz_door_01_diner
@@ -44438,6 +44528,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 2d8a3b278a6d94de,vehicle_ai
 2d8b36a24fc2e466,variant
 2d8b5aa9c8759b31,zm_daily_kills_headshots_in_row
+2d8e1c5a5387840f,fly_pickup_armor
 2d9131ec76baa766,scr_giveskill
 2d91883efdb2893f,catalyst_encounters_completed
 2d961760cac60b12,consumable_list_low
@@ -44670,6 +44761,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 2f54612ef16bb07b,wzenablelauncher
 2f54dca4f750bed4,helicopter_player_firstperson
 2f54ed970fcecc95,matchesstats
+2f560292a2fb7eab,mp_ph_clone
 2f56fc304d6e61eb,arena_seasonvetchallengewins
 2f6134aa9d002640,play_death_vox
 2f614bc6ce414164,sniper_fastrechamber_t8_operator
@@ -44747,6 +44839,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 2fa72a7ec2d86741,wzenablespectregrenade
 2fa8fc186e8c4809,killed_enemy_player
 2fac738fe61117e8,specialisthealspeed_allies_1
+2facbe04e87432ac,los angeles
 2fb169c8e0e47ffd,modifier_acquired
 2fb2657921c7de37,chase_target
 2fb7477e14737508,cd_street
@@ -45072,6 +45165,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 32255dd0e99b44ef,zm_weap_tricannon
 3225d67f8e4a63cb,scripts/zm_common/trials/zm_trial_white_electric_slide.gsc
 32261a4669c8d23b,kill_with_pickup
+322751dde777c910,damage_during_movement
 322ade9495c9dd57,zmb_switch_flip
 323155d0bfdb52df,scarlett
 3233acc1cce73841,dog_location
@@ -45130,6 +45224,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 32a9f9254652f286,kill_enemy_survive_flak
 32ae0ce6f83423a2,bomb_detonated
 32ae8c790d76cf14,bgb_pack
+32aee631b4444f90,scr_ph_useboundsforgroundnormal
 32b19c501f6cd5f9,character_unlock_scarlett_fixup
 32b207d17e4776c1,tak5_shutdown
 32b5086207157433,zm_lockdown_util
@@ -45302,6 +45397,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 33e32a8626c8b186,human_rpg
 33e88e86118e9112,zone_start_west
 33e9c3a558995b8c,give_monkey
+33eb8912b6c63ecd,_debug/fx_debug_deleted_fx
 33f073e3476b420d,vision_stone_wormhole
 33f0ae42d16f878f,hero_chakram_activated
 33f16ccba688da38,power_off
@@ -45551,6 +45647,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 35969e10bfe44e15,newzoneactive
 359c16f0ecf7fa33,blundergat_wz_item
 359e69141220779c,gladiatorshouldreact
+359f0993cf4ebe66,_t6/maps/zombie/fx_zmb_tanzit_upgrade
 35a172d7913870f0,kp_3
 35a173d7913872a3,kp_2
 35a174d791387456,kp_1
@@ -45587,6 +45684,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 35e784570a70443e,clearing_list_item_default_dlc1
 35e940bfe99f96cd,scripts/core_common/ai/archetype_nosferatu.csc
 35ebb9a942e59c09,mod_electrocuted
+35ee6425adf16fb6,_t6/maps/zombie/fx_zombie_bar_break_lite
 35f030c9387b1756,ac130_fco_okyougothim
 35f179ff17a10369,wz_jukebox
 35f1a38c8069513e,hell_portal_close
@@ -45819,6 +45917,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 37aa3a5919757781,specialty_cooldown
 37ae47e47ceb98e3,playernumlives
 37aec61e00d9bdb3,c_t8_zmb_dlc1_catherine_ghost_body
+37af690bed5d17b8,vulture_aid_stop
 37b38ecefdf42df6,sc_pap_lagoon
 37b3edd44ce8c787,zblueprint_shield_spectral_shield
 37b8399afa460f64,zombie/fx_weapon_box_closed_glow_zmb
@@ -46100,6 +46199,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 39de4864e656e647,zm_daily_round_25
 39e1c964e659f751,zm_daily_round_30
 39e3993847280f2f,file_room
+39e61050ab8d325e,mp_ph_spin_pc
 39e71f8a62de5701,top_right
 39e8b564e65ff403,zm_daily_round_10
 39e8b864e65ff91c,zm_daily_round_15
@@ -46175,12 +46275,14 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 3a6339817ab93cc4,wz_contracts
 3a64e31d02834194,boottime
 3a651f053c0fa15a,gadget_jammer
+3a65333187809d2e,gravity code
 3a6788f4daed8c33,sams_box
 3a67e595e19f61b2,ranged_nova_crawler
 3a6b3bb4e203f2ed,uin_notify_data_loop
 3a6dcbd30a1c2dfe,prematchperiodoverride
 3a6e1cc57d28db61,scripts/mp_common/item_spawn_groups.gsc
 3a6f7ff57aa291d9,download
+3a6fc5051c04a776,evt_elevator_office_run_3d
 3a728eb1941f6601,wzenabletacticalraft
 3a75a6172779ccab,p8_zm_lab_talisman_press_mould_lid_epic
 3a7ac32272007c6d,high_value_operative
@@ -46255,6 +46357,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 3aebb3d3cfb88143,zm_powerup_bonfire_sale
 3aec0133b598de9f,p8_fxanim_zm_perk_vending_cola_bundle
 3aec04658573894c,stop_church_dart_collision
+3aeea178f890eb31,cover right wide
 3af054282dbaa25b,mod_head_shot
 3af08e0d812de4d9,killstreak_satellite
 3af8b167d222aed5,cleanse_teleported
@@ -46482,6 +46585,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 3cd5e59c05a749ca,brun
 3cd5f0114c4786e5,kill_enemy_when_injured
 3cd7be071a3f1ce0,scripts/zm/zm_mansion_stick_man.csc
+3cd8ecbf9f39b3e9,mp_ph_sloped_pc
 3cdbad029d1c9f65,mpl_zone_contested
 3cdc41370871f0a2,scr_draw_triggers
 3cdedde460e83490,scroll_9
@@ -46627,6 +46731,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 3df9b07ac48de496,eq_sticky_grenade
 3e034844d2b9d971,lava_control
 3e04921822812527,waiting_to_spawn_ss
+3e06c757e4b20f4f,gestable_concertina_reaction
 3e09985d3bc48648,p8_zm_elixir_immolation_liquidation_ui
 3e0d007260914523,weapon_settled
 3e0d33220d73fbdc,fire_runner
@@ -46657,6 +46762,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 3e366c1e9f09183f,pb_cac_main_lobby_idle
 3e3ae137d6c07f8d,combo_dialed
 3e3c3b7561fb5c1b,player_missile_end_singleton
+3e3fc20d5fcbf6e0,cobra@stationary
 3e437f7941c59d97,confirm_location
 3e4707ff6c41feac,ar_peacekeeper_t8_item
 3e481f7916c5c010,scene_being_skipped
@@ -46733,6 +46839,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 3ec51d746ef50fdc,zone_ra_ground_floor
 3ec9133cff848983,zmmeleejumpdistance
 3ecb60485611fc2d,menu_changeclass_custom
+3ecc995bb97331ac,bloodsplosion
 3ecd90e1a7e5d3e6,trigger_radius_use
 3ece1aee9a7bedcd,specialty_armor_tier_two
 3ecef105edfce221,talisman_coagulant
@@ -46883,6 +46990,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 3fd5361d2d62b66b,randomization_done
 3fd6ca587741f3ab,start_open_car_blocker_collision
 3fda550bc6e1089a,scripts/killstreaks/helicopter_shared.gsc
+3fdaafe712252cf5,zombie_attacked_by_player
 3fdb518f2142e326,fire_trail
 3fdc549e5686cce0,hellstorm_fired
 3fdcc91f6f49bb5f,ruin
@@ -47053,6 +47161,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 412e586def90edca,mpcommander
 4135d512c831bec8,hero_weapon_hit
 4138d4a20aa37904,scr_heli_protect_time
+413a313438a3a4e1,dlc1/castle/fx_castle_electric_cherry_down
 413c38945adac03f,suicidegrenadekill
 413cdf3a155d7eb5,billiards_room
 413cdfff74818010,player_mp
@@ -47536,6 +47645,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 44da096c3bcbb5e9,wisp_impact
 44dc4a57eafd0759,clump01_rise
 44de0e031ee5a1c0,veh_suspension_limit_activated
+44de9418bb6289ac,bleed_out_screen_fade_speed
 44deb12ab3cef3f4,human_sniper
 44e0b76bd50b192e,win_bronze
 44e4ea594e784497,ctf_bb_hc
@@ -47638,6 +47748,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 459ef1ffa060da5a,stop_event1_collision
 459f15018585edda,shotgun_pump_t8_upgraded
 45a40cc86aed6e2a,zombie_gladiator_util
+45a46111e3862b44,zsurvival:onspawnplayer
 45a4e17fd13b3121,scripts/zm_common/talisman/zm_talisman_perk_reducecost_1.gsc
 45a5e6185b1b69aa,debug origin
 45a6f051f13a2232,vista
@@ -47868,6 +47979,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 475de69221803313,interrupt_gondola_move_trigger_roof
 4764f31fcd0921a1,ww_sc_earth
 476546f929aaea9a,ac130_plt_rollinin
+4767a02d3b3b87cc,cover left wide
 4767e1066355b7ae,mercury
 476a095e1ffa22b6,medium
 476dc36590021482,rivertown_list_items_dlc1
@@ -47907,6 +48019,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 47a87ff66dcc1242,spawn_complete
 47ac44b3b60dd7ee,destroy_equipment_with_emp_engineer
 47af0f0637083ede,titus_target_timeout
+47b20f457b370888,zombie/fasttravel_generic_use_keyboard
 47b346d1e63e6488,ar_fastfire_t8_item
 47ba83f6d3be4f7b,evt_hacker_device_loop
 47bfdf8ef26cf09e,mercury_glow
@@ -47926,6 +48039,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 47e07053890b9c29,zmtalismanscommon
 47e0e1e96b037286,ww_quest_earthquake
 47e4da08625f7a57,tesla_head_gib_chance
+47eb123ec5413349,playerkilled pre constants
 47eb35f6398435e8,p8_zm_man_statue_kisa_stone_03
 47eb36f63984379b,p8_zm_man_statue_kisa_stone_02
 47eb37f63984394e,p8_zm_man_statue_kisa_stone_01
@@ -48583,6 +48697,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 4c7e3f796cc065cf,s_launcher
 4c7e71f20b5a7db7,gate opened
 4c7f3e5c0af7fdc0,smartcover_tracedistance
+4c7fbb5c1ccd5107,mp_ph_slope_pc
 4c806a1f97b3e2fd,jump_height
 4c8083bdba5bbd92,outrider_unlock
 4c8193193df425af,uav
@@ -49101,6 +49216,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 50baa3609df05e73,weapon/fx_hero_grvity_spk_grnd_hit_dust
 50c040e371c1c35f,scripts/zm_common/zm_lockdown_util.gsc
 50c4ae7eab84983b,spawner_wz_blight_father
+50c6c08f5de3ec2a,allow pain
 50c9acd3467d66b8,fire_zombie_j_hip_ri_loop
 50cd53b603b30ef5,scripts/killstreaks/killstreak_bundles.csc
 50ce372e19db9e7c,scripts/zm/ai/zm_ai_elephant.gsc
@@ -49120,6 +49236,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 50e35eeb800b7a13,trinkets_placed
 50e4ad65b9bb0626,planet_ignore
 50e4c2c207e2ff80,weapons_mastery
+50e89abe6f3fe4f1,level.onplayerscore
 50e8cf48189d2498,scr_min_prestige
 50e8d062f783c1b6,ww_crossbow_impaler_t8_item
 50ee08d8d2973448,placement_player
@@ -49540,6 +49657,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 53e80c893205c193,ambush_supply_stash_slot5
 53e812893205cbc5,ambush_supply_stash_slot3
 53e81ab25bfaee5c,end_firing
+53e8ba7551663778,dlc1/castle/fx_wonder_fizz_light_green
 53e916b1367dbee0,tag_align_quartermaster_character
 53ed0446db278918,respin_respin
 53efad19aa55a030,scripts/zm_common/zm_progress.gsc
@@ -49636,6 +49754,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 54b1d26ba7abc506,slide
 54b2b75ee2114e7a,zombie/fx_tesla_tube_view3_zmb
 54b31c3bfb70da4c,wzenablerazorwire
+54ba1311175de71e,mp_ph_showprop
 54bdce30335f61c5,melee_completed
 54bf3cd56e8c5c4a,vehicle_t8_mil_tank_wz_green
 54c009eea773fd33,persistent_buy
@@ -50184,6 +50303,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 58bb02d76697fab5,tabun_gas_nokick_mp
 58bd5474998f6481,sfgstarthrattack
 58bd6f9c59c726c5,p8_zm_esc_gondola_frame_light_red
+58c2d7d24c0d61a7,dlc1/castle/fx_castle_electric_cherry_trail
 58c342edd81589fb,scripts/zm_common/zm_round_spawning.gsc
 58c48253186b9f9e,repath_flight
 58c7b2a5803b7566,wz_open_skyscrapers_wallbuy_guns_list_closequarters
@@ -50433,6 +50553,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 5a7d32b6f408ad1f,mp/generic_pickup
 5a800036a297a5eb,s_defend_area_obj_dock
 5a84a2ebb1643aa5,shouldthrowgrenadeatcovercondition
+5a86c546901702e2,playerdamage flags/tweaks
 5a88903973664de5,soul_possess
 5a8a0284760e5913,shot_skip_completed
 5a8d26fc95ef4d82,activate_warden_house_2_attic
@@ -50585,6 +50706,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 5bd2150946a6e992,pernell_archive_step1
 5bd5448de416e1fe,iceberg_viewing
 5bd6706ab811c8dd,set_target
+5bd6a2c5d0ff3cb2,other-self
 5bd8202e0b44a5b2,scripts/killstreaks/mp/killstreakrules.gsc
 5bdacd932fd1e9bf,width
 5bdb62b16cf7d51e,wz_nixie_tubes
@@ -50772,6 +50894,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 5d2627307f7036be,teammates
 5d2a9f18fbef7623,scr_cuav_offset_debug
 5d2fcc746b12846c,deathtime
+5d3012139f083ccb,round_spawns_constructed
 5d32a915fa3b3cb4,tryrunningdirectlytoenemybehavior
 5d334f942754156e,wz_open_skyscrapers_wallbuy_guns_list_boxing_gym
 5d33c2774d2a4a89,_screen_fade
@@ -51058,6 +51181,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 5f55955c73fa69a9,asm_status_terminated
 5f55f55e5c06a0c1,r_poisonfx_debug_amount
 5f58ed4c79d56e3d,character_unlock_ix_bruno_fixup
+5f5e275b9f3b93ee,swish large
 5f62875af8e827ae,lighthouse_station
 5f629a09731f538c,scepter_revives
 5f637c709334f139,scr_zombie_variant_type
@@ -51168,9 +51292,12 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 60501aed540e135b,vo_on_self_burn
 605399aaf4c82257,mus_level_up
 6053ea805d7167d4,squadhaspathableammocache
+6056c010624d55e4,dem_attacker_b
+6056c310624d5afd,dem_attacker_a
 605821bb80481cd7,arenapoints
 6059fab3bb43fc0a,cellar
 605a47238f0057ac,sniper_location
+605a76518deb2c5f,idgun@movement
 605a9ce4fc2912ae,insertion_begin_completed
 605bc9118a734304,tacticalmask
 605cad7f514dacbd,hacker_tool_fired
@@ -51380,6 +51507,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 6227a43926c38556,power_debris_ambient_fx
 622a3b762504c030,china
 622cfcec3feb9ff8,scr_spawnidcycle
+622d3cdb93e01de5,_t6/weapon/grenade/fx_spark_disabled_rc_car
 622d89af9f673379,scr_loopheight
 622dd3bc5b980422,scr_weapon_allowrpgs
 623073ec102c587a,mp_casino
@@ -51473,6 +51601,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 62b00603fb96ce71,humiliation_gun
 62b195b2ead27c4a,chakram
 62b34d39084d2ad9,allow_fog
+62b8db0428755a32,enable_new_death_cam
 62bcd7603c8f6028,colbounds_tut_rad_1_end_on
 62bdaf9239d8b792,apd_projectile
 62bf0aa3da13811f,scr_disablestattracking
@@ -51854,6 +51983,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 65c89350fbe358b0,sc_toast_beds
 65c971461c8de549,s_trap_button
 65cfe78dc61dd3af,silent_film
+65d0a2cee07e8664,zombie/fx_spawn_blood_billowing_doa
 65d16f29ca1f50e3,updatefrustrationlevel
 65d388fae333b6ea,best_killstreak
 65d3e9609806fe14,sound
@@ -51996,6 +52126,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 66cc75d9d9624f3f,zm_white_mq_server_step1
 66cefa9894e32a5f,zm_laststand
 66cfbb7d961e6d15,boss_despawn
+66d4a941ef078585,level.onteamscore
 66dce2e3aa29ab2e,roundstartfriendlyfiretype
 66de2d86dc385a49,rpg_miss
 66e14949b665e9fb,scripts/mp_common/gametypes/globallogic_audio.gsc
@@ -52260,6 +52391,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 68a76f44ec0711b6,veh_supply_drop
 68a88d2007126f9c,friendlyemp
 68a980198a51e72b,melee_actionfigure_t8
+68ab4922f64db792,powerup_intro_red
 68af02df9e9966af,antiboostdistance
 68b3178a6dad484d,starttimestamp
 68b49617a421aedb,show_status
@@ -52455,6 +52587,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 69fcf7d746edeeaf,perk_cooldown
 69fe0e651564be15,auto_turret
 6a0492e6704dd11c,portal_prisoner_holding
+6a07afbdee38d766,playerkilled body and gibbing
 6a083f6ed16268b3,scripts/mp/mp_offshore_alt_sound.gsc
 6a0c4101e88a4707,pistol_topbreak_t8_upgraded
 6a0e50bc15d725a9,scripts/zm/weapons/zm_weap_spectral_shield.csc
@@ -52915,6 +53048,8 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 6d7f3d74c1e4b9b9,scr_zombie_spawn_in_view_dist
 6d8019ab9d39bf96,cover crouch
 6d813fcbc979603a,scripts/zm_common/trials/zm_trial_defend_area.gsc
+6d83e2f1bdefa2c4,dem_defender_b
+6d83e5f1bdefa7dd,dem_defender_a
 6d85b093d74cdfdd,scripts/zm_common/zm_crafting.csc
 6d86e58552efefe8,zone_library_upper
 6d87e58c6fdcefe1,human_disappears
@@ -53114,6 +53249,8 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 6ef14a3a2f07236e,p8_fxanim_zm_esc_shockbox_damaged_mod
 6ef1ca44e9341240,suicidal_behavior
 6ef23cce276a3d59,zm_bot_action
+6ef2d79ce8ee987f,dem_remove_b
+6ef2d89ce8ee9a32,dem_remove_a
 6ef496a1b77e83a4,scripts/zm_common/trials/zm_trial_disable_perks.gsc
 6ef9d1358ae7b4e6,power
 6efa9c431bf30317,invul_off
@@ -53152,6 +53289,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 6f335b4f8290438b,scr_prop_minigame
 6f35f7919b97e062,scripts/zm/zm_orange_mq_fuse.gsc
 6f377100e43d7a7c,btapi_issafefromgrenades
+6f37a114f9261138,playerkilled post constants
 6f381213bc13df90,killcam
 6f3fb3842ffa02bb,away
 6f40836ed95bc167,zone_cellar
@@ -53275,6 +53413,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 7017b92c3a88d950,playernames
 7017e5a5441c4da2,sniper_quickscope_t8_operator_item
 701abde9bf855ee8,emp_turret
+701bc5c059dfaa52,swish small
 7023ef4d4036d4ea,clearing_final_circle
 7025b86816895e07,mp/clean_deposit
 702750a3bd2bc360,lightning_ball_created
@@ -53284,6 +53423,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 7034ee5c58a805c3,trigger
 70359156c0799e28,wpn_thunder_breath
 7036ce8dafbf1f81,specialty_mod_etherealrazor
+703767be61fa24c0,evt_thief_alarm_single
 70382e82d185bbfd,sharedspecialist
 703adc2a8b1203f3,loading_platform
 703c318a1bf2ee56,fire_robot_j_knee_le_loop
@@ -53446,6 +53586,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 7186b469cec09edb,locomotionpainbehaviorcondition
 7187d8b61fbf7f1a,treasure_chest
 71890d1ecc35f71e,cu32_item
+718a24841c1e00c9,_t6/maps/zombie/fx_zombie_bar_break
 718c7e5495bf7124,fail_fadeout
 718c81ed617c7a64,cu21_spawn
 719043884742a9ff,veh_hind_rotor
@@ -53970,6 +54111,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 757aa7e0d8f22fb9,orange_code
 757abbaf5ab41027,wpn_hellfire_fire_npc
 757b253fe0702e3e,zm_white
+757d002378ec934c,_t6/maps/zombie/fx_zombie_tesla_neck_spurt
 757d19cbfbeb94b7,smg_accurate_t8_upgraded
 757f415ecd77060b,kill_enemy_with_gunbutt
 757f7e5e6c2f5c8e,orb_explosion
@@ -54087,6 +54229,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 76643e9b88f73bac,scr_spawn_randomly
 76650a0cbe2993ad,perk_slider_kills
 7667b86f56e68bc8,destroyed_2aircraft_quickly
+7667bd0f83307360,zombie/generic_fasttravel_cooldown
 76680411d8295ab9,transformation_interrupted
 76696d393fa512bf,pegasus_beam
 766d24ea38e403d0,purity
@@ -54205,6 +54348,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 773b5b4896f886cb,zclassic
 773bc0ecc3fe5a46,prox_grenade_friendly_warning
 773d5ce33dd7cde9,perk_death_dash
+774207d74b355a8a,zombie/powerup_double_points
 77495a060c59e05a,avogadro
 77495d20bf0207fc,debug_measure_sphere_radius
 774c9ceb861a01af,fly_riotshield_zm_impact_zombies
@@ -54457,6 +54601,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 7930af29fd2bec83,taunt
 7932773a4c140d42,round_end_done
 7933afdf5bd60963,auto_select_character
+793798659a4b9560,_t6/maps/zombie/fx_mp_zombie_body_snow_billowing
 7938962c85e65c07,screen_off
 793d7ec398cf9674,zone_dining_hall_fore
 793dc18da3b7bd2e,pap_timeout
@@ -54571,6 +54716,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 7a33c24f7e3738ef,defend_teammate_who_captured_package
 7a35380443d01b8d,pap_warp
 7a3607a37b8d3241,box_locked
+7a37324c1988abb5,zombie/fx_val_chest_burst
 7a37405dc774e05b,construction_list_items_small_dlc1
 7a3940c928f342e7,special_crossbow_t8_upgraded
 7a3950f8a13a48cd,riotshield_light
@@ -54807,6 +54953,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 7bf2e6c8a4d3be84,electric_slide
 7bf54da23ef8887b,zmpowerupchaospoints
 7bf68c02c9f42b36,plyxpmodfier
+7bf80a392d947b6e,mp_draft_starts_in
 7bfadbb2d286663b,blightfathershouldshowpain
 7bfd490bd1869a21,time_limit_reached
 7bfe7f64220cb5c0,spawn_player
@@ -54906,6 +55053,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 7cb28bd118099226,fire_j_head_os
 7cb51cb463b76708,fishing_minigame_start
 7cb9b0abc8ac92da,perk_bulletflinch_kills
+7cb9d0a58715cebe,dem_start_spawn
 7cbb08d326f1ee1c,zombie_powerup_free_perk
 7cbb54c2c9022e42,start_juno_patrol_collision
 7cc0c4f0c7abd490,scorestreaks_earned_3
@@ -55235,6 +55383,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 7f55e280d866341d,zmtalismanpermanentheroweaparmor
 7f577d1576605f13,evt_hacker_unhackable_loop
 7f58537ca200b519,heli_clearing_spawn
+7f59350f5f223501,mp_ph_slope
 7f59c8e95b464430,amb_waterfall_hit
 7f5f002d3284b6c3,initial
 7f61295db8656eec,commanderpathinghasrequestpoints
