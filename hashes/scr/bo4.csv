@@ -1227,6 +1227,7 @@ fef09e,specificfromcolor
 849061f,getobjectivescoretext
 84a866b,shownretrievable
 84f811e,perk_devgui_base
+854904a,dirtotarget2d
 8554c47,weekly_duration
 85626bc,b_killstreak_used
 8572f0d,get_to_player
@@ -2874,6 +2875,7 @@ ffe2f24,minigame_on
 138e42e4,setnewabilityhud
 1390e1ac,players_in_water_count
 1392e51e,setcurrentambientstate
+1393d318,isstackable
 1397330d,heavycollisionrumble
 139891cc,sessionteam
 139c2945,start_deathcam
@@ -3771,6 +3773,7 @@ ffe2f24,minigame_on
 19ac8c7e,target9
 19acc6a0,can_upgrade_weapon
 19ad0d1a,debugaxis
+19adc0b7,display_match_end
 19b152bd,hasvalidinterrupt
 19b363ea,goal_path_setup_needs_finishing
 19b42c74,rcbombonblowup
@@ -5770,6 +5773,7 @@ ffe2f24,minigame_on
 27128cf9,v_stand
 271319e3,potm
 27157593,isprophunt
+2717b55f,getmapscriptbundle
 27188c0c,wait_till_match
 27198b20,forcedelete
 271c8df8,sndeemax
@@ -6192,6 +6196,7 @@ ffe2f24,minigame_on
 29cf3f43,n_path_index
 29cf59db,ai_enemy
 29d03a86,script_value
+29d24e37,isvehicleturret
 29d54daf,forward_view_angles
 29d5713b,zombie_setup_attack_properties_dog
 29d714d9,s_inbetween
@@ -7075,6 +7080,7 @@ ffe2f24,minigame_on
 3024daa2,scepter_rumble
 3029a076,robottookempdamage
 3029f96f,var_2
+302bd0b9,getgametypescriptbundle
 302d9fba,armorperbar
 302e42dc,zombie_damaged_by_bar_knockdown
 3033cf47,lastcolorforced_exists
@@ -19352,6 +19358,7 @@ ffe2f24,minigame_on
 81d44176,currentvoxpriority
 81d50de8,crossesnoflyzones
 81d63cff,war_room_portal_door
+81d670f5,using_new_transitions
 81d7f14b,largest_radius
 81d875b2,gpsjammerprotection
 81df4f51,playerentnum
@@ -26149,6 +26156,7 @@ aec3446d,dog_enable_rounds
 aec35cd1,jumplandingrumble
 aec3dd01,defaulthackedhealthupdatecallback
 aec43a64,newelem
+aec6fa7f,itemamount
 aecaaa11,molotovfireweapon
 aecb2f9a,type_keys
 aeccc1ff,blocker_choke
@@ -28620,6 +28628,7 @@ bf0d6a74,str_notify_alias
 bf0f0fb2,killstreak_delay_killcam
 bf0fb55b,bombspeedscale
 bf104542,no_fx
+bf11ed35,distancefromplayer
 bf141e90,mapsize
 bf146d0a,special_goals
 bf160a69,numzm
@@ -28812,6 +28821,7 @@ c060749b,stat_index
 c0616520,lastpoint
 c06260a7,canprocesschallenges
 c063d0c1,tryusepredatormissile
+c06441ec,ui_icon_weapon_t10_me_p30_cleaver_cartoon_dfx_preview_flipbook
 c0645264,fwd
 c0647f8e,commanderteam
 c06843e6,prevstance
@@ -29157,6 +29167,7 @@ c29af1a3,script_radius
 c29d9c65,enable_rob
 c29e09f1,status_effect_shock
 c29e6c1b,miles
+c2a08848,serverframecount
 c2a172b2,tu7_fix_100_percenter
 c2a233f0,has_gibbed_piece
 c2a2caf3,sound_shared
@@ -30574,6 +30585,7 @@ cbde55f9,watchmovetriggershutdown
 cbdfa47a,gadget_vision_pulse_is_flickering
 cbe0fc17,strategysquadescortassignmainguardparam
 cbe3614a,basetime
+cbe3d2b8,finalradius
 cbe3e850,f_min
 cbe4f743,point_index
 cbe61325,btapi_trackcoverparamsservice
@@ -31661,6 +31673,7 @@ d31989ab,destroylockoncanceledmessage
 d31a78fe,wound_apply
 d31c18e2,grate_order1
 d31c4f26,w_damage_weapon
+d31cb502,ui_reticle_preview_hybrid_03_vday
 d3203020,n_threat
 d3233e17,isadestructible
 d327c347,isanimlooping
@@ -32451,6 +32464,7 @@ d875abd9,str_client_scene
 d879d962,viewheight
 d87c4ca9,msg
 d88369f1,placeable_mine_detonate
+d883eecd,rock_cliff_scotland_04_closed_lod1_b45d8bc9d5647932003cc8a9d
 d889880b,_draw
 d88a324e,color_node_type_function
 d88b7379,otherplayer
@@ -35886,6 +35900,7 @@ ef685fb8,nodeoffsetangles
 ef68aa16,weapon_powerup_remove
 ef6a89d3,damageafterhacking
 ef6c3199,effect_soundalias
+ef6d594a,jup_emblem_b5012_5
 ef6eb384,primaryprogressbarx
 ef6f1da2,voxtimer
 ef70046b,get_killstreak_team_kill_penalty_scale
@@ -44513,6 +44528,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 2d8a3b278a6d94de,vehicle_ai
 2d8b36a24fc2e466,variant
 2d8b5aa9c8759b31,zm_daily_kills_headshots_in_row
+2d8e1c5a5387840f,fly_pickup_armor
 2d9131ec76baa766,scr_giveskill
 2d91883efdb2893f,catalyst_encounters_completed
 2d961760cac60b12,consumable_list_low
@@ -45901,6 +45917,7 @@ fff69dfdbb1f75e,support_structure_list_item_default_small_dlc1
 37aa3a5919757781,specialty_cooldown
 37ae47e47ceb98e3,playernumlives
 37aec61e00d9bdb3,c_t8_zmb_dlc1_catherine_ghost_body
+37af690bed5d17b8,vulture_aid_stop
 37b38ecefdf42df6,sc_pap_lagoon
 37b3edd44ce8c787,zblueprint_shield_spectral_shield
 37b8399afa460f64,zombie/fx_weapon_box_closed_glow_zmb
