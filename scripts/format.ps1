@@ -30,7 +30,7 @@ try {
     
     Write-Host "Format hash index directory"
 
-    build\acts\bin\acts.exe sort_file hashes
+    build\acts\bin\acts.exe --noUpdater sort_file hashes
 }
 finally {
     $prevPwd | Set-Location

@@ -30,7 +30,7 @@ try {
 
     Write-Host "Validate hash index directory"
 
-    build\acts\bin\acts.exe sort_file hashes --validate
+    build\acts\bin\acts.exe --noUpdater sort_file hashes --validate
     if (!$?) {
         Write-Error "Failed to validate hashes"
         exit -1

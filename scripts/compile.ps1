@@ -89,19 +89,19 @@ try {
             $fileOut = "$base/$id-$(ExtName $fileName $exttype)"
     
             if ("wni" -eq $exttype) {
-                if (!(build\acts\bin\acts.exe -t wni_gen_csv $file $fileOut)) {
+                if (!(build\acts\bin\acts.exe --noUpdater -t wni_gen_csv $file $fileOut)) {
 
                     Write-Error "Error when compiling $fileOut"
                     return $false
                 }
             } elseif ("acef" -eq $exttype) {
-                if (!(build\acts\bin\acts.exe -t acts_acef_hash_csv $file $fileOut zstd_hc)) {
+                if (!(build\acts\bin\acts.exe --noUpdater -t acts_acef_hash_csv $file $fileOut zstd_hc)) {
 
                     Write-Error "Error when compiling $fileOut"
                     return $false
                 }
             } elseif ("cdb" -eq $exttype) {
-                if (!(build\acts\bin\acts.exe -t dzporter_cdb_gen_csv $file $fileOut)) {
+                if (!(build\acts\bin\acts.exe --noUpdater -t dzporter_cdb_gen_csv $file $fileOut)) {
 
                     Write-Error "Error when compiling $fileOut"
                     return $false
