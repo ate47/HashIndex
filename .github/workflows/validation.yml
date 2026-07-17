@@ -17,6 +17,10 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3.5.3
+      - name: Install atian tools
+        uses: ate47/setup-acts@v1
+        with:
+          version: "2.21.1"
       - name: Validate hashes
         shell: pwsh
         run: scripts/validate.ps1

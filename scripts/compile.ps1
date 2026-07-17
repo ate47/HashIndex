@@ -1,5 +1,4 @@
 param(
-    $DownloadLink = "https://github.com/ate47/atian-cod-tools/releases/download/2.21.1/acts.zip",
     [switch]
     $RemoveBuild,
     $ext = "wni"
@@ -23,20 +22,6 @@ try {
 
     New-Item -ItemType Directory $buildDir -ErrorAction Ignore > $null
     New-Item -ItemType Directory $base -ErrorAction Ignore > $null
-
-    if (Test-Path .\build\acts.zip) {
-        Write-Host "Already there."
-    } else {
-        Invoke-WebRequest -Uri $DownloadLink -OutFile .\build\acts.zip
-    }
-    Write-Host "Extracting"
-
-    if (Test-Path .\build\acts) {
-        Write-Host "Already there."
-    } else {
-        Expand-Archive .\build\acts.zip .\build\
-    }
-
     
     Write-Host "Building hash index directory"
 
@@ -89,19 +74,19 @@ try {
             $fileOut = "$base/$id-$(ExtName $fileName $exttype)"
     
             if ("wni" -eq $exttype) {
-                if (!(build\acts\bin\acts.exe --noUpdater -t wni_gen_csv $file $fileOut)) {
+                if (!(acts -t wni_gen_csv $file $fileOut)) {
 
                     Write-Error "Error when compiling $fileOut"
                     return $false
                 }
             } elseif ("acef" -eq $exttype) {
-                if (!(build\acts\bin\acts.exe --noUpdater -t acts_acef_hash_csv $file $fileOut zstd_hc)) {
+                if (!(acts -t acts_acef_hash_csv $file $fileOut zstd_hc)) {
 
                     Write-Error "Error when compiling $fileOut"
                     return $false
                 }
             } elseif ("cdb" -eq $exttype) {
-                if (!(build\acts\bin\acts.exe --noUpdater -t dzporter_cdb_gen_csv $file $fileOut)) {
+                if (!(acts -t dzporter_cdb_gen_csv $file $fileOut)) {
 
                     Write-Error "Error when compiling $fileOut"
                     return $false
