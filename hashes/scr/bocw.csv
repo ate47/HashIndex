@@ -37772,6 +37772,7 @@ fba67acb8071c,knife_ballistic_bp_babayaga
 4f14318d2b0bb6,entity_rifle_swipe_npc
 4f54bf8df47c8f,vd/t7_decal_grunge_rust_orange_drips_for_metal
 4f7a5a6f48b85e,newdebugline
+50fca1a24ae351,scripts/doa/doa_dungeon/doa_dungeon.gsc
 518f7d6af57380,callingcards_mps2_hostilecheckpoint
 55896773db99b2,ammo2reloading
 560cb822cd097b,operator_bundle_5018_baker_tracer
@@ -37793,6 +37794,7 @@ fba67acb8071c,knife_ballistic_bp_babayaga
 75d9f22fafabc8,ww_ray_rifle_t9_upgraded_item_sr
 764f7bd07ef904,zone_proto_exterior_rear
 76d7fda5546b7d,killstreakammo
+776dd70e5af0a4,scripts/cp/cp_rus_amerika_street.gsc
 77a0d6d18828ad,last_dog_down
 77aab293d31617,scr_devstraferunpathdebugdraw
 7867e04a8ee5bd,mc/mtl_p7_zm_sha_cement_mixer_pulley_metal
@@ -37807,11 +37809,13 @@ fba67acb8071c,knife_ballistic_bp_babayaga
 827e052a625c0d,explosive_barrel
 8478c81c667da1,sr/fx9_obj_holdout_env_signifier
 855297c2add300,weakpoint_fx
+87f762606a9546,scripts/doa/doa_world/doa_world_objects.csc
 8c0a3fc27f43cf,generic_pickup
 8d3188348e699d,scene_system
 8e4e67417fbb55,mc/t7_metal_trim_chrome_worn_02
 8e995fbd823610,mp_sm_game_show
 8ee271ec3385f8,veh_t9_mil_ru_tank_t72_mpx_jungle
+93de924cdc949f,scripts/cp/cp_nam_prisoner_lighting.gsc
 964402deefa27d,sniper_powersemi_t9_orange_item_sr
 969d13a130389d,prestige_s1_05_large
 97060ed2111053,pain_zm
@@ -38243,6 +38247,7 @@ fd941f96de7919,force_death
 27f68725fa24b68,p9_fxanim_zm_gp_chest_01_sml_low_xmodel
 27f96e1178369c5,speed_change
 280ad7465af22a2,emblems_prisionerofwar_22
+280ea497b298d2e,scripts/cp/cp_nam_armada_ceiling_height.csc
 2813a7b20d18ffc,emblems_s3_empire_base_pc
 2838d085012cb7f,player_large_helicopter_armada
 283d66ce20a53e7,zombieisbeinggrappled
@@ -38317,6 +38322,7 @@ fd941f96de7919,force_death
 2da6510517969af,upltheydrop
 2da92422e3ea7d1,zm_bgb_soda_fountain
 2db4eb59135a76c,safehouse
+2dc23e8cdc04641,scripts/cp/cp_nic_revolucion_exfil.gsc
 2e0837d39d92b30,turretstatechange
 2e13c8d06037430,grab_done
 2e1cb3ec3737d54,refresh
@@ -38343,6 +38349,7 @@ fd941f96de7919,force_death
 2f25727fed26d18,smg_spray_t9_item_sr
 2f4ff6c21f38e39,sniper_powersemi_t9_purple_item_sr
 2f5802c8b6847a9,large_ceiling_dust
+2f61bd25db69273,scripts/wz/wz_sanatorium_fixup.gsc
 2f664e8e6f88f16,ui_icon_general_feedback_zipline
 2f747f4ce371774,ranks_prestige_10_large
 2f78250de790264,mp_paragon_t5_11_large
@@ -38357,12 +38364,14 @@ fd941f96de7919,force_death
 300776b6702bacc,c_t9_ger_pl_maxis_scythe
 300fd2fdeb834e6,victim_sparrow
 304ab3de1ffdb16,final_fight
+305169d9fdb05b9,scripts/cp/cp_rus_duga_loose_ends.gsc
 3054e3c19a55445,fx_zombie_bar_break_lite
 305d276371fb70c,cheat
 30767a100d1618f,evt_sur_we_bc_ghost_lp
 308fa28be7de659,wantedordermenu
 3090cd769d5c9fe,p7_eth_decor_01_rock_01
 30a1abe465763bc,mc/mtl_p7_zm_asc_panel_metal_white
+30c7fb449869910,scripts/doa/doa_pickups.csc
 30db59e4d16fecf,fake_spawned_player
 30e49f0cd5b6c06,knife_loadout_t9_purple_item_sr
 30eedc859ec98ad,ai_threatsightdisplayspikepoint
@@ -38596,6 +38605,7 @@ fd941f96de7919,force_death
 4040692e78e16df,mc/t7_zm_decal_logo_iron_cross_white
 40480bf4a0fdcb8,zone_drinks_bar_roof
 404acc7ce223033,pack_removed
+40627e3239a72ee,scripts/zm/zm_platinum_upgrade_klaus_quest.gsc
 40742b5f7f0596e,margwa_head_right
 407807e8cea154a,console
 409332e5f180ebd,perk_stats
@@ -38647,6 +38657,7 @@ fd941f96de7919,force_death
 433748ef1c98509,ar_damage_bp_cubarevo
 434323084b426f9,ekia_against_armor_damager
 4344e2c90f1d5b4,zm_talisman_extra_frag
+434ad8f6a6f08f0,scripts/cp/cp_rus_duga_audio.csc
 434db3e0f64e819,callingcards_s6_ninjanoir
 43899c4c8df0112,scripts/core_common/spawnbeacon_shared.gsc
 438d3b5acbcf53f,mc/mtl_p7_nt_mannequin_fem01_head1
@@ -38655,6 +38666,7 @@ fd941f96de7919,force_death
 43cb32c55c45697,magic_missile
 43dc94dd9efff24,zombie_perk_bottle_deadshot
 43e0b8f1d14f8e6,auto_wander
+43e930c786cc935,scripts/doa/doa_hazard.csc
 43e9ad170f0e891,endon_condition
 43fc9e60c2064a3,tickets_stage_updated
 44112e0cdddee39,maxsuicidesbeforekick
@@ -38998,6 +39010,7 @@ fd941f96de7919,force_death
 5b79e6c63f02c66,ar_fastfire_t9_orange_item_sr
 5b86f576e8146b1,script_requires_player
 5b907bdeb3605a4,emblems_builtdifferent
+5b95773f53a00bb,scripts/wz/wz_duga_fixup.gsc
 5b9af9d9e830285,kgb_ins_briefing
 5ba356e0968280c,scr_proximitygrenadeactivationtime
 5bac8863637f2cd,ei/gfx_dust_spike_lg_anim_em_full_dark
@@ -39080,6 +39093,7 @@ fd941f96de7919,force_death
 60b2f597116f5ae,crystal_defend
 60b989dd7d16658,killdeathratio
 60c22b8bc17491b,umbrella_left
+60c2b013c242647,scripts/doa/doa_pickups/doa_sprinkler_pickup.gsc
 60c88bedd8d4fc0,zone_armory2
 60d495ce6f76305,debug_counts
 60d69bbe0b2127d,uin_gamble_perk
@@ -39130,6 +39144,7 @@ fd941f96de7919,force_death
 652ac95bbbdba62,emblems_s3_newyorkemblem_base_sy
 6538560524272e7,wc/t7_decal_signage_paint_red_blend
 6568a95bbc16973,emblems_s3_newyorkemblem_base_pc
+658912bcc638205,scripts/cp/cp_nam_prisoner_audio.csc
 65b07fb89909bad,lockdown_stub_type_crafting_tables
 65b974b7bbf7358,dlog_event_redeem_loot_drop
 65bbc4847d2a60b,prestige_iw5_8_large
@@ -39149,6 +39164,7 @@ fd941f96de7919,force_death
 66e0c9eef7ad00e,reached_node
 66e867e056b0244,seraph
 66fa8c1c9f1b671,callingcards_battle_under_moon_s5
+67049b48b589d81,scripts/doa/doa_util.csc
 67538d47ebe8b32,score_per_minute
 675b38b81564449,zombie_callings_notification
 6766700d6c433b0,emblems_sentinel_07_animated_base_sy
@@ -39255,6 +39271,7 @@ fd941f96de7919,force_death
 705fc2f572020c4,emblem_identity_diamond_smgs_mp
 7089afa4304acb7,tr_longburst_bp_electric
 708a5385ba3a001,wc/t7_metal_trim_weld_01_iron_rust
+70b6424f429d140,scripts/cp/cp_takedown_heli_intro.gsc
 70e9937eb8d47c8,scripts/zm_common/zm_barricade.gsc
 70f74a0d17f019e,scripts/core_common/ai_puppeteer_shared.gsc
 70f7820db4fdb05,setupwaterfall_waterfall_csc
@@ -39563,6 +39580,7 @@ fd941f96de7919,force_death
 86d862aa8913e6f,pstfx_shellshock
 86d8950616483eb,p8_zm_wall_buy_smg_handling
 86eb5aef143e63e,smg_capacity_bp_undead
+86ebb5dd573a003,scripts/cp/cp_ger_stakeout_util.gsc
 86fe5b596d46e2f,contra1
 874506d3bfcc38c,ui/mod_head_shot
 874c8b63573fc42,scr_execution
@@ -39728,6 +39746,7 @@ fd941f96de7919,force_death
 908dd334a0a2f71,mp_cgmedia
 90ba9f91705ab61,scripts/core_common/flag_shared.gsc
 90bb09892546876,ei/gfx_dust_burst_md_anim_lit_full_dark
+90d212a8f2df0eb,scripts/cp/cp_nam_prisoner_village.gsc
 90ed1bf15c38e72,postfx_start
 90efd83b2c6f489,mixunder2
 9100959188ee26d,demofileid
@@ -39751,6 +39770,7 @@ fd941f96de7919,force_death
 9289689e4ceb55c,spawn_new_intro_truck
 929b58638c59880,gamedata/stats/cp/statsmilestones
 92c2f3cbebbdf63,recover_container
+92d01736143ce7a,scripts/doa/doa_world/doa_world_loot.csc
 92d4d637814fefa,scripts/autogenerated/luielems/luielemcounter.gsc
 92fd4889e553414,carpenter_powerup
 932e4f0af4d2df7,screamdeathmatch
@@ -39812,6 +39832,7 @@ fd941f96de7919,force_death
 9765c105cb5ca37,spyhealth
 976e198cea3170c,bow_launcher
 9799bc89449e8a7,volumemax
+97b74052c477c23,scripts/cp/cp_rus_amerika_util.gsc
 97be8c9e3bfeff2,zombie_armor_level2_noammo_resource_list
 97fd9bb5b75dbc6,qasim
 9813416dd021ed9,c_t9_zmb_zombie_arm_rt_s
@@ -39919,6 +39940,7 @@ fd941f96de7919,force_death
 9dfc8d44ea4547e,match_bonus_notify
 9e36bdad67bf04e,off_spline
 9e4105ea1798ccc,scripts/zm_common/zm_armor.gsc
+9e487583a27d590,scripts/cp/cp_ger_hub_post_takedown.gsc
 9e523b0dff32601,connect_sewers_and_power_substation_to_hidden_lab
 9e71916ae3361ef,lght_marker
 9e9ad1960f4a539,res
@@ -40091,6 +40113,7 @@ aa041553a423830,mc/mtl_p7_ban_pipe_metal_black_rusty
 aa2e5aec76cd59c,downed
 aa390030be9def9,zm_office
 aa450ddeeb9920d,shelf_primary_grenade_middle
+aa59671292d1c87,scripts/doa/doa_dungeon/doa_dungeon_room.csc
 aa66ddd7560f0e4,pungi_hint
 aa9fde2b084d482,skip_deathcam
 aaa14f6cd8a6e5a,player_muscle
@@ -40104,6 +40127,7 @@ ab28938f6245d96,combat_bow
 ab3195b996c530c,muzzle
 ab52627a9b1e2f6,alley_2_intro
 ab890501c40b73c,scripts/zm_common/zm_contracts.gsc
+abb3791af68bace,scripts/doa/doa_pickups/doa_boxing_glove_pickup.gsc
 abd18bba5cc0d3d,wc/t7_brick_worn_heavy_grout_plaster_r02
 abfb6503b2808e1,watertemple
 ac1431dfe6057c4,callingcards_cdl_teamcallingcards_sea_1_ms_base
@@ -40169,6 +40193,7 @@ afaa5c74d7e2875,scripts/killstreaks/sparrow.gsc
 afbe39bf632de4c,wc/t7_glass_frosted_01_opaque_grey_drk
 afc9036421a3767,wc/t7_plaster_rows_smooth_01_dirty
 afde535fe1be7d0,phase_on
+afe02542e6c60f5,scripts/doa/doa_pickups/doa_clock_pickup.gsc
 b0059cda7f0cd3f,fire/fx_fire_ai_human_leg_right_loop
 b00d9436f743718,player_killed
 b00dd19da7cc282,mc/mtl_p7_zm_ori_crate_ammo_wood_set_naildecal
@@ -40352,6 +40377,7 @@ bd1d07994783ddc,black_hole_bomb_item_t9_sr
 bd2283d114956cb,electric/fx_sparks_burst_dir_md_z135_orange_os
 bd2b8aaa388dcce,scripts/core_common/ai/zombie.gsc
 bd304e7058f07fa,damage_feedback
+bd3bf54a93a5a3b,scripts/cp/cp_ger_stakeout_ghost_station.gsc
 bd4cce2c22fba2a,wonder
 bd691f757b94a9d,mc/mtl_p7_desk_metal_old_01_brushed_metal
 bd6e32929ab265c,scream
@@ -40541,6 +40567,7 @@ cb198a299a56aa3,amb_wind_open
 cb603d72b2d894b,callingcards_mw3_0002_joint_skulls
 cb61e879a5a6cd0,player_swimdamage
 cb62c942965b99d,playercleanups
+cb7714d0f6591d7,scripts/cp/cp_nam_prisoner_river_path.gsc
 cb9ce52330f8b6b,zmintel_platinum_omega_artifact_02
 cb9cf52330f8d1e,zmintel_platinum_omega_artifact_01
 cb9e482a7667026,smg_heavy_bp_dinotoy
@@ -40659,6 +40686,7 @@ d37970b995613b8,enemyrcbomb
 d397711f1c62cbe,p9_zm_chalk_buy_ar_damage_t9_uncommon
 d3ad6ae209880a2,bladekills
 d3c71c045c49fbd,mc/mtl_attach_t9_optic_no_zoom_reticle_gift
+d3ced43465e5aec,scripts/doa/doa_pickups/doa_hat_pickup.csc
 d3d0b01a04ff6f4,stopgesture
 d3d5f42e832aed9,catalysts_killed
 d3de086d9682a24,p9_fxanim_mp_care_package_bundle
@@ -40691,6 +40719,7 @@ d5792142b22f671,got_coordinates
 d57c1ba7a3d841f,mc/mtl_p7_zm_der_chainlink_fence_kit_door_01
 d58394a2e99bae8,shield_damage
 d58fef49556059a,right_leg
+d5a0be7c184ccbd,scripts/cp/cp_rus_amerika_audio.csc
 d5ab5c9dc8adf77,vd/mtl_p7_decal_ctl_grunge_stain_dark_01
 d5d6c945701b06c,po_c_t9_gen_pl_esports_male_empire_away_ms
 d5fbb947291463c,scripts/autogenerated/luielems/zm/zm_dac_challenges_hud.csc
@@ -40820,6 +40849,7 @@ df1263920c5bfb3,allow_ads
 df37555aeb22734,emblems_ninetails_animated
 df5e6bb54765f4c,characterindex
 df624519733aea1,usa_navarro_headset_01_clothanim
+dfd475a961626c7,scripts/cp/cp_takedown_audio.csc
 e00e327b2ea55cd,tr_damagesemi_bp_apache
 e01ffdf9fdf3e46,concussion_grenade_multikill_zm
 e020f4f0af0aef8,t9_arm_huey_ambient_hover_additive
@@ -40874,6 +40904,7 @@ e3971f84617582d,c_t9_lao_pl_serpent_ashen_scale
 e3a43562c7b50de,ammo_resupply_crate
 e3aaeb37bc5b6fb,pointstowin
 e3cc391e3240222,crawl_hit
+e3ec3024527fc15,scripts/cp/cp_rus_siege_fav.gsc
 e40546b29b52340,vending_deathperception
 e42b8ad600b46ae,dom_headquarter
 e4328120e760ce3,settle_root
@@ -40973,6 +41004,7 @@ ebeca79dd65dfdc,launcher_standard_t9_orange_item_sr
 ebf6951e4596d85,destruct/fx_dest_exp_decal
 ec059b9a7f28627,scorestreaksbarebones
 ec2a321df5e6ecc,actorstatefields_default
+ec3113f01f76388,scripts/doa/doa_dungeon/doa_dungeon_hazard.csc
 ec3ea143406a494,firing_rockets
 ec5a8617c7bc3b3,scr_hacker_default_angledot
 ec6a4bedc68c1a2,callingcards_s5_mardigras
@@ -41087,6 +41119,7 @@ f34802285c209d0,alerted
 f35964289d9c33b,stop_signal_failure
 f37e7c6019d4aea,dropmax
 f38968d6c87ba22,all_players_class_choice_completed
+f38dc50f0e82277,scripts/doa/doa_banner.gsc
 f3a9493aa115930,callingcards_livinthing_s5
 f3acf186641bbb8,po_c_t9_cub_pl_dgi_flick_variant01
 f3ad2186641c0d1,po_c_t9_cub_pl_dgi_flick_variant02
@@ -41615,6 +41648,7 @@ fffea0defd338fe,fieldupgradekills
 11d794c9a20e17f8,placeholder_item
 11d8042ed25145fd,paintjob_stickers_s3_ultra_insight_base_ms
 11d89fa15955db9c,mpui/points
+11d98532ca8f6c58,scripts/cp/cp_ger_stakeout_passing_trains.gsc
 11d98f202734032b,assignments_mastery
 11dad53625ede57f,af_truck_plr_in
 11db88eaef9911e7,disableattachments
@@ -41790,6 +41824,7 @@ fffea0defd338fe,fieldupgradekills
 12a238e656b07dcc,outromovie
 12a25db8eddf1e1c,dlog_event_esports_match_interval_info
 12a2b8b5acbb8dd1,wc/t7_metal_panels_2x16_trim_worn_copper
+12a356e85208ae89,scripts/doa/doa_wild.csc
 12a550998c241430,wc/t7_drywall_base_cream_damage_blend
 12a6614f6ae42f2b,strafe_stop
 12a6c27ba16e31d5,pistol_semiauto_t9_purple_item_sr
@@ -41862,6 +41897,7 @@ fffea0defd338fe,fieldupgradekills
 1303d019ac84fc3a,4.0_inside
 1305f75a4e8d28c0,zombie/fx_perk_quickrevive_ndu
 13061430c4024fe0,emblems_zombiewraith
+1306aefca48fc8b6,scripts/doa/doa_dungeon/doa_dungeon_generation.gsc
 13077c2a8907f2fe,payload_start
 13088577c96b5d58,zone_korber_roof
 1308e6d77511a4c8,flg_ambush_spawned
@@ -41888,6 +41924,7 @@ fffea0defd338fe,fieldupgradekills
 13236c616ff02ede,ar_mobility_bp_lunar
 1325dd869a2003b9,scr_disable_team_selection
 13262c0a18d54ad0,class/sentinel
+13263926d775e7d7,scripts/cp/cp_nam_armada_audio.csc
 1326b1ed0f3872ad,roll_l2
 13295023b76b62f2,smg_handling_t9_purple_upgraded_item_sr
 13299213632e598a,amb_reactor
@@ -42332,6 +42369,7 @@ fffea0defd338fe,fieldupgradekills
 15536d3f2f03f461,musictrack_cp_yamantau_2
 15536e3f2f03f614,musictrack_cp_yamantau_5
 15536f3f2f03f7c7,musictrack_cp_yamantau_4
+1553cda7e2b2c52c,scripts/autogenerated/luielems/hud/pitch_and_yaw_meters.gsc
 15561a813078092c,mc/mtl_p7_zm_ver_cookware_vintage_metal_drip_decal
 1557d871821b884f,p9_zm_gold_jumppads_machine_sub
 15588744d5c5bb0f,left_stick
@@ -42713,6 +42751,7 @@ fffea0defd338fe,fieldupgradekills
 171835bd544de879,blueprint_bundle_3037_pistol_fullauto_dart_frog
 17186a8269394dbb,scripts/mp_common/gametypes/globallogic_score.gsc
 1718cdff7057b397,scripts/cp/cp_ger_stakeout_lighting.gsc
+171ae1ffd86e56dc,scripts/wz/wz_zoo_fixup.gsc
 171b1fa37b878d87,musictrack_sr_theone
 171c599dfd8645fb,career_accolades
 172121a9f676f264,stop_find_flesh
@@ -42881,6 +42920,7 @@ fffea0defd338fe,fieldupgradekills
 17d3e257b72d899f,exp_vehicle
 17d52dbdc8d42cd8,round_switch
 17d681250287807d,bonuscard_perk_1_greed
+17dcb1172e441bf6,scripts/doa/doa_debug.gsc
 17dd7a5c388295c3,debug_ai_clear_corpses
 17de7645140b51dc,smg_capacity_t9_white_upgraded_item_sr
 17dec4a16e243904,bomb_defused
@@ -43038,6 +43078,7 @@ fffea0defd338fe,fieldupgradekills
 188e8b86b4b6ec6f,callingcards_s25_bulldozer
 189089d14f21b092,scr_dof_farblur
 1890a723bc26c833,retrieval_prime
+18910f59cc847b42,scripts/doa/doa_camera.csc
 1892796597195f65,bg_bobtranstime
 18929db4c5081a5c,shotgun_fullauto_t9_green_item_sr
 1892efd595c90bf3,flag_carrier_kill_return_close
@@ -43157,6 +43198,7 @@ fffea0defd338fe,fieldupgradekills
 19367cd29a4485db,scripts/zm_common/zm_sr_devgui.gsc
 1939be85b1ebf7ff,allies
 193a10998478444d,emitter
+193d6fcd3b319d05,scripts/autogenerated/luielems/survival/sr_objective_timer.gsc
 193ded5c8932fe29,on_round_end
 193f49571c3deecd,mp_paragon_t4_02_large
 19400c3e10b77e6b,deathcirclerespawn
@@ -43203,6 +43245,7 @@ fffea0defd338fe,fieldupgradekills
 196a12ab46f87ead,endgame_intermission
 196aad35ed6a218b,class_sniper
 196e989f203d1d6c,capture_point
+196ed2508fd0fd9d,scripts/cp/cp_ger_stakeout_audio.csc
 19731285ec1d6806,scripts/mp_common/gametypes/overtime.gsc
 1977f58b0bd0f1d5,melee_bat_bp_bayou
 19797d321c962901,wc/t7_stone_marble_veined_line_pattern
@@ -43447,6 +43490,7 @@ fffea0defd338fe,fieldupgradekills
 1a93d76aca26ec57,eject_gun
 1a94efcd5577214d,wc/t7_concrete_bare_light_01
 1a96c1697352ae01,codcaster/an_ctf_flagdrop
+1a9763988299e68d,scripts/doa/doa_weapon.gsc
 1a98594fdaeea2f2,rifle_melee_surface
 1a993f3bf7b816d9,right leg
 1a9a9543e9ea5c55,cg_drawfps
@@ -43533,6 +43577,7 @@ fffea0defd338fe,fieldupgradekills
 1b005efa66b0793c,ai_t8_zm_red_spar_swrd_rebuild_01
 1b00b282f73e469d,melee_wander
 1b00dc7f454eb513,mc/mtl_attach_t9_optic_no_zoom_reticle_xray
+1b01e95a6b5270fd,scripts/doa/doa_enemy.gsc
 1b0201cf4f255075,flg_bunker_office_entered
 1b029612dc7d0481,mc/mtl_p7_cai_street_signage_rust_decal
 1b029888c4965031,bot.ai_ast
@@ -43543,6 +43588,7 @@ fffea0defd338fe,fieldupgradekills
 1b089165bd0f039e,wc/t7_concrete_rough_layered_01
 1b0892a729894753,mc/mtl_p7_zm_asc_wire_bundle_set_decal_01
 1b0893a729894906,mc/mtl_p7_zm_asc_wire_bundle_set_decal_02
+1b0b07ff57d1dde3,scripts/doa/doa_gib.gsc
 1b0b4cfd9c2726dd,vehicle_t9_rcxd_racing_mq
 1b0d6e065e6eb939,suv_spawn
 1b0d7f4da45c932e,c_t9_cp_usa_hero_adler_head1
@@ -43558,6 +43604,7 @@ fffea0defd338fe,fieldupgradekills
 1b13cd8c7c33868d,callout_thanks
 1b141c095b69af9a,contracts_enabled_zm
 1b148631540ae995,support_killstreak_mastery
+1b1542e0727c572a,scripts/cp/cp_rus_siege_guard_station.gsc
 1b179a759b7f05c8,wz/supply_stash
 1b193f1a41acb009,callingcards_zms2_hideandseek
 1b19651e5e0e28c0,team_changed_watcher
@@ -43582,6 +43629,7 @@ fffea0defd338fe,fieldupgradekills
 1b2def6e94209307,Rooftops
 1b2e308870fffa87,directnessraw
 1b2ecab84eb8afba,callingcards_s3_lathieves_base_sy
+1b2f6ef7778cf920,scripts/doa/doa_main.csc
 1b30b26c406054e2,veh_rcxd_spawn
 1b30bdf632c50a26,wc/t7_grass_lawn_medium_small_green_vibrant
 1b31d8b84ebafd5b,callingcards_s3_lathieves_base_pc
@@ -43729,6 +43777,7 @@ fffea0defd338fe,fieldupgradekills
 1bf66021007e0d2f,fire_zombie_j_shoulder_le_loop
 1bf811fa5d684607,inventory_chopper_gunner
 1bf97f7a32a5b4be,veh_t9_mil_us_boat_pgb_mpx_cuban_pride
+1bf9ac5f65d7ecce,scripts/cp/cp_ger_hub_audio.csc
 1bf9eb70aa91ff5a,arenainit
 1bfbd9bd8caea5b8,zm_trial_crawlers_only
 1bfc7320c1335797,shotgun_semiauto_t8_gold_item
@@ -43877,6 +43926,7 @@ fffea0defd338fe,fieldupgradekills
 1c98ddac8879f7bc,turret reloading
 1c98f2e681757997,start_outro
 1c99713e5df35ca4,mc/mtl_attach_t9_optic_no_zoom_reticle_04_holo
+1c9985482fdb98fa,scripts/cp/cp_rus_kgb_aslt_vault_breach.gsc
 1c99870b7a855dd0,on_killed_player
 1c9b1240ac5d3b94,mc/mtl_p7_zm_isl_medical_stool_dirt_01
 1c9b33ed4d70884f,xpstart
@@ -43982,8 +44032,10 @@ fffea0defd338fe,fieldupgradekills
 1d17d8e9474b1bbe,switch_rail
 1d18d5cb0dab0afa,flg_arcade_emulator_stop
 1d1e7938d1ec8852,preparetochangestancetocrouch
+1d1f270080269ee3,scripts/cp/cp_rus_kgb_aslt_bunker.gsc
 1d20ad9a9d839623,player4_invul_off
 1d20c856278d6aab,mc/mtl_p7_zm_asc_panel_plastic_red_03
+1d21191fa6d656cf,scripts/cp/cp_rus_siege_lgt.gsc
 1d216f0755c99bb8,shoot_player
 1d22a79a62212fdc,shotgun_semiauto_bp_valya
 1d238ea28dddb583,total_damage
@@ -44072,6 +44124,7 @@ fffea0defd338fe,fieldupgradekills
 1d7226da61d2540e,hit_player
 1d723c55ceaa52dc,interrogation
 1d72a84d1a755d7f,wzzombieupdatethrottle
+1d730eca5a7f1fa8,scripts/doa/doa_pickups/doa_potion_pickup.gsc
 1d7356b0b8791e93,scripts/zm_common/gametypes/hostmigration.gsc
 1d75058b374c36ca,status_effect_slowed
 1d76083752295368,p9_fxp_zm_teleport_tunnel_edge
@@ -44699,6 +44752,7 @@ fffea0defd338fe,fieldupgradekills
 205dc3c43780b22a,operator_bundle_5001_super_soldier_newop_tracer
 20605b76baed1b49,callingcards_skrrrr
 206178dc2ed053a6,cp_evidence
+20617ea375259da9,scripts/wz/wz_forest_fixup.csc
 206535d59d63f8ec,paintjob_ranks_prestige_09_large
 20665c3529b75f91,won_match
 20666ddcfb99d876,death_or_disconnect
@@ -44772,6 +44826,7 @@ fffea0defd338fe,fieldupgradekills
 20b5ba4f3f330439,microwave_turret
 20b610205f2c6e01,weapon
 20b764a8e25658f2,engagementdist
+20b8e1a789215df0,scripts/cp/cp_ger_stakeout_apt.gsc
 20b8e2cf08821e86,cp_chyron
 20b99d912e487ba1,scope4x_t9_item_sr
 20bdbaa0db5eb57d,rob_vehicle_target
@@ -44794,6 +44849,7 @@ fffea0defd338fe,fieldupgradekills
 20d42170dc6f27b3,black_chest_level_2_food
 20d538796a48a188,door_waiting_to_open
 20d58c847c948229,zombie_kills
+20d6a8a1b41c0add,scripts/doa/doa_dungeon/doa_dungeon.csc
 20d9750b74d24991,mc/mtl_t7_zm_gen_painted_wall_decal_green
 20d97f7c8385553e,character_outfit
 20d9b0badee575e7,mc/mtl_p7_kfu_training_platform_bolt
@@ -44808,6 +44864,7 @@ fffea0defd338fe,fieldupgradekills
 20e4c59672ec77ca,dlog_event_crosslaunch_received
 20e518ae3505ab43,wc/t7_ban_metal_painted_rusty
 20e53d0989f408e6,auto_detonation
+20e6f33f311f7fe6,scripts/wz/wz_golova_fixup.csc
 20ea75a25d912949,radio_transmission
 20ead26c59abe7d5,prestige_iw6_09_large
 20eb0fc8b8a2fbc0,combattrainingwins
@@ -45205,6 +45262,7 @@ fffea0defd338fe,fieldupgradekills
 22f2a16e63651515,prj_bullet_impact_armor_broken
 22f6d1d44887e60d,top_squad
 22f7749311897f8d,13.3_lockdown_tension
+22f7f737d389d6e2,scripts/doa/doa_pickups/doa_coatofarms_pickup.gsc
 22f8650dc3201b90,veh_t9_mil_boat_jetski_mpx_retro
 22fb2773f81126ff,zm_challenges
 22fb61f959a5fe7a,jumptakeoff_surface_plr
@@ -45218,6 +45276,7 @@ fffea0defd338fe,fieldupgradekills
 23043b2a63248098,stop_debug_display
 23048b4f66bde013,c_t9_usa_pl_woods_dope
 2305a52eb0e9c5ae,evt_sur_mq1_stp6_monkey_trap_pickup
+230677127a15db36,scripts/wz/wz_ski_slopes_fixup.gsc
 2307ac0b66ab9c3a,callingcards_garcia
 2307e5f44a3d0fcb,player2_kill
 230802cc4433af6c,fx8_blightfather_vomit_purchase
@@ -45537,6 +45596,7 @@ fffea0defd338fe,fieldupgradekills
 245b275020ea9933,mc/mtl_p7_windsock_pole_paint_black_bld
 245dcd86576d6937,c_t9_uk_pl_mi6_standoff
 245e465fa05ffffe,launch_target
+245f38df21b701ca,scripts/doa/doa_arena.csc
 2460cc5fa8f85fe7,hold_breath
 2460d8336ce01020,scr_team_teamkillerplaylistbanpenalty
 24612907323df08e,specialty_quickrevive
@@ -45576,6 +45636,7 @@ fffea0defd338fe,fieldupgradekills
 24868cc4a24f3478,timeofday_night
 2486a89180da5df7,level_5_resource_list
 248751e02931bddb,zombie_perk_bottle_elemental_pop
+24879e3929b5b5e9,scripts/doa/doa_dungeon/doa_dungeon_def.csc
 24892623ab1e1002,emblem_stone_s5
 248fbf3e93beebaa,chest_light_closed
 249098735b58ca74,scripts/core_common/clientfield_shared.csc
@@ -45586,6 +45647,7 @@ fffea0defd338fe,fieldupgradekills
 249985ef4cee20bd,second
 249a27c083ad1ccb,veh_t7_drone_uav_enemy_vista
 249a33191736c0da,swat
+249ad86aa2dfe47b,scripts/cp/cp_nam_prisoner_waterfall_path.gsc
 249b686a397bc6f3,zone_serpent_pass_lower
 249b6d4f092db630,mc/mtl_p7_zm_kin_printer_office_big_metalpiant_yellow
 249c2281cb9824aa,callingcards_bps4_garcia
@@ -45862,6 +45924,7 @@ fffea0defd338fe,fieldupgradekills
 25e416d65deca92a,damage_notdone
 25e41b674276d396,demo
 25e448b3e889dd9d,smartcover_settings_wz
+25e5dde7b6917cfc,scripts/cp/cp_nam_armada_code.gsc
 25e759e5ef073909,haspotentalaivsaimeleeenemy
 25e83871b7d15b33,warplanded
 25e8570db713b763,play
@@ -45979,7 +46042,9 @@ fffea0defd338fe,fieldupgradekills
 267efa73c58cc66a,mc/t7_decal_signage_paint_blue_blend
 26810390c9069d25,allalive
 26813255771799fc,brawler
+26850092de25d970,scripts/cp/cp_takedown_raid_approach.gsc
 2685f0a2a0b2cc23,zipline_mountain_tutorial
+268625b0934ee2ce,scripts/cp_common/stealth/player.gsc
 2686af539040391c,tr_longburst_bp_bope
 2688635b9d6922e8,zmintel_list_mp_apocalypse_document_drops
 2688d4fe8008f330,held_weapons
@@ -46033,6 +46098,7 @@ fffea0defd338fe,fieldupgradekills
 26c737b9c7ae9f95,smg_burst_bp_nest
 26c770abea50b0af,armada_bamboo_orbit
 26c877bc3e2d96e7,cp_achievement_red_door
+26c8cfe8e27649cd,scripts/cp/cp_nic_revolucion_exfil.csc
 26c9ae949e7b17bb,meatball_small
 26c9f2127b268d6d,paintjob_prestige_s2_8_large
 26cae2b875a0456c,ar_fastfire_t9_orange_rand_item_sr
@@ -46193,6 +46259,7 @@ fffea0defd338fe,fieldupgradekills
 279cbe35744f8199,player2_moneydown
 279e51d90cadc2e3,p8_zm_off_trap_switch_light_red_on
 279ef101247c956d,surface_grenade_debris
+279f3c5ed514db22,scripts/cp/cp_rus_siege_audio.csc
 279fa35c89cdd611,12.0_reset_2
 27a0396529960d05,craft_global
 27a175f9b4d1da2d,remove_remote_weapon
@@ -46798,6 +46865,7 @@ fffea0defd338fe,fieldupgradekills
 2a44818de310b04f,zm_trial_activate_hazards
 2a471518604bcd8b,zombie_itemlist_ammo_close_quarters
 2a4f08a913b327d1,scr_planeyaw2
+2a51053f55890a96,scripts/cp/cp_nic_revolucion_lgt.csc
 2a51c6914421e357,mc/mtl_p7_zur_metro_watch_set_metal_02
 2a51c7914421e50a,mc/mtl_p7_zur_metro_watch_set_metal_01
 2a52c614c03e986f,mc/t7_metal_trim_weld_01_iron_rust
@@ -47179,6 +47247,7 @@ fffea0defd338fe,fieldupgradekills
 2c03af0048db18da,po_c_t9_usa_pl_navyseal_endurance_sy
 2c0489f12ffde990,profileemblem
 2c0504992b5785f2,field_upgrade_kills
+2c052d834cd7619a,scripts/doa/doa_pickups/doa_sawblade_pickup.gsc
 2c059b2f4f15e06c,path_update_interrupt_by_attacker
 2c09659fa3d48bfa,reward
 2c09ac12bc5011d7,kill_hc
@@ -47305,6 +47374,7 @@ fffea0defd338fe,fieldupgradekills
 2c9e13d696218357,mc/mtl_p7_mou_pallet_wood_snow_decal_nail
 2ca03c812881d3be,boastallowcam
 2ca35808b452d993,notdowned
+2ca39e1874a13738,scripts/cp/cp_rus_yamantau_survey_equipment.csc
 2ca4405da1af8b8d,callingcards_default_s5_prestigeshop_animated
 2ca6b61fed7d1f53,tkdn_af_rc_chase
 2ca803dd8ab3e1b2,zombie_level6_resource_list
@@ -48016,6 +48086,7 @@ fffea0defd338fe,fieldupgradekills
 2fbb369233b2c1e8,scr_zombie_spawn_in_view
 2fbd61c3675dc7ca,scripts/zm/zm_platinum_end_fight.csc
 2fbee997ec3c5b0c,vehicle_starting
+2fbf885102bafd03,scripts/doa/doa_banner.csc
 2fc05993f58131bf,sr/fx9_obj_console_defend_dmg_os
 2fc122685786ff57,wz_revive_prompt
 2fc2d3b5ce14ddb9,codcaster/an_hardpoint_capturing
@@ -48741,8 +48812,10 @@ fffea0defd338fe,fieldupgradekills
 330f1b369361f2fc,bestmeansofdeath
 33111a192fb39e85,hvt
 33112f192fb3c234,hvo
+33128b01aae27d52,scripts/doa/doa_outro.csc
 33134801f28aa031,scripts/weapons/weapon_utils.csc
 331408192fb5b5c6,hud
+3314b730521b9666,scripts/doa/doa_enemy_ai.csc
 3316b5603bc0e488,callingcards_mr_fix_it
 33186aa99cabddc3,profileimage
 331873a30b0254e9,gear_equipmentcharge
@@ -48918,6 +48991,7 @@ fffea0defd338fe,fieldupgradekills
 33f56f4223e452ca,deactivate_camera_lens_overrides
 33f64d66a63093ea,ar_damage_bp_confront_ms
 33f7946c5e43f529,mp_codpoints_match_bonus_is
+33f9a308adf6fa4f,scripts/cp/cp_rus_yamantau_audio.csc
 33fa04a9164d5682,scripts/core_common/rat_shared.gsc
 33fd053376f47476,scripts/zm_common/bgbs/zm_bgb_anywhere_but_here.gsc
 33fd3f66a6369ace,ar_damage_bp_confront_sy
@@ -49102,6 +49176,7 @@ fffea0defd338fe,fieldupgradekills
 34bdd00de9dafc68,smg_standard_cb_bp_numbers
 34bef65f8dfe1062,evt_jump_pad_charge
 34befedcb4fdd280,combat_state_in_combat
+34c07e36b76bab45,scripts/cp/cp_ger_stakeout_train.gsc
 34c1cbbf2223b406,wc/t7_wes_wood_trim_moulding_small_01_white
 34c1e636c14717c3,back_right
 34c211020521ed68,vd/t7_decal_signage_54i_graffiti_10
@@ -49610,6 +49685,7 @@ fffea0defd338fe,fieldupgradekills
 36e825e6327d4ab1,goal_changed
 36ec06df652fce57,veh_huey_rotor
 36edb39feaf972ac,lmg_slowfire_bp_darkaether
+36f25afcb9441942,scripts/doa/doa_dungeon/doa_dungeon_generation.csc
 36f4be19da8eb6d0,scripts/zm/weapons/zm_weap_ieu.gsc
 36f55be5a8fc1820,pap_quest_holdout_until_teleporter_restart_step
 36f7fa2d825ec851,bgbconsumablesused
@@ -49629,6 +49705,7 @@ fffea0defd338fe,fieldupgradekills
 36fbe21deb0433d8,device_fuel
 36fbe31c5eba146a,callingcards_t6_prestige_6
 36fbe41c5eba161d,callingcards_t6_prestige_7
+36fc02e86719d0f5,scripts/doa/doa_wild.gsc
 36fc2d5b9b1b7085,snowfall_fade_out
 36fe80c29811691c,leader_spawn
 37049c08cb142cc7,creek_path
@@ -49640,6 +49717,7 @@ fffea0defd338fe,fieldupgradekills
 370a8f7d23d409fc,maps/zm_escape/fx8_wolf_soul_charge_impact
 370ef877caef2b91,zombie_attack_spot
 370f36e9c40ba525,mp_ph_minigame_third
+3711e526ec2a3863,scripts/cp/cp_nam_armada_audio.gsc
 3712ad2f725e964d,dialog_tree_active
 3714d5a27221e6f1,train_door_02
 3716197d189f0848,black_chest_level_1_food
@@ -49925,6 +50003,7 @@ fffea0defd338fe,fieldupgradekills
 38611690b739e2e0,secured_all
 38628762fb7c16eb,sniper_fastrechamber_t8_item
 386308ed987052a4,ww_mega_barrel_fullauto_copycat_t9
+38635d174016f682,scripts/doa/doa_debug.csc
 386391b0b0161a23,paintjob_ranks_prestige_22_large
 386406e299bd3e7e,give_emp_bomb
 3865fdc375b84165,af_skid_starting
@@ -50141,6 +50220,7 @@ fffea0defd338fe,fieldupgradekills
 395d7347ff42f2c1,zombie/fx_bul_flesh_head_fatal_zmb
 395dfda1274cd506,stop_burn_fx
 395e2401728183fc,weapon_assault_ekia
+396062ed2667195d,scripts/cp/cp_rus_kgb_informant.gsc
 39606551161a7856,pistol_semiauto_t9_white_rand_item_sr
 396122df5096ea5a,hero_lightninggun
 39627db608c66755,zm_bgb_whos_keeping_score
@@ -50513,6 +50593,7 @@ fffea0defd338fe,fieldupgradekills
 3afec527659c7cd9,advancedstart
 3b034476f596d018,scripts/core_common/status_effects/status_effects.gsc
 3b0722ee9acf04f4,o_turret_emp_core_deploy
+3b078dffed245a68,scripts/wz/wz_zoo_fixup.csc
 3b08dc935f10ad32,lmg_light_bp_gambit
 3b0beb9093d2e46c,flag_pch_convoy_05_move
 3b0e103f6456ad73,zombie_perk_bottle_revive
@@ -50646,6 +50727,7 @@ fffea0defd338fe,fieldupgradekills
 3bbb6171dd1867a1,bonuslivesforcapturingzone
 3bbc74574915d71f,callingcards_missingadler
 3bbf4237ccea5dd5,door_activated
+3bbf85ab4cb9f3c2,scripts/doa/doa_stats.gsc
 3bc187274ae448ac,ar_damage_bp_tagger
 3bc18c2784894e80,emblems_western_flipbook
 3bc2ee84f6e5b776,veh_supply_turbine
@@ -50787,6 +50869,7 @@ fffea0defd338fe,fieldupgradekills
 3c6b7835b8a61786,choosejukedirection
 3c6becfe7248c004,bombsaway
 3c6d30dcb24fbef8,screen_right
+3c70d86dfe255354,scripts/cp/cp_ger_stakeout_music.gsc
 3c720bfdc5ea4ee8,character_unlock_crash_fixup
 3c735080179d033b,zm_fasttravel
 3c7532e7167c7b58,surface_heli_impact
@@ -50919,6 +51002,7 @@ fffea0defd338fe,fieldupgradekills
 3d12fc61f6854a3a,paintjob_stickers_s3_subliners_diamondcon_base_sy
 3d160a61f68797db,paintjob_stickers_s3_subliners_diamondcon_base_pc
 3d162c683505e8a2,dialog_wait_cancel
+3d173c89c2828216,scripts/doa/doa_pickups/doa_teddy_bear_pickup.gsc
 3d18e87594285298,scripts/cp_common/actions/action_body_shield_chain.gsc
 3d18f84f48bd5d1f,zmperksactive
 3d19a4c87e16ec11,kill_long_death
@@ -50947,6 +51031,7 @@ fffea0defd338fe,fieldupgradekills
 3d3a70fc3c1aceac,zm_talisman_perk_start_1
 3d3a72fc3c1ad212,zm_talisman_perk_start_3
 3d3a73fc3c1ad3c5,zm_talisman_perk_start_2
+3d3c03b88e16a244,scripts/core_common/ai/archetype_steiner.gsc
 3d3c86a067a438f1,spawnselectenabled
 3d3ef32d56984fc0,callingcards_onlychamps_base_sy
 3d44efa944532a08,finished_playing_postfx_bundle
@@ -50970,6 +51055,7 @@ fffea0defd338fe,fieldupgradekills
 3d55940ffed44588,chopper_crash
 3d5887fc414a86fb,scripts/core_common/item_inventory.csc
 3d590cffd8be5697,special_crossbow_bp_goth
+3d5e6c007c0e2bb1,scripts/doa/doa_pickups/doa_barrel_pickup.gsc
 3d5f84b922ee90fd,heli_convoy_aslt_complete
 3d60356f7d14cc02,rise_billow_lg
 3d626fc37750e82b,af_player_get_in_left
@@ -51119,6 +51205,7 @@ fffea0defd338fe,fieldupgradekills
 3de1bc10eda31dc7,remote_player_busy
 3de2e5fc086eb689,mpui_country_germany
 3de3d523512f7cbc,remote_missile_zm
+3de47beee8436774,scripts/cp/cp_nam_armada_mortar.gsc
 3de4aa2f016161ec,maxplayereventsperminute
 3de55597ddef18a2,scr_disable_air_death_ragdoll
 3de58fdd0d6c3a08,scripts/zm_common/zm.csc
@@ -51128,6 +51215,7 @@ fffea0defd338fe,fieldupgradekills
 3dea9ef6a82e7187,ambush_damage
 3deabaf762fa81f6,callingcards_good_vantage_point
 3deb215a1f687868,paintjob_mp_paragon_t5_08_large_sticker
+3defbd925a406475,scripts/cp/cp_ger_hub_utils.csc
 3df017a001e59e96,lmg_accurate_t9_white_rand_item_sr
 3df06383912a9bad,aether_tool_item_sr
 3df16446745a4852,orb_spawn
@@ -51498,6 +51586,7 @@ fffea0defd338fe,fieldupgradekills
 3faa1221eba09fee,lockdown_stub_type_magic_box
 3fab092fd8ce8149,distance_traveled_vehicle_water
 3fadc643dba6dbf2,combatrecordstat
+3faf478d5b0850fe,scripts/doa/doa_sound.gsc
 3fb07c1025002eb7,diffuseprobe_compute
 3fb0eb36aeb3b74e,critical_kills
 3fb198d49ff95c9b,paintjob_stickers_militantmalware
@@ -51891,6 +51980,7 @@ fffea0defd338fe,fieldupgradekills
 4174c23ef2048d2e,landing_pad
 4175fa4a31662283,restart_napalm_strike
 4178c5cb867eb187,specialty_nottargetedbyairsupport
+4179c51fbbe7793b,scripts/cp/cp_rus_siege_lgt.csc
 4179f8deedc16aa6,hiding
 417a1773c7e7754b,reload_start
 417c506e31f40984,bundle_holiday_1044_sims_urban_winter
@@ -51990,6 +52080,7 @@ fffea0defd338fe,fieldupgradekills
 41e52831e0ca5ed6,paintjob_stickers_cdl_teamsticker_sea_1_pc_base
 41e55a18746cf1c6,callingcards_t8_wz_insigniaechelons_master_animated
 41e5b8f341a335fb,presumedkia
+41e8adffbda93483,scripts/cp/cp_rus_siege_courtyard.gsc
 41e8bfe605fbbfe6,wall_smash
 41eb177b0b838c69,scr_postfx_igc_loop
 41ec5dad56c3f1ef,emblems_dyingart
@@ -52030,6 +52121,7 @@ fffea0defd338fe,fieldupgradekills
 421b7a0058b0ddbc,emblems_vts_29_s6
 421bbbe2866fe351,emblem_s5_marquee_09_animated
 421c02428b499a24,xmodel
+421cb98ede24fc44,scripts/cp/cp_rus_yamantau_ice_slide.gsc
 421cec7de8e8f4e2,emblems_punchpow_006
 421dc8edd3d4d053,zm_fishing_parent_list
 42205318c6f41220,mapstats
@@ -52152,6 +52244,7 @@ fffea0defd338fe,fieldupgradekills
 42c9ac9338fda8d1,aib_t8_zm_zod_homunculus_jump_up_01
 42c9f78cf9058700,lmg_accurate_bp_bite
 42caade7330cdcfb,moneydown
+42cbbdcd1e160063,scripts/doa/doa_fx.csc
 42d20bcd6f3b0bcc,dlog_event_realtime_notify
 42d24e2a7e9a55a4,mc/mtl_p7_zm_ver_cabinet_steel_set_weld
 42d37b577cc2cba5,ar_fastfire_bp_wsow_solo
@@ -52377,6 +52470,7 @@ fffea0defd338fe,fieldupgradekills
 43dda54e53f4807f,magicbox_hunt
 43e752475599d64c,scripts/zm/powerup/zm_powerup_hero_weapon_power.gsc
 43e819ecb1562f21,shotgun_semiauto_t9_item_sr
+43e82b8f8b9aea77,scripts/cp/cp_ger_hub_post_prisoner.gsc
 43ece2e42028c409,scripts/core_common/drown.gsc
 43edbf486d67cf84,amb_arcade
 43eed801ff3d6370,pistol_revolver_t9_purple_upgraded_item_sr
@@ -52497,6 +52591,7 @@ fffea0defd338fe,fieldupgradekills
 446622a5dc8632a4,mus_zmb_gamemode_end
 4466de6137f54b59,avogadro_phase_fx
 44671fb9af78d0c3,ekia_specialized_weapons
+446752c03c555e16,scripts/cp/cp_rus_amerika_scenes.gsc
 446912078ef66844,mc/t7_metal_trim_brass_8_worn
 446c4c38d279c5b5,callingcards_mw_0003_prestige_7
 446d18ebd8d50be6,zmequipmentchargerate
@@ -52513,6 +52608,7 @@ fffea0defd338fe,fieldupgradekills
 4484076dffffe7f4,mod_melee_assassinate
 448683444db21d61,scripts/zm_common/zm_flashlight.gsc
 448716023024b395,zmelixirconflagrationliquidation
+4489198b8bcf36e8,scripts/core_common/ai/archetype_juggernaut.gsc
 4489902e9dbb55aa,contract_zm_magicbox
 4489b4c60c694530,parachute_land_npc
 448a0d9622bdb762,flash_bounce
@@ -52539,6 +52635,7 @@ fffea0defd338fe,fieldupgradekills
 44ab5895d473a45b,po_c_t9_gen_pl_esports_male_royalravens_home_ms
 44ab75a900c80d0f,abilitydelayprogress
 44adf113339914b2,player_atv
+44aef2868ad2e317,scripts/cp/cp_rus_kgb_ins_prepare.gsc
 44b121bbe3443b2b,prestige_iw7_6_large
 44b24e95d479b20b,po_c_t9_gen_pl_esports_male_royalravens_home_sy
 44b444a70fbf1583,pfx_flares
@@ -52565,6 +52662,7 @@ fffea0defd338fe,fieldupgradekills
 44cfe8bcf434c3ac,wild_portal
 44d046511b39d583,zone_pizza_parlor
 44d2ae2beec4822d,heli_guard_mp
+44d39f3f45d58372,scripts/wz/wz_golova_fixup.gsc
 44d5576d6cc10d99,statue
 44d5696d6cc12c2f,status
 44d7e2a4a7ca3a1d,smg_spray_t9_blue_item_sr
@@ -53002,6 +53100,7 @@ fffea0defd338fe,fieldupgradekills
 46ed77af3eeac8b4,hitsecondary
 46ede60a4d547247,wc/mtl_p7_ctl_wood_beam_worn_oak_dark
 46efc5a53c3b5869,blueprint_bundle_3054_baker_thermal_tracker
+46f223128eca2bc2,scripts/wz/wz_ski_slopes_fixup.csc
 46f2f3a3ae41c6b8,callingcards_heatwave
 46f3e63cfcb00995,flag_player_using_evidence_board
 46fcf39076194bfc,prestige_t8_wz_08_large
@@ -53095,6 +53194,7 @@ fffea0defd338fe,fieldupgradekills
 476e88f594f0f4d4,next_meat_stink
 476fe89efa2dc20b,tr_powerburst_t9_item_sr
 47704e3282a2f5a9,weapon_bought
+47734f62e0b3b388,scripts/cp/cp_rus_kgb_aslt_entry.gsc
 4777f28d1a2ad7bf,ar_accurate_t9_item_sr
 4778040558791d02,activate_hazards
 477a7859bae6c69c,aether_shards
@@ -53103,6 +53203,7 @@ fffea0defd338fe,fieldupgradekills
 477e5761fdabcb19,draft_player_struct_3_allies
 477ed79e0cda4756,scr_heli_missile_max
 4784aeeac86ab78a,coverpeekterminate
+47851dbeea22fe66,scripts/doa/doa_sfx.gsc
 478a4d37a00f0e8c,mcs/mtl_p7_cloth_drape_06_beige
 478bc9cde30748e0,wallrun_begin
 478be680bb087e19,canister_revealed
@@ -53559,6 +53660,7 @@ fffea0defd338fe,fieldupgradekills
 49864710e11f25f1,equipment_kills
 498a3db29a1af2d7,scene_frontend_t9_lobby_player1_s7_geo_camera
 498c4bc1b097bdbf,mc/mtl_p7_debris_concrete_rubble_slab_trim_wet
+498cf7685befe7bf,scripts/cp/cp_rus_siege_scenes.gsc
 498deb76653ce2d0,memory_3
 498dec76653ce483,memory_2
 498ded76653ce636,memory_1
@@ -53669,6 +53771,7 @@ fffea0defd338fe,fieldupgradekills
 4a0f9f1570680e05,riders_spawned
 4a146bdd26b5bf54,ww_quest_completed
 4a185a55bf47797f,new_msg
+4a1a0f734d8d0e04,scripts/cp/cp_nic_revolucion_floor_one.gsc
 4a1a37d8aeaa2b95,stream_unpause
 4a1abdda876cad24,zmb_rand_perk_sparks
 4a1bc27ad65fbc95,wc/t7_out_brick_wall_01
@@ -53863,6 +53966,7 @@ fffea0defd338fe,fieldupgradekills
 4ad96aaa6914f640,objective1_info
 4adc7637958061ea,ar_mobility_bp_fastlane
 4adce4bb62081a14,loot_smg_spray_bp_ghostship
+4adf64e112e9afec,scripts/doa/doa_hud.csc
 4ae068100a9d8c76,arms_destroyed
 4ae13b3bd33a8b73,po_c_t9_gen_pl_starter1_hunger_eagle_eye_autumn
 4ae22bd566ad08c3,decontamination_start
@@ -54341,6 +54445,7 @@ fffea0defd338fe,fieldupgradekills
 4d26fe8a4c3a8340,pistol_shotgun_t9_upgraded
 4d2757d692289181,yam_destroyed_room_open
 4d279b886db31e6d,wc/t7_zm_isl_concrete_painted_yellow_blend
+4d27f7166781c70b,scripts/cp/cp_rus_siege_loose_ends.gsc
 4d2911e91cdb1e91,crystal_shockwave
 4d2b01aab553821b,woods_cuba
 4d2d4245d40b540d,special_zombie_level1_drop_list_sr_food
@@ -54420,6 +54525,7 @@ fffea0defd338fe,fieldupgradekills
 4d7d68af66d8df37,turret
 4d7e9f57950f9fef,loot_smg_spray_bp_space
 4d7f33a283d72002,start_crystal
+4d8045dbc17aa3ee,scripts/doa/doa_dev.gsc
 4d80b80b9ed81737,bg_friendlyfiremode
 4d813729d9a4bebd,koth_hc
 4d8310ee96858592,shotgun_pump_bp_tunnel
@@ -54748,6 +54854,7 @@ fffea0defd338fe,fieldupgradekills
 4f30f3de1a2248ef,react_l
 4f30f9de1a225321,react_b
 4f30fdde1a2259ed,react_f
+4f320724b79a7e18,scripts/cp/cp_nam_armada_hind.gsc
 4f347a4a61713f29,inventory_hero_pineapplegun
 4f352102512cc494,ammo_mod
 4f354475cce89512,eliminator_info
@@ -54862,6 +54969,7 @@ fffea0defd338fe,fieldupgradekills
 4fb8d41d7f3a3fff,scripts/zm/zm_platinum_ww_quest.gsc
 4fbb9339305f16f2,opened_supply_drop
 4fbee0abc4102dda,paintjob_stickers_cdl_optic_chi_sticker_1_pc_base
+4fc0ca879f81e0dc,scripts/doa/doa_dungeon/doa_dungeon_door.csc
 4fc3421b398df20b,mc/mtl_p7_zm_sta_dragon_platform_metal_02
 4fc39832a6cb449c,mc/mtl_p7_zm_mob_cabinet_steel_dmg_metal_03
 4fc39932a6cb464f,mc/mtl_p7_zm_mob_cabinet_steel_dmg_metal_02
@@ -55430,6 +55538,7 @@ fffea0defd338fe,fieldupgradekills
 527a1f171e0146ab,callingcards_gumgobbler_gobbler_animated
 527a8a7aa5023623,1.0_intro
 527b2cdb9b6837f3,backpack_item
+527bb22a76994e54,scripts/cp/cp_ger_hub_evidence_board.gsc
 527d0c4c67658c4e,smg_handling_bp_animeninja
 527d3a0d44d86449,zone_american_sector_right_building
 527f027814a0cda0,c_t9_usa_pl_navyseal_grip
@@ -55577,6 +55686,7 @@ fffea0defd338fe,fieldupgradekills
 53468ab1304e800e,zone_burger_town
 534775e48b40adf7,vd/t7_zm_sta_decal_damage_concrete_cracks_01_dark
 5347ff402123307a,zmperksmulekick
+5348cf2d03549f2c,scripts/doa/doa_world/doa_world_door.csc
 53491fc29ae404c1,cargo_truck_wz
 5349430ccf8f3400,callingcards_s3_atlantafaze_base_ms
 535144f277929fbe,impacts/fx_flesh_hit_knife
@@ -55779,6 +55889,7 @@ fffea0defd338fe,fieldupgradekills
 5446115cda0d7f13,mp_revive_prompt
 5447e63d8027bbfc,c_t9_usa_pl_cia_grit_street
 54488b7c651bd0ec,ui_busyblockingamemenu
+544ada140645565d,scripts/doa/doa_pickups/doa_monkey_bomb_pickup.gsc
 544afd4c42a4b8e9,phy_cardboard
 544b598ad6fe9445,bundle_ai_spawned
 544c3c61e62c70a4,cp_nic_revolucion
@@ -55831,6 +55942,7 @@ fffea0defd338fe,fieldupgradekills
 5499415066b4d884,zombieshouldjumpmelee
 5499f08d8b87bddc,chr_heart_beat
 549a4112bac3ce22,scr_selecting_location
+549b1f81e7dfe241,scripts/cp/cp_ger_stakeout_meetup.gsc
 549c71e6907f4207,skip_grenade
 549c8565cd6d3605,influencers_shared
 54a098edabd7a240,silver_ai_zombie_heavy_xmas
@@ -55942,6 +56054,7 @@ fffea0defd338fe,fieldupgradekills
 55330e258be3e3cc,ar_mg1909_t8_upgraded
 55345949dcdaa243,contracthash
 55356ede737cfa8e,tkdn_af_skid
+5535d5829946973d,scripts/cp/cp_rus_amerika_exterior.gsc
 553850a25cd2ff6f,mc/mtl_p7_zm_ctl_radio_reciever_02_plastic_01
 553851a25cd30122,mc/mtl_p7_zm_ctl_radio_reciever_02_plastic_02
 5538ec25eb3d5810,specialty_extraammo
@@ -56053,6 +56166,7 @@ fffea0defd338fe,fieldupgradekills
 55c56a189cf473e1,special_ballisticknife_t8_dw_upgraded_dw
 55c78d09794b5230,lmg_slowfire_t9_blue_item_sr
 55c86d819a8a93e9,collisionwarning
+55c94e3e2ed0bf40,scripts/cp/cp_rus_amerika_tunnels.gsc
 55c9a13b9c890c2a,explorer
 55cb4fac65da3f6b,ww_mega_barrel_fullauto_blazer_beam_t9_item_sr
 55cbcb6a36ca8d89,callingcards_mw3_0013_reptile
@@ -56620,6 +56734,7 @@ fffea0defd338fe,fieldupgradekills
 584fed868cff57de,sniper_cannon_t9_white_rand_item_sr
 5850183bc51734ff,emblems_deathstalkerzombie_s5_base_sy
 58521f27f2b18579,ekia_ads_stalker
+58524f08c3081cbb,scripts/cp/cp_rus_yamantau_audio.gsc
 58549830390a6d37,blueprint_bundle_4048_krig_6_dying_art
 585518b40550cca5,zombietron_pineapplegun
 58556acb38186534,infinite_hallway_exited
@@ -56832,6 +56947,7 @@ fffea0defd338fe,fieldupgradekills
 59616c13c586bcf0,paintjob_stickers_r8g11_1027
 5961deb533dad533,scripts/autogenerated/luielems/luielembar.gsc
 596431ef07ad2a25,tape
+5965abece570193b,scripts/doa/doa_fate.csc
 59687845e5356ded,overwatch_helicopter_snipers
 596a29cad6182453,mpui_country_greece
 596a42b9715fcf4e,talisman_box_guarantee_box_only
@@ -56876,6 +56992,7 @@ fffea0defd338fe,fieldupgradekills
 5990b07be142e4e5,tr_precisionsemi_t9_white_upgraded_item_sr
 5990fc0f845eb477,prestige_s1_14_large
 5991c0a719d8e0e6,demeanor
+5991d6501121591f,scripts/cp/cp_nic_revolucion_audio.gsc
 59920290fd6b234f,cent
 5992b29ea3e93745,emblems_s3_lagorrilas_base_ms
 5993cb43cbe55c17,zm_trial_turn_on_power
@@ -57019,6 +57136,7 @@ fffea0defd338fe,fieldupgradekills
 5a3d481d7818fe6e,isatcovermodeover
 5a3d753f920e0ad0,mc/t7_plastic_base_clean_glossy_cream_lt
 5a3e17fbc33cdc86,insertion_teleport_completed
+5a4029688e94b318,scripts/cp/cp_rus_amerika_escape.gsc
 5a405f7935f9632a,attackingteam
 5a41b873850f75a6,smg_capacity_t9_upgraded_item_sr
 5a4291956faa97ef,ray_gun_mk2
@@ -57075,6 +57193,7 @@ fffea0defd338fe,fieldupgradekills
 5a7b3b94a375e17f,mcs/mtl_p7_shirt_cloth_hanging_03
 5a7dc5b1574c7567,mc/mtl_p7_zm_mob_vial_surgical_set_01
 5a7f014b541eb7a6,objective_timer_reset
+5a85dd71c99e76a2,scripts/cp/cp_rus_yamantau_mountain.gsc
 5a8659d1eddffccc,c_t9_usa_pl_woods_fisherman
 5a8a0284760e5913,shot_skip_completed
 5a8ca712262d7cb2,callingcards_second_fiddle
@@ -57103,6 +57222,7 @@ fffea0defd338fe,fieldupgradekills
 5aaea648688ff01e,ai_threatsightdisplayspikevalue
 5aaf2d7d0f1d1c82,loot_sniper_cannon_bp_8bit
 5ab24b44341fa6ae,armor_zombie_level4_drop_list_sr_food
+5ab2e91e565f1fae,scripts/cp/cp_nic_revolucion_church.gsc
 5ab49a8d69e9e6b0,shotgun_semiauto_t9_purple_item_sr
 5ab5030d0ae5374d,begin_grenade_tracking
 5ab63315abcdb6b4,posthumous
@@ -57272,6 +57392,7 @@ fffea0defd338fe,fieldupgradekills
 5b91cff18a119980,callingcards_bulldozer_s6
 5b9272dbca73188b,proximity_grenade_aoe
 5b9483ca80247cc7,allchallengescompleted
+5b95daf45672308f,scripts/autogenerated/luielems/survival/sr_orda_health_bar.gsc
 5b97b08dd434073d,grenade
 5b97c13ea43daaa7,out_of_range
 5b985c26468953ab,zombie_bgb_notification
@@ -57464,6 +57585,7 @@ fffea0defd338fe,fieldupgradekills
 5c6c29ed0876ca93,paintjob_mp_paragon_t4_02_large_sticker
 5c6c5f8a887531f7,killstreak_detect
 5c6c8fdab59239fc,emblems_griffin
+5c6dce5ab3ddcd4f,scripts/core_common/paintshop.csc
 5c6e2deea572eb4a,zm_vo
 5c6e48aef8429b1a,callingcards_cdl_teamcallingcards_lon_1_ms_base
 5c6e9582d04b2470,flg_ac130_done
@@ -57984,6 +58106,7 @@ fffea0defd338fe,fieldupgradekills
 5f059f15da05944a,mc/mtl_veh_t7_mphd_forklift_decal_hole_01
 5f07cd75b9d61b27,vignette_mode
 5f093934ff52221c,mc/mtl_p7_cardboard_bundle_worn_deacl_a
+5f09afd24900fba7,scripts/wz/wz_sanatorium_fixup.csc
 5f0c38b89cd75870,mcs/mtl_p7_clothes_hanging_01
 5f10014535621f84,keybind_change
 5f114025234e912f,gamedata/tables/zm/scoreinfo/zm_scoreinfo
@@ -57996,6 +58119,7 @@ fffea0defd338fe,fieldupgradekills
 5f190015ac9ded95,explosions/fx_exp_grenade_water
 5f1b73095bbb3a7a,exfilfailed
 5f1d39574585b511,smg_accurate_t9
+5f20d3b434d24884,scripts/doa/doa_pickups.gsc
 5f2129dd1c600b40,mc/mtl_p7_zm_ori_wood_wall_set_decal_01
 5f212bdd1c600ea6,mc/mtl_p7_zm_ori_wood_wall_set_decal_03
 5f212cdd1c601059,mc/mtl_p7_zm_ori_wood_wall_set_decal_02
@@ -58320,6 +58444,7 @@ fffea0defd338fe,fieldupgradekills
 609ccadd589df971,callingcards_peacemaker
 609db10160d26d08,scripts/zm_common/zm_bgb.gsc
 609dc1c9e9f62e68,kill_15_with_blade
+60a2f38d6d37fd6a,scripts/doa/doa_sound.csc
 60a48a427f6cbf61,goals_generated
 60a520ec8c9db5fa,doublexp_timer
 60a81f1fc0034637,scripts/mp_common/gametypes/gametype.gsc
@@ -58466,12 +58591,14 @@ fffea0defd338fe,fieldupgradekills
 615bf09825150994,emblems_devilsdeparted_flipbook
 615c575c66ed8695,fly_pickup_generic
 6160275248857912,p8_zm_wall_buy_pistol_burst
+6160ab73e028de4f,scripts/wz/wz_duga_fixup.csc
 6161a3610a112cc0,emblems_split_personality_s6_animated
 616263e58f238fad,timeout_beep
 6162e3d94ad294c7,stop_push_open
 616498fe3fa0aaf9,zombiemeleesuicidestart
 6164cc694f11b22c,no_revive_penalty
 616703a4de940aae,wc/t7_stone_slate_wall
+616d0f01498f9128,scripts/cp/cp_rus_yamantau_bunker.csc
 616d5514447838f0,blueprint_bundle_5033_ak_47_checkmate
 616f0b45809d4531,c_t9_uk_pl_sas_blackknight
 616f409871de1c2a,talisman_extra_molotov
@@ -58511,6 +58638,7 @@ fffea0defd338fe,fieldupgradekills
 61927a0338295a9e,emblems_r8g11_14
 6195cc0403e48b1a,weapon_position_change
 6196d2ca82b41ffe,oob_host_migration_exit
+6197a9cdaa8affb5,scripts/cp/cp_nam_prisoner_creek_path.gsc
 61993c2fa388396a,mc/mtl_p7_rus_bookshelf_metal_decal_dirt_white
 619bc3f9808b60eb,lobbypopup
 619c12ea8ad0a4e4,paintjob_stickers_s3_royalravens_zer0_base_ms
@@ -58573,6 +58701,7 @@ fffea0defd338fe,fieldupgradekills
 61fcc1f817072249,ammomod_deadwire
 61fcfebb2f3a00e0,scripts/zm/ai/zm_ai_soa.gsc
 61fe0b38b86cdf0c,armor_zombie_level5_drop_list_sr
+61fee52bb750ac99,scripts/cp/cp_nam_prisoner_audio.gsc
 61ff67c97656658a,train_done
 6200accc15bf86ac,default_7
 6200adcc15bf885f,default_6
@@ -58715,6 +58844,7 @@ fffea0defd338fe,fieldupgradekills
 62a07859e831f2d9,capturecratestate
 62a0d295ea98ae68,emblems_s3_vts_final_18_animated
 62a215c57089c9c7,flag_cleanup_kgb_hq
+62a3658eeff7d6d0,scripts/cp/cp_rus_yamantau_ice_slide.csc
 62a3e74410720964,item_survival_deadshot
 62a630870029268d,cargo_supply_opened
 62a9656d2aaa46aa,spectate_view
@@ -58827,6 +58957,7 @@ fffea0defd338fe,fieldupgradekills
 63463edb7e5128b3,objectivekillhvtspotted
 6349005d803ba33d,zombie_timer_offset
 634967fb2c24410b,mp_paragon_t8_04_large
+634ae70c663d1cc9,scripts/doa/doa_hazard.gsc
 634e6ac50f4cb8d1,veh_raps_spawn
 634eda994ab01cec,cod_chat
 6350c209b3d1b07d,scripts/core_common/map.gsc
@@ -59204,6 +59335,7 @@ fffea0defd338fe,fieldupgradekills
 652d6448c4e0fd9b,device_spawn
 652e009b8323c31b,stealthenemy_init
 6530ce53dc4b9ea0,cod_master_prestige
+65328041a4d0067f,scripts/cp/cp_rus_siege_parapet.gsc
 6535279eca48032c,cheese_wheel
 6535e34e6169957e,specialgrenade_canister
 6537a29c92eb199a,zmintel_list_mp_cliffhanger_document_drops
@@ -59463,6 +59595,7 @@ fffea0defd338fe,fieldupgradekills
 66518103ed838ff3,mixunder_t9_item_sr
 66531b1cda6456ae,starting_slowdown_ai
 6653566292424928,tr_powerburst_t9_orange_rand_item_sr
+66548bb129ab65aa,scripts/doa/doa_dungeon/doa_dungeon_loot.csc
 66552fa112d138cc,tournamentenemyscore
 6656febb50830a6c,ar_damage_t9_green_rand_item_sr
 6658563ce3a2e366,ar_damage_t9_green_item_sr
@@ -59854,6 +59987,7 @@ fffea0defd338fe,fieldupgradekills
 683b67a6a6b5ec7b,guard_room_light
 683c067d754a972c,multi_stage_target_lockon
 683c6b8dd262ff94,melee_machete_t9_purple_item_sr
+683d0089d435e1fe,scripts/cp/cp_nam_prisoner_bridge_path.gsc
 683e4a8d95c2e48e,kgb_aslt_elev_down_completed
 6842728bd8959b9d,animscript_gib_fx
 684352fbf518959b,emblems_zombiepark
@@ -60418,6 +60552,7 @@ fffea0defd338fe,fieldupgradekills
 6ad32b22445c4828,calling_timestamp
 6ad3fda349f49bf9,scripts/killstreaks/killstreak_detect.csc
 6ad5b0562f654076,melee_notetrack_2
+6ad6653eed415ffc,scripts/doa/doa_dungeon/doa_dungeon_hazard.gsc
 6adce028caea852e,emblems_s3_vts_final_38_animated
 6ade3db3c3188274,pop_parachute
 6ade70a9a975cc1a,end_blacklight
@@ -60524,16 +60659,19 @@ fffea0defd338fe,fieldupgradekills
 6b60ff3b039d7e7e,slow_enabled
 6b610690607a3e3f,circularin
 6b6279ca26024847,trapper_kills
+6b6510e124bad778,scripts/doa/doa_hud.gsc
 6b66139b8ab1e6ab,callingcards_zm_exterminator_fullhouse
 6b66402cc78c51c2,callingcards_belowthebelt
 6b66648f27c7f10d,jellyfish_large
 6b6675abcdd74b78,blend
 6b68e7251600e852,callingcards_skate_114_animated
+6b6aa5011b898d9a,scripts/cp/cp_nic_revolucion_vip_room.gsc
 6b6b433835e19763,post_yamantau_skip_briefing
 6b6c45a99e85793d,enemysupplydrop
 6b6c820006ff8f65,smg_burst_bp_flak
 6b6f8a8633e916dd,rarity_upgrade
 6b6fc54e57ac1678,wc/t7_zm_asc_concrete_worn
+6b71c9befed901f2,scripts/doa/doa_sfx.csc
 6b723a9cd7448b43,mc/mtl_p7_zm_ctl_radio_recorder_metal_gray_06
 6b723b9cd7448cf6,mc/mtl_p7_zm_ctl_radio_recorder_metal_gray_05
 6b723c9cd7448ea9,mc/mtl_p7_zm_ctl_radio_recorder_metal_gray_04
@@ -60802,6 +60940,7 @@ fffea0defd338fe,fieldupgradekills
 6cc8dc4627aa0eaa,mechzfirebomb
 6cd00d92ce84858f,ar_british_bp_lightw
 6cd32c71274f2b7f,c_t9_cub_pl_sicario_miami
+6cd35fe7afb1f231,scripts/cp/cp_rus_amerika_audio.gsc
 6cd4a39307de370a,mp_paragon_t5_08_large
 6cd815adad85cc1c,ranks_prestige_18_large
 6cd88735664cabf7,demolition
@@ -61356,6 +61495,7 @@ fffea0defd338fe,fieldupgradekills
 6f41f79a13199c79,squad_wipe_quad
 6f43d0dc1596e821,healing_aura_multikill_zm
 6f44ee44be2a6622,mc/mtl_p7_zm_asc_wire_exposed_decal_01
+6f47ce61add0f75d,scripts/cp/cp_rus_kgb_audio.csc
 6f491c2f3d3ef907,emblems_jewel_advanced
 6f4b11a0bee9b73d,hud_items
 6f4b7296680d56f6,operator_bundle_3057_beck_strange_dark
@@ -61412,6 +61552,7 @@ fffea0defd338fe,fieldupgradekills
 6f90a54f9ea9cc4d,ranks_prestige_08_large
 6f918c789e89d6e4,callingcards_robotic_praying_mantis_s5
 6f92816aea79ebc5,attackerregenammo
+6f92dbd09c4e8204,scripts/cp/cp_ger_stakeout_street.gsc
 6f9582d72160f199,kill
 6f97fd390caa5bf2,enemydart
 6f9842c0affa204a,tr_damagesemi_t9_upgraded_item_sr
@@ -61626,6 +61767,7 @@ fffea0defd338fe,fieldupgradekills
 708bdcbf801445c6,treasure_blob
 708ce513b1e41651,sony_left_stick
 708d3c14c9a111dc,stop_zombie_fall_dust_fx
+708fc8496e63a128,scripts/cp/cp_ger_stakeout_apt_street.gsc
 70904365ad3f51b6,callingcards_t8_loot_crimewave_07
 70915e6d17793425,boss_flash
 70957a1035bda74b,change_stowed_weapon
@@ -61782,6 +61924,7 @@ fffea0defd338fe,fieldupgradekills
 713d1e36bd254b65,shotgun_semiauto_t8_upgraded
 7140b31f7170f18b,audiobots
 71440751960b9351,mc/mtl_p7_zm_sta_dragon_strike_decal_grunge_drips
+71463f7d72636705,scripts/core_common/sound_tinnitus.csc
 7148b13c0ace2cd7,laststandrevivetime
 714e802cf2934d04,zone_xxx_club_roof
 714f14fd267445b8,fasttravel_start
@@ -61797,6 +61940,7 @@ fffea0defd338fe,fieldupgradekills
 715b185870741ddc,callingcards_vargasactionraid_s5
 715bbca46c2652f3,tr_powerburst_cb_target_practice
 715f7855e0ed19f8,specialty_spycraft
+71603a58e2da0698,scripts/doa/doa_player.csc
 71611ac3eb528fab,ar_fastfire_t9_green_rand_item_sr
 71622071b7b39d76,sessionadvertcheckwait
 71631c63ce2bd95c,pistol_revolver_t9_item
@@ -61814,6 +61958,7 @@ fffea0defd338fe,fieldupgradekills
 717409379f02f665,powerup_grabbed_red
 71740aef47cecd6b,melee_machete_t9_white_item_sr
 71743f1f9fdd9a4f,mixbarrel2_t9_item_sr
+717759a5d2a40e63,scripts/doa/doa_pickups/doa_magnet_pickup.gsc
 7179662091387b23,key/mouse1
 7179ecaf593a6403,heli_loop_start
 717a3a61a51acc95,ar_mobility_bp_lucha
@@ -61833,6 +61978,7 @@ fffea0defd338fe,fieldupgradekills
 719043884742a9ff,veh_hind_rotor
 7190b01de1767404,player_vtol
 719101b9755130ca,pfx_steam
+719116534f2a623f,scripts/cp/cp_rus_amerika_arcade.gsc
 7191bb0829771349,wpn_weap_pickup
 71953685356f645f,hide_dossier
 7195f0ea9bab8a63,veh_qrdrone_turbine_moving
@@ -62085,6 +62231,7 @@ fffea0defd338fe,fieldupgradekills
 72e3b16093648181,pistol_semiauto_bp_finechina
 72e449526567afb4,callingcards_merciless
 72e4721f3dda6eff,audio_start_disinfectant_spray
+72e5a112d0707eeb,scripts/cp/cp_nic_revolucion_rooftop_defend_1.gsc
 72e5d4f083b92862,cg_aggressivecullradius
 72e8511aec778d4e,cleansed_rock_drop
 72eb7f4ec9c1828c,evidence_board_evidence_callback_finished
@@ -62348,6 +62495,7 @@ fffea0defd338fe,fieldupgradekills
 743dc7d58f409837,scr_parachute_camera_transition_mode
 743e816d7137a3be,mc/mtl_p7_zm_ori_light_fixture_decal_nail
 7442360b6184a100,paintjob_stickers_bps1_058
+744259b349d834c7,scripts/core_common/ai/archetype_soa.gsc
 7442f9a5295824fd,zm_ai_mimic
 74443c6a5e7bc947,c_t9_usa_pl_navyseal_frogman_variant01
 74443d6a5e7bcafa,c_t9_usa_pl_navyseal_frogman_variant02
@@ -62360,6 +62508,7 @@ fffea0defd338fe,fieldupgradekills
 7448cf2b85f2300f,killed_by_stoker
 74496e1b656c6651,zm_bgb_blood_debt
 744a8075e5e903db,rifle_melee_surface_plr
+744ba1f2f99cf072,scripts/cp/cp_rus_kgb_ins_activation.gsc
 744f2f9219624cba,mannequin_ally
 744fdeedf639640f,scr_fog_fraction
 745149d95feecada,mastery_perk_2
@@ -62445,6 +62594,7 @@ fffea0defd338fe,fieldupgradekills
 749426208ba44d79,unlocksrmus_10
 74951774fc7960ff,zombieshouldjumpunderwatermelee
 74954fa4bcf75b01,specialty_fastmeleerecovery
+74970cdde0a631ed,scripts/doa/doa_pickups/doa_tank_pickup.gsc
 74973027b2bb47ef,flare_assist
 74988fc8e60ee38a,player_grabbed_key
 749927abc372b5ea,_cancel_connections
@@ -62454,6 +62604,7 @@ fffea0defd338fe,fieldupgradekills
 74a146ab15d23a43,call_in_3_care_packages
 74a34e22285cf305,fx8_cata_plasma_blast_tell_torso
 74a47d2b3fc2b845,emblem_identity_diamond_lmgs_mp
+74a56359b7d02ab6,scripts/doa/doa_camera.gsc
 74a570b2d0614a5a,apt_transition
 74a64d7d48232433,pstfx_dust_concrete
 74a7954b6a62c5e7,mc/mtl_veh_t7_dlc_b17_metal_diamond_plate_worn
@@ -62635,6 +62786,7 @@ fffea0defd338fe,fieldupgradekills
 757fe19d55d63f3f,ar_fasthandling_bp_joke
 7580fa5d0ec5bb03,c_t9_rus_pl_kgb_winter
 758128454e292932,close_generic_script_dialog
+758226507b1afa11,scripts/cp/cp_ger_stakeout_audio.gsc
 7582542590b10753,exposed
 75835cd93bbefeaa,endtest
 758540361fce761c,mc/t7_spl_wood_beam_worn_oak
@@ -62817,6 +62969,7 @@ fffea0defd338fe,fieldupgradekills
 7667728afca481a3,smg_heavy_bp_carbonchrome_pc
 7667b86f56e68bc8,destroyed_2aircraft_quickly
 76680411d8295ab9,transformation_interrupted
+76681e2a8b4ee520,scripts/cp/cp_ger_hub_evidence_board.csc
 7669a37a07b91ee1,emblems_21_s5
 766ab7163a435efc,smg_heavy_bp_blade
 766bf24383b8f582,change_underscore
@@ -62895,6 +63048,7 @@ fffea0defd338fe,fieldupgradekills
 76aaaa535714d805,right
 76aae268296eeb4d,pistol_revolver_bp_swashbuck
 76ab2dae22ebee58,next_hero_weapon_power
+76abb7986de59601,scripts/doa/doa_weapon.csc
 76ad101a51a56c6a,zmintel_list_survival_maxis_intel_all
 76ad5a985761c2ca,emblems_blackwidow
 76add73367386e60,castle_tram_token_pickedup
@@ -62989,6 +63143,7 @@ fffea0defd338fe,fieldupgradekills
 7714cec6bae0b300,callingcards_dismemberment_s5_animated
 7714cf98ca5a58a7,emblems_companion_s2b
 7714d098ca5a5a5a,emblems_companion_s2a
+77163d5a569e2071,scripts/doa/doa_enemy.csc
 7718b598ca5e1550,emblems_companion_s1b
 7718b898ca5e1a69,emblems_companion_s1a
 7718fcb9749468c6,multikill_3_with_mgl
@@ -62997,6 +63152,7 @@ fffea0defd338fe,fieldupgradekills
 771bdf9b9dc0dc53,deactivate
 771c063a47d45c56,zm_perk_mule_kick
 771cd3c1dc16ee32,zm_trial_headshots_only
+771f5bff431d8d57,scripts/doa/doa_gib.csc
 771f711d441787c5,ray_gun_upgraded_item_sr
 7720eea600a81a53,tactical_assists
 7720ff6048221332,zm_magicbox_weapon_lmg_list
@@ -63030,6 +63186,7 @@ fffea0defd338fe,fieldupgradekills
 773cf156b9b5ef18,scripts/cp/cp_rus_duga_safehouse_burns.gsc
 773d7d058808a82b,mc/mtl_p7_zm_asc_rocket_wreckage_rust_01
 773e201984b53b32,scrap_spawn
+774302f762d76254,scripts/doa/doa_main.gsc
 77437f3742463d90,silver_ai_dog_xmas
 774632c712c349f5,callingcards_picked_off
 77495a060c59e05a,avogadro
@@ -63048,6 +63205,7 @@ fffea0defd338fe,fieldupgradekills
 775adecec52f77c6,decor_small
 775b39094a5579ad,callingcards_master_ar_slowfire_mp
 775d0518b5179668,scan
+775d261b6ae76718,scripts/cp/cp_rus_kgb_aslt_exfil.gsc
 775d3d64898763b2,wc/t7_decal_grunge_dust_wall_01_blend
 775ee84a0c5062ed,paintjob_stickers_s4_jester
 775ef8a4a603e0c0,aib_t9_vign_cust_arm_mortar_first_battle_1st_wave
@@ -63093,6 +63251,7 @@ fffea0defd338fe,fieldupgradekills
 779b626f6495442d,mc/mtl_p7_zm_gen_decal_wood_splinter_02
 779bbce9266d0ae6,cp_achievement_jack_all_trades
 779c55fe77848461,zmb_cha_ching
+779f525443585713,scripts/cp/cp_rus_kgb_ambience.gsc
 77a0b43da9beefed,powerlightgreen
 77a1f5d4161525fa,collision_clip_32x32x128
 77a2176db1d8a05c,bruno_unlock
@@ -63126,6 +63285,7 @@ fffea0defd338fe,fieldupgradekills
 77cd4eb342584c21,red_right
 77cd614ed5ac2917,po_c_t9_gen_pl_esports_male_empire_home_ms
 77ce14c7deef337b,melee
+77d064824b2c820c,scripts/cp/cp_rus_amerika_courtyard.gsc
 77d23d60ec7f82d0,tr_longburst_bp_mvs
 77d505035209b8d6,clean_taco
 77d51410de44d452,ai_puppeteer
@@ -63159,6 +63319,7 @@ fffea0defd338fe,fieldupgradekills
 77f225eddc4cbc31,rocket_truck
 77f382475b1aa93f,cleararrivalpos
 77f39c3965d90564,zombiepushedactionstart
+77f51076c7c89596,scripts/cp/cp_rus_siege_util.gsc
 77f5c18e246c6638,color
 77f8d1ea8df47cf5,body_shield_damage
 77f91f3b7450f382,bomblets_deployed
@@ -63341,6 +63502,7 @@ fffea0defd338fe,fieldupgradekills
 78f6a072f8cf2f88,ztrials
 78f777f3dca425f3,attack_helicopter
 78fb2d532d2468eb,mc/mtl_p7_zur_metro_watch_set_glass_01
+78fce3c67fb63796,scripts/cp/cp_rus_yamantau_telemetry.gsc
 78fe5414b54c16e7,wc/t7_decal_grunge_brick_stain_01_wet
 78ffa053c50b2c50,tag_elbow_weakspot_ri
 7900bbc44bf3cf1c,init_streamer_done
@@ -63456,6 +63618,7 @@ fffea0defd338fe,fieldupgradekills
 798bd245e259c64f,zm_bgb_reign_drops
 798c6f4830e4fd58,reflex3_t9_item_sr
 798da0e17d916505,melee_etool_t9_white_item_sr
+798f7d52f57a9c40,scripts/cp/cp_rus_kgb_aslt_vault.gsc
 79909144862249c6,progress
 799138bf6352de8b,unlock_model
 7991602caa4fa999,flg_helipad_at_open_ground_left
@@ -63528,6 +63691,7 @@ fffea0defd338fe,fieldupgradekills
 79e16c910f0e4b45,civ2
 79e330d451316c8e,callingcards_burst_your_bubble_s6
 79e3a42a204b2d39,use_attackable
+79e60fd0034306f4,scripts/cp/cp_ger_stakeout_warehouse.gsc
 79e67091445a75f6,enemyy
 79e6b791445aee9b,enemy2
 79e6b891445af04e,enemy1
@@ -63541,6 +63705,7 @@ fffea0defd338fe,fieldupgradekills
 79ec47976cd40d8f,mc/mtl_p7_slu_barrel_metal_decal_dirt_black
 79ef07872dc7cb6e,c_t9_ger_pl_west_professor
 79efd6a9d00cac13,helicoptercrash
+79f085c1bc211f9b,scripts/cp/cp_rus_yamantau_catwalks.gsc
 79f1504f8b1fb4cd,bullet_penetration_zm
 79f45adceb86fee6,bot_forcemelee
 79f4cd8d0836f9b0,objective_payload_ailist_1
@@ -63632,6 +63797,7 @@ fffea0defd338fe,fieldupgradekills
 7a57f25324d514f0,smg_heavy_bp_washed
 7a596b9059e25a45,callingcards_om_competetiveedge_final
 7a5a6325a6e843b7,bot_difficulty_
+7a5cff90cf27582c,scripts/autogenerated/luielems/hud/blackseajetskideployprompt.gsc
 7a5dd5c637b247f7,restricted_access
 7a617db243a2fb6f,maxis_move
 7a6190d936bc200e,remotemissilephase2
@@ -63666,10 +63832,12 @@ fffea0defd338fe,fieldupgradekills
 7a82ddd50a0caa1d,zombietron_gift_box
 7a83569da81fc7eb,audio_tunnels_alarm
 7a847edcf44664a6,mimic_spawn
+7a848250234f528b,scripts/cp/cp_nic_revolucion_audio.csc
 7a849162fd13237a,barrel_fire_top
 7a861548d6552f46,scripts/zm/powerup/zm_powerup_nuke.csc
 7a867b65cc2af7ba,wc/t7_zm_ori_wood_wall_decal_grunge_drip_01_blend
 7a87a57cbb842ec7,control_info
+7a8ad4f66d2967a6,scripts/cp/cp_heli_killstreak.gsc
 7a8de762a01fac90,9mm_fmj
 7a910d220f3767fa,knife_loadout_upgraded
 7a94bb90c5338468,screamslasherlethalequipment
@@ -63735,6 +63903,7 @@ fffea0defd338fe,fieldupgradekills
 7ae86b266526e30c,smg_burst_t9_white_upgraded_item_sr
 7aea61c73990ff54,sounddone
 7aea95525f29fc92,sniper_powersemi_t9_white_rand_item_sr
+7aeb0ef28c222444,scripts/doa/doa_pickups/doa_guardian_pickup.gsc
 7aec9f4c3724b031,anim_med
 7aecb8f16f1cec96,zombieispushed
 7aecddb420d2f602,onslaught_elite
@@ -63895,6 +64064,7 @@ fffea0defd338fe,fieldupgradekills
 7bb5510daa652f5e,items_paint_cans_collected
 7bb7a60cce05f851,player_tank
 7bb85c11d876f6ad,callingcards_somber_soldier_screenshot
+7bbd08f0a8b5bde8,scripts/cp/cp_rus_amerika_lgt.csc
 7bbed35c8208ca10,damage_drains_points
 7bc0038e09f200b9,callingcards_mps2_wellrounded
 7bc22c0e3ac79136,elite_os_zombie_level7_parent_list
@@ -63937,6 +64107,7 @@ fffea0defd338fe,fieldupgradekills
 7bee869df82e0445,scripts/autogenerated/luielems/core/remote_missile_targets.csc
 7bef46c85230ea54,p8_fxanim_mp_seaside_parrots_orange_flock_01_bundle
 7bf08605b9c71df5,field_upgrade_lightning_links_item_sr
+7bf1bd99605135bf,scripts/doa/doa_score.csc
 7bf32e23f3be8ec6,flagcarrierkills
 7bf3a86f5aabe559,vd/mtl_p7_zm_ver_cookware_vintage_metal_burned_decal
 7bf40011e347064a,flg_zipline_intro_visible
@@ -64227,6 +64398,7 @@ fffea0defd338fe,fieldupgradekills
 7d402aeb43c688f0,melee_weapon
 7d4064a8d03e0606,power_activated
 7d42bc198f84a5f0,amb_movie
+7d45a9db3b7a66b2,scripts/cp/cp_nam_prisoner_infinite_hallway.gsc
 7d4cd06bc0f0fbfd,all_seasons
 7d519492b49fd308,spawn_intel_at_start_complete
 7d5335646b425fb5,player_got_the_flask
@@ -64235,6 +64407,7 @@ fffea0defd338fe,fieldupgradekills
 7d5731a8bc5d8a3d,mc/mtl_p7_zm_ctl_deathray_set_decal_dirty_04
 7d575c6b80f57751,smg_burst_bp_absinthe
 7d5a9e4ec34372d0,scripts/zm/zm_platinum_sentry_turret.gsc
+7d5c9b91cf8d272b,scripts/core_common/ai/archetype_abom.gsc
 7d5e014e1660fc72,plant
 7d5e124e16611955,plane
 7d6142d550fef19f,mc/mtl_p7_rus_sign_wall_pers_only_01
@@ -65005,6 +65178,7 @@ fffea0defd338fe,fieldupgradekills
 93ab500733e2f350,heavy_bullet_impact
 93b702df21a74198,bullet_impact_minigun
 93c0437f438490d8,three_quarter
+93da4e6b98ca81a1,scripts/core_common/codcaster.csc
 943bc4545874fc5b,contracts_entry
 9441f7ad44e1cfd4,supplypodclips
 944e4df121ac5afb,league_play
@@ -65064,6 +65238,7 @@ fffea0defd338fe,fieldupgradekills
 9971429b4a856253,capture_fade_out
 999da05489df8b42,horde_done
 99a39574bfda1b56,collectible_inspect
+99de6a08d25644f4,scripts/core_common/ai/archetype_dog_interface.gsc
 99ea1ee18adcb907,television_base
 99fb93b830d11f2f,ui_cam_cac_special_knife
 9a10a0c3ebae356a,prj_impact
@@ -65146,6 +65321,7 @@ fffea0defd338fe,fieldupgradekills
 9edc72d827661247,ui_cam_icon_special_knife
 9f4d36ea6ad8520a,hardpoint_diehard
 9f59ed48456964e4,exfil_spawns
+9f60f29863707208,scripts/zm/zm_platinum_main_quest.csc
 9f6f60e72100deec,scriptdebugbillboard
 9f7ef41fb4ea4904,player/fx_plyr_land_dust_xlg
 9f8830cd01b39f8f,sr_behavior
@@ -65169,6 +65345,7 @@ a0b8e1a789215df0,scripts/cp/cp_ger_stakeout_apt.gsc
 a0c42b8374c1d1e8,explosions/fx_exp_grenade_flshbng
 a0dcff0079f189f3,secure_go
 a0ead0e6e8e713d8,soadebugdvar
+a10ec734a4149bac,scripts/core_common/ai/archetype_civilian_bo5.gsc
 a10f7fe4a32162ca,matchendtime
 a1164848901ac5e4,talent_select
 a14bcb69f16b06d3,filtered_list
@@ -65245,6 +65422,7 @@ a66f6fe481bab1bc,dark_aether_ambient
 a6850092de25d970,scripts/cp/cp_takedown_raid_approach.gsc
 a68625b0934ee2ce,scripts/cp_common/stealth/player.gsc
 a6948141ff5e29a3,mmscore
+a6cd04df32f6537a,scripts/core_common/ai/archetype_tormentor.gsc
 a6d0e9e370348b6a,go_to_node_terminated
 a6f0e1165551968d,offensivetextchat
 a6f91f11d12e4a44,start_dust
@@ -65461,6 +65639,7 @@ b8521164875979cf,career_total_score
 b861f577f323ad69,lmg_zombietron
 b86af01523f194e5,cartravel
 b8773e8ccfeb1fe0,com_pallet_2_dyn
+b8867f943fb86135,scripts/cp_common/cp_post.csc
 b8b24dfa52842786,grenade_dissipate
 b8c08136902fd553,talent_tombstone
 b8ce4ad6f4be82b8,annihilator_collateral
@@ -65481,6 +65660,7 @@ b9e3ae75f8612a0b,s04_2
 b9fbd808d92aa4ec,warmachine_s4
 ba4f54e8a174b817,flying_ocean
 ba6e08e3b9efef62,te_minigun
+ba704cbcf4081bfb,scripts/core_common/ai/archetype_mimic_prop_spawn.gsc
 ba71885fe7e328bd,superfactions
 ba84c69b825dcae6,victim_grenade_debris
 ba90f48f62134d29,field_upgrade_pickup
@@ -65512,6 +65692,7 @@ bd03353ad0aa2db1,inventoryitems
 bd173c89c2828216,scripts/doa/doa_pickups/doa_teddy_bear_pickup.gsc
 bd359ce45bd789ce,hallway_heartbeat
 bd5e6c007c0e2bb1,scripts/doa/doa_pickups/doa_barrel_pickup.gsc
+bd703ef87a841fe4,scripts/core_common/teams/teams.gsc
 bd7965db54a794ce,missile_turret_destructions
 bd88026964c94600,vm_crouch_to_prone
 bd917f182a76f960,inworld_trophysystem
@@ -65520,6 +65701,7 @@ bda17112031fbe0c,base_buckets
 bdb45a32611292d9,zmreviver
 bdb46b326112afbc,zmrevivee
 bdc8d1b026861b2a,fxexp_radiation
+bdcf1dc8f679581e,scripts/zm/zm_platinum_pap_quest.csc
 bdd480845ef2e135,jumpattack
 bdd7395b163652de,ges_frag_grenade
 bde47beee8436774,scripts/cp/cp_nam_armada_mortar.gsc
@@ -65606,6 +65788,7 @@ c4fd6d2ff271e278,entity_fist_swipe_npc
 c53abc8ae2bc1864,entity_knife_player
 c54ab8f5ef9645d6,ges_swim_idle
 c55ae4f9edd2adbc,exit_excavation
+c55b9cb22d561924,scripts/core_common/ai/archetype_dog.gsc
 c56e69bdbf9be61d,execution_item
 c589490bb9502447,deliver_pizza
 c595b7e254f5e148,abomshouldmove
@@ -65613,6 +65796,7 @@ c59a515290c970dc,run_dialog_tree
 c5a489d348cab436,unload_next
 c5bba4ee468af47c,scripts/zm/zm_platinum_fixup.gsc
 c5cc1be4c32503b7,prisoner_door_open
+c5fdb6cec5580007,scripts/core_common/teams/squads.gsc
 c60213205489abb4,worldstatechange
 c61178e0c41be838,defeat_abomination
 c6923d82023b13a8,veh_snowmobile
@@ -65660,6 +65844,7 @@ c9d4a51e12f4c7ea,nightingale_tunables
 ca06156e97cba4f7,vehicle/fx_treadfx_snow_skid_emit
 ca1a0f734d8d0e04,scripts/cp/cp_nic_revolucion_floor_one.gsc
 ca1bd0e439a07be2,wound_timer
+ca1e83805671ae57,scripts/autogenerated/luielems/health/stim_count.gsc
 ca67f445fabbabb4,contract_zm_eliminations
 ca6c683d6c4a4cb5,victim_raps_impact
 ca6ca056723af674,destroyed_harp
@@ -65748,6 +65933,7 @@ d212ca6e7f691549,minimap_beep
 d24b74e8d6ca255a,s4_weapon_xp_token
 d27bb22a76994e54,scripts/cp/cp_ger_hub_evidence_board.gsc
 d287190a1612cbd2,tear_gas_grenade
+d28b7edcbe5fb563,scripts/mp_common/bots/bot_cac.gsc
 d2bcdd4b631e0fed,cleanup_tombstone_stash
 d2d54813961a71d1,ec/gfx_debris_trash_multiple_pcloud_lit
 d2d565520308890c,housing_collected
@@ -65764,6 +65950,7 @@ d39c34f3bfbcae73,end_collide
 d3ab190dbd4f0cb1,dolby_logo
 d3c6d001e2faecab,leave_dark_aether
 d3cb483d305c0f1e,uninstallcontent
+d3cd49b939f89fd7,scripts/core_common/lui_camera.csc
 d3d8a06b13ec49d9,delay_health_regen
 d3e48efa5da431d7,ui_cam_icon_shotgun_fullauto
 d3f6556d37fdd605,killstreaks/fx_heli_exp_smk_trail
@@ -65779,6 +65966,7 @@ d55270a5af5a5e12,selectedexecution
 d562580f1b903614,cp_defection
 d579b42bba29dd0f,cutscene_completed
 d5b72eb4c098a92a,exp_debris
+d5be1b5e4c717fc1,scripts/abilities/cp/gadgets/gadget_health_regen.gsc
 d5c94e3e2ed0bf40,scripts/cp/cp_rus_amerika_tunnels.gsc
 d5e75da288d110d4,helicoptertravel
 d6527b57d58c2c6a,seasonal_event
